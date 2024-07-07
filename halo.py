@@ -53,16 +53,17 @@ def add_zoomed_inset(ax, image, zoom_factor, location="upper right"):
 zooms = [1, 5, 20, 100]
 row = [[], [], [], []]
 row[0] = [plt.imread(f'results/halo/Data_000045_Lv_10_Slice_z_density_x{zoom}.png') for zoom in zooms]
-row[1] = [plt.imread(f'results/halo/Data_000045_Lv_10_Slice_z_density_grid_x{zoom}.png') for zoom in zooms]
+row[1] = [plt.imread(f'results/halo/Data_000045_Lv_10_Slice_z_density_wave_grid_x{zoom}.png') for zoom in zooms]
 row[2] = [plt.imread(f'results/halo/Data_000045_Lv_10_Slice_z_Phase_x{zoom}.png') for zoom in zooms]
-row[3] = [plt.imread(f'results/halo/Data_000045_Lv_10_Slice_z_Phase_grid_x{zoom}.png') for zoom in zooms]
+row[3] = [plt.imread(f'results/halo/Data_000045_Lv_10_Slice_z_Phase_wave_grid_x{zoom}.png') for zoom in zooms]
 
 
-sl1 = np.s_[60:-60, 100:-495]
-sl2 = np.s_[60:-60, 100:-50]
+sl1 = np.s_[100:-40, 100:-745]
+sl2 = np.s_[100:-40, 100:-50]
+
 
 from matplotlib import gridspec
-fig = plt.figure(figsize=(6, 6), dpi=300)
+
 #width_ratios = [image1[sl1].shape[1], image3[sl2].shape[1]]  # Assuming image1 and image3 define max width in each col
 width_ratios = [row[0][0][sl1].shape[1], row[0][0][sl1].shape[1], row[0][0][sl1].shape[1], row[0][0][sl2].shape[1]]  # Assuming image1 and image3 define max width in each col
 #gs = gridspec.GridSpec(2, 4, height_ratios=[1, 1], width_ratios=width_ratios, hspace=0.0, wspace=0.00)
