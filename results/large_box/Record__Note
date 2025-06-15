@@ -1,0 +1,1656 @@
+
+
+
+Simulation Notes
+***********************************************************************************
+***********************************************************************************
+
+
+Makefile Options (numerical schemes)
+***********************************************************************************
+MODEL                           ELBDM
+GRAVITY                         ON
+POT_SCHEME                      SOR
+STORE_POT_GHOST                 ON
+UNSPLIT_GRAVITY                 OFF
+COMOVING                        ON
+PARTICLE                        OFF
+SUPPORT_GRACKLE                 OFF
+ELBDM_SCHEME                    ELBDM_HYBRID
+HYBRID_SCHEME                   MUSCL
+WAVE_SCHEME                     GRAM FE
+GRAMFE_SCHEME                   MATMUL
+CONSERVE_MASS                   ON
+QUARTIC_SELF_INTERACTION        OFF
+***********************************************************************************
+
+
+Makefile Options (optimization and compilation)
+***********************************************************************************
+GPU                             ON
+GAMER_DEBUG                     OFF
+BITWISE_REPRODUCIBILITY         OFF
+TIMING                          ON
+TIMING_SOLVER                   OFF
+FLOAT8                          OFF
+FLOAT8_PAR                      OFF
+SERIAL                          OFF
+LOAD_BALANCE                    HILBERT
+OVERLAP_MPI                     OFF
+OPENMP                          ON
+GPU_ARCH                        AMPERE
+GPU_COMPUTE_CAPABILITY          860
+LAOHU                           OFF
+SUPPORT_HDF5                    ON
+SUPPORT_GSL                     ON
+SUPPORT_FFTW                    FFTW3
+SUPPORT_LIBYT                   OFF
+RANDOM_NUMBER                   RNG_GNU_EXT
+SUPPORT_SPECTRAL_INT            ON
+***********************************************************************************
+
+
+Other Options (in Macro.h, CUFLU.h and CUPOT.h)
+***********************************************************************************
+BIT_REP_FLUX                    OFF
+INTERP_MASK                     ON
+FB_SEP_FLUOUT                   OFF
+GRAMFE_GAMMA                    150
+GRAMFE_G                        63
+GRAMFE_NDELTA                   14
+GRAMFE_ND                       32
+GRAMFE_ORDER                    14
+GRAMFE_FLU_NXT                  64
+GRAMFE_MATMUL_FLOAT8            OFF
+SOR_RHO_SHARED                  ON
+SOR_CPOT_SHARED                 OFF
+SOR_USE_SHUFFLE                 ON
+SOR_USE_PADDING                 ON
+SOR_MOD_REDUCTION               2
+DT_FLU_USE_SHUFFLE              ON
+DT_GRA_USE_SHUFFLE              ON
+***********************************************************************************
+
+
+Symbolic Constants
+***********************************************************************************
+#define VERSION                 gamer-2.1.1.dev
+#define NCOMP_FLUID             3
+#define NCOMP_PASSIVE           0
+#define FLU_NIN                 2
+#define FLU_NOUT                3
+#define FLU_NIN_T               3
+#define FLU_NIN_S               3
+#define FLU_NOUT_S              3
+#define DER_NOUT_MAX            10
+#define NFIELD_STORED_MAX       50
+#define NFLUX_FLUID             1
+#define NFLUX_PASSIVE           0
+#define GRA_NIN                 2
+#define PATCH_SIZE              8
+#define MAX_PATCH               1000000
+#define NLEVEL                  10
+
+#define FLU_GHOST_SIZE          8
+#define POT_GHOST_SIZE          5
+#define RHO_GHOST_SIZE          4
+#define GRA_GHOST_SIZE          2
+#define SRC_GHOST_SIZE          0
+#define DER_GHOST_SIZE          1
+#define HYB_GHOST_SIZE          6
+#define FLU_NXT                 32
+#define POT_NXT                 12
+#define RHO_NXT                 16
+#define GRA_NXT                 12
+#define SRC_NXT                 8
+#define DER_NXT                 10
+#define HYB_NXT                 28
+#define EXT_POT_NAUX_MAX        20
+#define EXT_ACC_NAUX_MAX        20
+#define EXT_POT_NGENE_MAX       6
+#define SRC_NAUX_USER           10
+#define FLU_BLOCK_SIZE_X        16
+#define FLU_BLOCK_SIZE_Y        32
+#define FLU_HJ_BLOCK_SIZE_Y     32
+#define POT_BLOCK_SIZE_Z        4
+#define EXTPOT_BLOCK_SIZE       256
+#define GRA_BLOCK_SIZE          256
+#define DT_FLU_BLOCK_SIZE       512
+#define DT_GRA_BLOCK_SIZE       256
+#define SRC_BLOCK_SIZE          512
+#define MAX_STRING              512
+#define TINY_NUMBER             1.17549435082229e-38
+#define HUGE_NUMBER             3.40282346638529e+38
+#define MAX_ERROR               9.99999997475243e-07
+***********************************************************************************
+
+
+Parameters of Simulation Scale
+***********************************************************************************
+BOX_SIZE (input)                5.60000000000000e+00
+BOX_SIZE_X                      5.60000000000000e+00
+BOX_SIZE_Y                      5.60000000000000e+00
+BOX_SIZE_Z                      5.60000000000000e+00
+BOX_SCALE_X                     65536
+BOX_SCALE_Y                     65536
+BOX_SCALE_Z                     65536
+NX0_TOT[0]                      128
+NX0_TOT[1]                      128
+NX0_TOT[2]                      128
+MPI_NRank                       32
+MPI_NRank_X[0]                 -1
+MPI_NRank_X[1]                 -1
+MPI_NRank_X[2]                 -1
+OMP_NTHREAD                     8
+END_T                           5.00000000000000e-01
+END_STEP                        2147483647
+***********************************************************************************
+
+
+Parameters of Test Problems
+***********************************************************************************
+TESTPROB_ID                     1009
+***********************************************************************************
+
+
+Parameters of Code Units
+***********************************************************************************
+OPT__UNIT                       1
+
+### All units marked with (*) assume h = 6.7321170e-01 ###
+
+rho_bg = current matter density = 3.97265038582169e+01 Msun/kpc^3 (*)
+
+UNIT_L (length)                 1.00000000000000e+00 Mpc/h
+                              = 4.58351746039173e+24 cm         (*)
+UNIT_M (mass)                   8.76550690630076e+10 Msun/h
+                              = 2.58911282783396e+44 g          (*)
+UNIT_T (time)                   1.45246009595121e+01 Gyr        (*)
+                              = 4.58351746039173e+17 s          (*)
+UNIT_V (velocity)               1.00000000000000e+02 km/s
+                              = 1.00000000000000e+07 cm/s
+UNIT_D (mass density)           1.00000000000000e+00 rho_bg     (*)
+                              = 2.68877403877662e-30 g/cm^3     (*)
+UNIT_E (energy)                 2.58911282783396e+58 g*cm^2/s^2 (*)
+UNIT_P (energy density)         2.68877403877662e-16 g/cm/s^2   (*)
+***********************************************************************************
+
+
+Parameters of Boundary Condition
+***********************************************************************************
+OPT__BC_FLU[0] (-x)             1
+OPT__BC_FLU[1] (+x)             1
+OPT__BC_FLU[2] (-y)             1
+OPT__BC_FLU[3] (+y)             1
+OPT__BC_FLU[4] (-z)             1
+OPT__BC_FLU[5] (+z)             1
+OPT__BC_POT                     1
+GFUNC_COEFF0                   -1.0000000e+00
+***********************************************************************************
+
+
+Parameters of Cosmological Simulation
+***********************************************************************************
+A_INIT                          9.9009901e-03
+OMEGA_M0                        3.1582309e-01
+HUBBLE0 (h)                     6.7321170e-01
+***********************************************************************************
+
+
+Parameters of Time-step Determination
+***********************************************************************************
+DT__MAX                        -1.0000000e+00
+DT__FLUID                       2.0000000e-01
+DT__FLUID_INIT                  2.0000000e-01
+DT__GRAVITY                     1.2500000e-01
+DT__PHASE                       0.0000000e+00
+DT__HYBRID_CFL                  2.0000000e-01
+DT__HYBRID_CFL_INIT             2.0000000e-01
+DT__HYBRID_VELOCITY             1.0000000e+00
+DT__HYBRID_VELOCITY_INIT        1.0000000e+00
+DT__MAX_DELTA_A                 1.0000000e-02
+DT__SYNC_PARENT_LV              1.0000000e-01
+DT__SYNC_CHILDREN_LV            1.0000000e-01
+OPT__DT_USER                    0
+OPT__DT_LEVEL                   3
+AUTO_REDUCE_DT                  1
+AUTO_REDUCE_DT_FACTOR           8.0000000e-01
+AUTO_REDUCE_DT_FACTOR_MIN       1.0000000e-01
+AUTO_REDUCE_INT_MONO_FACTOR     8.0000000e-01
+AUTO_REDUCE_INT_MONO_MIN        1.0000000e-02
+OPT__RECORD_DT                  1
+***********************************************************************************
+
+
+Parameters of Domain Refinement
+***********************************************************************************
+REGRID_COUNT                    4
+REFINE_NLEVEL                   1
+FLAG_BUFFER_SIZE                8
+FLAG_BUFFER_SIZE_MAXM1_LV       4
+FLAG_BUFFER_SIZE_MAXM2_LV       6
+MAX_LEVEL                       7
+OPT__FLAG_RHO                   0
+OPT__FLAG_RHO_GRADIENT          0
+OPT__FLAG_ENGY_DENSITY          0
+OPT__FLAG_SPECTRAL              1
+OPT__FLAG_INTERFERENCE          1
+OPT__FLAG_LOHNER_DENS           0
+OPT__FLAG_LOHNER_FORM           LOHNER_FLASH1
+OPT__FLAG_USER                  0
+OPT__FLAG_USER_NUM              1
+OPT__FLAG_REGION                0
+OPT__NO_FLAG_NEAR_BOUNDARY      0
+OPT__PATCH_COUNT                1
+OPT__REUSE_MEMORY               2
+OPT__MEMORY_POOL                0
+***********************************************************************************
+
+
+Parameters of Parallelization
+***********************************************************************************
+Flu_ParaBuf                     8
+Pot_ParaBuf                     4
+Rho_ParaBuf                     4
+LB_WLI_MAX                      1.0000000e-01
+OPT__RECORD_LOAD_BALANCE        1
+OPT__LB_EXCHANGE_FATHER         1
+OPT__MINIMIZE_MPI_BARRIER       0
+***********************************************************************************
+
+
+Parameters of Source Terms
+***********************************************************************************
+SRC_ANY                         0
+SRC_DELEPTONIZATION             0
+SRC_USER                        0
+SRC_GPU_NPGROUP                 1280
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in different models)
+***********************************************************************************
+ELBDM_MASS                      2.9708337e-23 h*ev/c^2
+                              = 2.0000000e-23 ev/c^2 (assuming h = 6.7321170e-01)
+ELBDM_PLANCK_CONST              8.8864088e-104
+ELBDM_ETA                       1.5496075e+03
+ELBDM_TAYLOR3_COEFF             1.6666667e-01
+ELBDM_TAYLOR3_AUTO              0
+ELBDM_REMOVE_MOTION_CM          0
+ELBDM_BASE_SPECTRAL             0
+ELBDM_MATCH_PHASE               1
+ELBDM_FIRST_WAVE_LEVEL          4
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in all models)
+***********************************************************************************
+FLU_GPU_NPGROUP                 1280
+GPU_NSTREAM                     16
+OPT__FIXUP_FLUX                 1
+   Target fields                Dens
+OPT__FIXUP_RESTRICT             1
+   Target fields                Dens Phase Stub
+OPT__CORR_AFTER_ALL_SYNC        2
+OPT__NORMALIZE_PASSIVE          0
+   Number of fields             0
+OPT__INT_FRAC_PASSIVE_LR        0
+   Number of fields             0
+OPT__OVERLAP_MPI                0
+OPT__RESET_FLUID                0
+OPT__RESET_FLUID_INIT           0
+OPT__FREEZE_FLUID               0
+MIN_DENS                        0.0000000e+00
+WITH_COARSE_FINE_FLUX           1
+MPI Thread Level                MPI_THREAD_SERIALIZED
+FFTW3_Double_OMP_Enabled        1
+FFTW3_Single_OMP_Enabled        1
+***********************************************************************************
+
+
+Parameters of Poisson and Gravity Solvers
+***********************************************************************************
+NEWTON_G                        3.7698604e-02
+SOR_OMEGA                       1.7040882e+00
+SOR_MAX_ITER                    94
+SOR_MIN_ITER                    18
+POT_GPU_NPGROUP                 1280
+OPT__GRA_P5_GRADIENT            0
+OPT__SELF_GRAVITY               1
+OPT__EXT_ACC                    0
+OPT__EXT_POT                    0
+OPT__GRAVITY_EXTRA_MASS         0
+AveDensity_Init                 1.0000000e+00
+***********************************************************************************
+
+
+Parameters of Initialization
+***********************************************************************************
+OPT__INIT                       3
+RESTART_LOAD_NRANK              1
+OPT__RESTART_RESET              0
+OPT__UM_IC_LEVEL                2
+OPT__UM_IC_NLEVEL               1
+OPT__UM_IC_NVAR                 2
+OPT__UM_IC_FORMAT               1
+OPT__UM_IC_FLOAT8               0
+OPT__UM_IC_DOWNGRADE            1
+OPT__UM_IC_REFINE               0
+OPT__UM_IC_LOAD_NRANK           1
+OPT__INIT_RESTRICT              1
+OPT__INIT_GRID_WITH_OMP         1
+OPT__GPUID_SELECT              -1
+INIT_SUBSAMPLING_NCELL          0
+OPT__FFTW_STARTUP               FFTW_ESTIMATE
+***********************************************************************************
+
+
+Parameters of Interpolation Schemes
+***********************************************************************************
+OPT__INT_TIME                   1
+OPT__INT_PHASE                  1
+OPT__RES_PHASE                  0
+OPT__FLU_INT_SCHEME             SPECTRAL
+OPT__POT_INT_SCHEME             QUAD
+OPT__RHO_INT_SCHEME             CQUAD
+OPT__GRA_INT_SCHEME             QUAD
+OPT__REF_FLU_INT_SCHEME         SPECTRAL
+OPT__REF_POT_INT_SCHEME         QUAD
+INT_MONO_COEFF                  2.0000000e+00
+MONO_MAX_ITER                   10
+INT_OPP_SIGN_0TH_ORDER          0
+SPEC_INT_TABLE_PATH            ./order_12
+SPEC_INT_GHOST_BOUNDARY         3
+SPEC_INT_XY_INSTEAD_DEPHA       1
+SPEC_INT_VORTEX_THRESHOLD       1.0000000e-01
+***********************************************************************************
+
+
+Parameters of Data Dump
+***********************************************************************************
+OPT__OUTPUT_TOTAL               0
+OPT__OUTPUT_PART                0
+OPT__OUTPUT_USER                0
+OPT__OUTPUT_TEXT_FORMAT_FLT     %24.16e
+OPT__OUTPUT_BASEPS              0
+OPT__OUTPUT_BASE                0
+OPT__OUTPUT_POT                 0
+OPT__OUTPUT_USER_FIELD          0
+OPT__OUTPUT_MODE                3
+OPT__OUTPUT_RESTART             0
+OUTPUT_STEP                     1
+OUTPUT_DT                       1.00000000000000e+00
+OUTPUT_WALLTIME                -1.00000000000000e+00
+OUTPUT_WALLTIME_UNIT            0
+OUTPUT_PART_X                  -1.00000000000000e+00
+OUTPUT_PART_Y                  -1.00000000000000e+00
+OUTPUT_PART_Z                  -1.00000000000000e+00
+INIT_DUMPID                    -1
+***********************************************************************************
+
+
+Parameters of Miscellaneous Purposes
+***********************************************************************************
+OPT__VERBOSE                    0
+OPT__TIMING_BARRIER             0
+OPT__TIMING_BALANCE             0
+OPT__TIMING_MPI                 0
+OPT__RECORD_NOTE                1
+OPT__RECORD_UNPHY               0
+OPT__RECORD_MEMORY              1
+OPT__RECORD_PERFORMANCE         1
+OPT__RECORD_CENTER              0
+OPT__MANUAL_CONTROL             1
+OPT__RECORD_USER                0
+OPT__OPTIMIZE_AGGRESSIVE        0
+OPT__SORT_PATCH_BY_LBIDX        1
+***********************************************************************************
+
+
+Parameters of Simulation Checks
+***********************************************************************************
+OPT__CK_REFINE                  0
+OPT__CK_PROPER_NESTING          0
+OPT__CK_CONSERVATION            1
+   ANGMOM_ORIGIN_X              2.8000000e+00
+   ANGMOM_ORIGIN_Y              2.8000000e+00
+   ANGMOM_ORIGIN_Z              2.8000000e+00
+OPT__CK_NORMALIZE_PASSIVE       0
+OPT__CK_RESTRICT                0
+OPT__CK_FINITE                  0
+OPT__CK_PATCH_ALLOCATE          0
+OPT__CK_FLUX_ALLOCATE           0
+OPT__CK_MEMFREE                 1.0000000e+00
+OPT__CK_INPUT_FLUID             0
+***********************************************************************************
+
+
+Flag Criterion (Spectral)
+***********************************************************************************
+  Level     Refinement     Derefinement
+      0    -0.000e+00  -1.000e+00
+      1    -0.000e+00  -1.000e+00
+      2    -0.000e+00  -1.000e+00
+      3    -0.000e+00  -1.000e+00
+      4    -0.000e+00  -1.000e+00
+      5    -0.000e+00  -1.000e+00
+      6    -0.000e+00  -1.000e+00
+***********************************************************************************
+
+
+Flag Criterion (Interference Threshold)
+***********************************************************************************
+  Level     QP          Density      LapPhase     OnlyAtMaximum
+      0     3.00e-02    0.00e+00     1.00e+00     0
+      1     3.00e-02    0.00e+00     1.00e+00     0
+      2     3.00e-02    0.00e+00     1.00e+00     0
+      3     3.00e-02    0.00e+00     1.00e+00     0
+      4     3.00e-02    0.00e+00     1.00e+00     0
+      5     3.00e-02    0.00e+00     1.00e+00     0
+      6     3.00e-02    0.00e+00     1.00e+00     0
+***********************************************************************************
+
+
+Cell Size and Scale (scale = number of cells at the finest level)
+***********************************************************************************
+  Level                           Cell Size                Cell Scale
+      0              0.04374999999999999722                       512
+      1              0.02187499999999999861                       256
+      2              0.01093749999999999931                       128
+      3              0.00546874999999999965                        64
+      4              0.00273437499999999983                        32
+      5              0.00136718749999999991                        16
+      6              0.00068359374999999996                         8
+      7              0.00034179687499999998                         4
+      8              0.00017089843749999999                         2
+      9              0.00008544921874999999                         1
+***********************************************************************************
+
+
+Compilation Time
+***********************************************************************************
+Nov 17 2024 01:23:34
+***********************************************************************************
+
+
+Current Time
+***********************************************************************************
+Sun Nov 17 19:05:34 2024
+***********************************************************************************
+
+
+Git information
+***********************************************************************************
+Branch : spectral_refinement_v3_and_interpolation
+Commit : ba2fa9ccc04476777848caaedbe97f595bd2f3a1
+***********************************************************************************
+
+
+OpenMP Diagnosis
+***********************************************************************************
+Schedule                        DYNAMIC
+Chunk size                      1
+Max number of nested levels     1
+
+CPU core IDs of all OpenMP threads (tid == thread ID):
+------------------------------------------------------------------------
+ Rank        Host  NThread  tid-00  tid-01  tid-02  tid-03  tid-04  tid-05  tid-06  tid-07
+    0     spock03        8       7      36      33      32       2      37      35       6
+    1     spock03        8      47      42      45      44      43      46      40       9
+    2     spock03        8      23      52      54      48      17      50      53      51
+    3     spock03        8      30      56      59      60      61      25      58      63
+    4     spock05        8       7      33       3      36      34       0      38      37
+    5     spock05        8      15      44      45      41      42      11      46      40
+    6     spock05        8      23      53      49      52      50      54      48      51
+    7     spock05        8      31      59      61      58      62      60      57      56
+    8     spock06        8       7       4      32      38      33      35      37      34
+    9     spock06        8      15       8      42      11      44      45      46      41
+   10     spock06        8      23      19      49      48      52      50      54      53
+   11     spock06        8      31      57      58      62      61      59      60      56
+   12     spock07        8       7      32       1      36      38      35      37      34
+   13     spock07        8      15      40      42      41      44      46      43      45
+   14     spock07        8      23      51      52      48      49      50      54      53
+   15     spock07        8      31      56      58      60      61      59      57      62
+   16     spock08        8       7      32      33      35      36       5      38       2
+   17     spock08        8      15      40      11      44      46      10      41      45
+   18     spock08        8      55      50      54      49      48      53      51      52
+   19     spock08        8      63      56      59      61      62      57      60      58
+   20     spock13        8       7      33       2      36      37      35       6      32
+   21     spock13        8      15      45      41      46      44      43       8      42
+   22     spock13        8      23      52      54      17      53      51      16      50
+   23     spock13        8      63      56      58      62      60      61      59      57
+   24     spock25        8       7      32      35      34       5      38      33      36
+   25     spock25        8      15       8       9      42      43      45      46      44
+   26     spock25        8      23      48      50      53      54      52      49      51
+   27     spock25        8      63      25      62      56      60      27      58      61
+   28     spock26        8       7      32       1      37      38      34      35      36
+   29     spock26        8      15      40      41      42      44      45      43      46
+   30     spock26        8      23      52      49      53      48      50      54      51
+   31     spock26        8      63      58      56      60      61      62      57      59
+***********************************************************************************
+
+
+Device Diagnosis
+***********************************************************************************
+MPI_Rank =   0, hostname =    spock03, PID = 1456913
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3145.431
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   1, hostname =    spock03, PID = 1456914
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   2, hostname =    spock03, PID = 1456915
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   3, hostname =    spock03, PID = 1456916
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   4, hostname =    spock05, PID = 3803897
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.004
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   5, hostname =    spock05, PID = 3803898
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.004
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   6, hostname =    spock05, PID = 3803899
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.004
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   7, hostname =    spock05, PID = 3803900
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.004
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   8, hostname =    spock06, PID = 2461813
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3768.951
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   9, hostname =    spock06, PID = 2461814
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  10, hostname =    spock06, PID = 2461815
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  11, hostname =    spock06, PID = 2461816
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  12, hostname =    spock07, PID = 3718943
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3156.951
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  13, hostname =    spock07, PID = 3718944
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  14, hostname =    spock07, PID = 3718945
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  15, hostname =    spock07, PID = 3718946
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  16, hostname =    spock08, PID = 1965969
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3191.054
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  17, hostname =    spock08, PID = 1965970
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  18, hostname =    spock08, PID = 1965971
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  19, hostname =    spock08, PID = 1965973
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  20, hostname =    spock13, PID = 1887667
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 2979.775
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  21, hostname =    spock13, PID = 1887668
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  22, hostname =    spock13, PID = 1887669
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  23, hostname =    spock13, PID = 1887670
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  24, hostname =    spock25, PID = 1685766
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3739.046
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  25, hostname =    spock25, PID = 1685767
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  26, hostname =    spock25, PID = 1685768
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  27, hostname =    spock25, PID = 1685769
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  28, hostname =    spock26, PID = 3524307
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3777.958
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  29, hostname =    spock26, PID = 3524308
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  30, hostname =    spock26, PID = 3524309
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  31, hostname =    spock26, PID = 3524310
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 3080 Ti
+CUDA Driver Version                     : 12.10
+CUDA Runtime Version                    : 12.10
+CUDA Major Revision Number              : 8
+CUDA Minor Revision Number              : 6
+Clock Rate                              : 1.695000 GHz
+Global Memory Size                      : 12045 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 80
+Number of FP32 Cores per Multiprocessor : 128
+Total Number of Cores:                  : 10240
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : Yes
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+***********************************************************************************
+
+Total Processing Time : 12386.546907 s
+
