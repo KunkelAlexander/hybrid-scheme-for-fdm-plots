@@ -172,5 +172,5 @@ ax1.set_title("Plane Wave")
 ax2.set_title("Traveling Gaussian")
 
 # Show or save the plot
-plt.savefig('figure_10.pdf', bbox_inches='tight')  # Save the plot as a PNG file
+plt.savefig('figures/figure_10.pdf', bbox_inches='tight')  # Save the plot as a PNG file
 plt.close()

@@ -252,5 +252,5 @@ gs.update(hspace=0.07)  # Adjust space between the k-P/error plot groups
 
 plt.tight_layout()
 
-plt.savefig('figure_15.pdf', bbox_inches='tight')  # Save the plot as a PNG file
+plt.savefig('figures/figure_15.pdf', bbox_inches='tight')  # Save the plot as a PNG file
 plt.close()

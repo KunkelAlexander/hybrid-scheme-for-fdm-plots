@@ -179,5 +179,5 @@ ax2.set_xlim([1, 64])
 ax2.set_xticks([1, 2, 3, 10, 30], ['1', '2', '3', '10', '30'])
 
 # Show or save the plot
-plt.savefig('figure_13.pdf', bbox_inches='tight')  # Save the plot as a PNG file
+plt.savefig('figures/figure_13.pdf', bbox_inches='tight')  # Save the plot as a PNG file
 plt.close()
