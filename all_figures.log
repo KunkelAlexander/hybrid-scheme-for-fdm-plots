@@ -1,0 +1,79 @@
+Running generate_figure_1.py
+----------------------------------------
+Running generate_figure_3.py
+yt : [WARNING  ] 2025-06-29 12:24:22,774 Cannot determine code units ==> Use units_override to specify the units
+yt : [WARNING  ] 2025-06-29 12:24:22,775 Assuming   length unit = 1.000000 cm
+yt : [WARNING  ] 2025-06-29 12:24:22,775 Assuming     time unit = 1.000000 s
+yt : [WARNING  ] 2025-06-29 12:24:22,775 Assuming     mass unit = 1.000000 g
+yt : [WARNING  ] 2025-06-29 12:24:22,775 Assuming magnetic unit = 3.544908 gauss
+yt : [INFO     ] 2025-06-29 12:24:22,829 Parameters: current_time              = 0.008
+yt : [INFO     ] 2025-06-29 12:24:22,829 Parameters: domain_dimensions         = [64 64 16]
+yt : [INFO     ] 2025-06-29 12:24:22,829 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2025-06-29 12:24:22,829 Parameters: domain_right_edge         = [1.   1.   0.25]
+yt : [INFO     ] 2025-06-29 12:24:22,830 Parameters: cosmological_simulation   = 0
+yt : [INFO     ] 2025-06-29 12:24:23,316 xlim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,316 ylim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,318 xlim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,318 ylim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,320 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:23,696 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:23,979 xlim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,979 ylim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,982 xlim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,982 ylim = 0.000000 1.000000
+yt : [INFO     ] 2025-06-29 12:24:23,983 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:24,344 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:25,434 Making a fixed resolution buffer of (('index', 'grid_level')) 800 by 800
+----------------------------------------
+Running generate_figure_4.py
+----------------------------------------
+Running generate_figure_6.py
+----------------------------------------
+Running generate_figure_7.py
+/home/xerox/Documents/Programming/hybrid-spectral-fdm/generate_figure_7.py:43: RuntimeWarning: divide by zero encountered in divide
+  C1 = np.abs((C11 + C12) / 2 / sqrt_density[1:-1, 1:-1])
+----------------------------------------
+Running generate_figure_8.py
+----------------------------------------
+Running generate_figure_9.py
+----------------------------------------
+Running generate_figure_10.py
+----------------------------------------
+Running generate_figure_11.py
+/home/xerox/Documents/Programming/hybrid-spectral-fdm/generate_figure_11.py:199: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+----------------------------------------
+Running generate_figure_12.py
+yt : [WARNING  ] 2025-06-29 12:24:56,904 Cannot determine code units ==> Use units_override to specify the units
+yt : [WARNING  ] 2025-06-29 12:24:56,905 Assuming   length unit = 1.000000 cm
+yt : [WARNING  ] 2025-06-29 12:24:56,905 Assuming     time unit = 1.000000 s
+yt : [WARNING  ] 2025-06-29 12:24:56,905 Assuming     mass unit = 1.000000 g
+yt : [WARNING  ] 2025-06-29 12:24:56,905 Assuming magnetic unit = 3.544908 gauss
+yt : [INFO     ] 2025-06-29 12:24:56,959 Parameters: current_time              = 3.108494982263581e-12
+yt : [INFO     ] 2025-06-29 12:24:56,960 Parameters: domain_dimensions         = [64 64 16]
+yt : [INFO     ] 2025-06-29 12:24:56,960 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2025-06-29 12:24:56,960 Parameters: domain_right_edge         = [1.   1.   0.25]
+yt : [INFO     ] 2025-06-29 12:24:56,961 Parameters: cosmological_simulation   = 0
+yt : [INFO     ] 2025-06-29 12:24:57,471 xlim = -0.250000 0.750000
+yt : [INFO     ] 2025-06-29 12:24:57,471 ylim = -0.250000 0.750000
+yt : [INFO     ] 2025-06-29 12:24:57,473 xlim = -0.250000 0.750000
+yt : [INFO     ] 2025-06-29 12:24:57,473 ylim = -0.250000 0.750000
+yt : [INFO     ] 2025-06-29 12:24:57,475 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:57,877 Making a fixed resolution buffer of (('gamer', 'Real')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:57,973 Making a fixed resolution buffer of (('gamer', 'Imag')) 800 by 800
+yt : [INFO     ] 2025-06-29 12:24:58,225 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+----------------------------------------
+Running generate_figure_13.py
+----------------------------------------
+Running generate_figure_14.py
+----------------------------------------
+Running generate_figure_15.py
+/home/xerox/Documents/Programming/hybrid-spectral-fdm/generate_figure_15.py:253: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+----------------------------------------
+Running generate_figure_16.py
+----------------------------------------
+Running generate_figure_17.py
+----------------------------------------
+Running generate_figure_18.py
+----------------------------------------

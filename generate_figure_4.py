@@ -308,5 +308,5 @@ plot_psi(axs[2], fdp2, title='(c) Time evolution', highlight='evolution', initia
 # Plot next time step state
 plot_psi(axs[3], psi, title=r'(d) $\psi(t+\Delta t)$', highlight='discard', initial=False)
 
-plt.savefig("figure_4.pdf", bbox_inches='tight')
+plt.savefig("figures/figure_4.pdf", bbox_inches='tight')
 plt.close()

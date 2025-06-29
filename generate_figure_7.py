@@ -101,5 +101,5 @@ for i, data in enumerate([density, phase, C1, C2, C3]):
     ax.set_xticks([])
     ax.set_yticks([])
 
-plt.savefig("figure_7.pdf", bbox_inches='tight')
+plt.savefig("figures/figure_7.pdf", bbox_inches='tight')
 plt.close()

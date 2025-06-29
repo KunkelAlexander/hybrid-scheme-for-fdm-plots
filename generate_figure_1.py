@@ -98,5 +98,5 @@ ax1.text(0.5, 0.8, 'Fluid', transform=ax1.transAxes, fontsize=12, color=c3, ha='
 ax3.text(0.42, 0.8, 'Wave', transform=ax3.transAxes, fontsize=12, color=c6, ha='center', va='bottom',
          bbox=dict(facecolor='white', edgecolor='none', boxstyle='round,pad=0.2'), weight='bold')
 
-plt.savefig("figure_1.pdf", bbox_inches='tight')
+plt.savefig("figures/figure_1.pdf", bbox_inches='tight')
 plt.close()

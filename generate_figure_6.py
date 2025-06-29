@@ -190,5 +190,5 @@ axes[0].set_ylabel("y")
 axes[1].set_xlabel("x")
 axes[1].set_ylabel("y")
 
-plt.savefig("figure_6.pdf", bbox_inches='tight')
+plt.savefig("figures/figure_6.pdf", bbox_inches='tight')
 plt.close()

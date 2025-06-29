@@ -188,6 +188,6 @@ grid.cbar_axes[1].get_yaxis().set_ticks([-np.pi, -np.pi/2, 0, np.pi/2, np.pi], [
 grid.cbar_axes[1].tick_params(labelsize=14)
 # Get the DumpID from dataset parameters and save the plot
 dump_id = dataset.parameters["DumpID"]
-plt.savefig("figure_3.pdf", bbox_inches='tight')
+plt.savefig("figures/figure_3.pdf", bbox_inches='tight')
 
 plt.close()
