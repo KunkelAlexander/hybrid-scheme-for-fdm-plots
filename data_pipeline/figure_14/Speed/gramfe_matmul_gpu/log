@@ -1,0 +1,245 @@
+[spock04:2316453] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock04:2316453] MCW rank 1 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../..]
+[spock04:2316453] MCW rank 2 bound to socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]]: [../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[spock04:2316453] MCW rank 3 bound to socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]], socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+Init_MPI ... done
+   Current level of MPI thread support : MPI_THREAD_SERIALIZED
+Init_Load_Parameter ...
+WARNING : unrecognizable parameter [LB_INPUT__PAR_WEIGHT     ] at line   81 !!
+WARNING : unrecognizable parameter [ELBDM_LAMBDA             ] at line   89 !!
+WARNING : unrecognizable parameter [ELBDM_FIRST_WAVE_LEVEL   ] at line   95 !!
+WARNING : unrecognizable parameter [OPT__POT_INT_SCHEME      ] at line  126 !!
+WARNING : unrecognizable parameter [OPT__RHO_INT_SCHEME      ] at line  127 !!
+WARNING : unrecognizable parameter [OPT__GRA_INT_SCHEME      ] at line  128 !!
+WARNING : unrecognizable parameter [OPT__REF_POT_INT_SCHEME  ] at line  129 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_PAR_MODE     ] at line  138 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_POT          ] at line  141 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_PAR_DENS     ] at line  142 !!
+NOTE : parameter [MPI_NRANK_X              ] is set to the default value [-1                   ]
+NOTE : parameter [MPI_NRANK_Y              ] is set to the default value [-1                   ]
+NOTE : parameter [MPI_NRANK_Z              ] is set to the default value [-1                   ]
+NOTE : parameter [UNIT_L                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_M                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_T                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_V                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_D                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [DT__MAX                  ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [AUTO_REDUCE_INT_MONO_FACTOR] is set to the default value [ 8.00000000000000e-01]
+NOTE : parameter [AUTO_REDUCE_INT_MONO_MIN ] is set to the default value [ 1.00000000000000e-02]
+NOTE : parameter [REFINE_NLEVEL            ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__FLAG_SPECTRAL       ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__FLAG_USER_NUM       ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__LB_EXCHANGE_FATHER  ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_DELEPTONIZATION      ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_USER                 ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_GPU_NPGROUP          ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__INT_FRAC_PASSIVE_LR ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__RESET_FLUID_INIT    ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__FREEZE_FLUID        ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__UM_IC_LEVEL         ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__UM_IC_NLEVEL        ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__UM_IC_NVAR          ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__UM_IC_FORMAT        ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__UM_IC_DOWNGRADE     ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__UM_IC_REFINE        ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__UM_IC_LOAD_NRANK    ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__FFTW_STARTUP        ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__RES_PHASE           ] is set to the default value [ 0                   ]
+NOTE : parameter [MONO_MAX_ITER            ] is set to the default value [ 10                  ]
+NOTE : parameter [INT_OPP_SIGN_0TH_ORDER   ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__OUTPUT_TEXT_FORMAT_FLT] is set to the default value [%24.16e              ]
+NOTE : parameter [OPT__OUTPUT_USER_FIELD   ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__OUTPUT_RESTART      ] is set to the default value [ 0                   ]
+NOTE : parameter [OUTPUT_WALLTIME          ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [OUTPUT_WALLTIME_UNIT     ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__SORT_PATCH_BY_LBIDX ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__CK_NORMALIZE_PASSIVE] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__CK_INPUT_FLUID      ] is set to the default value [ 0                   ]
+Init_Load_Parameter ... done
+Init_Unit ...
+Init_Unit ... done
+Init_ResetParameter ...
+WARNING : parameter [DT__FLUID_INIT                ] is reset to [ 2.00000000000000e-01] 
+WARNING : parameter [ELBDM_ETA                     ] is reset to [ 7.00000000000000e+01] 
+WARNING : parameter [OPT__FLU_INT_SCHEME           ] is reset to [ 6                   ] 
+WARNING : parameter [OPT__REF_FLU_INT_SCHEME       ] is reset to [ 6                   ] 
+WARNING : parameter [OPT__TIMING_BARRIER           ] is reset to [ 0                   ] 
+WARNING : parameter [OPT__CORR_AFTER_ALL_SYNC      ] is reset to [ 2                   ] 
+WARNING : parameter [FLAG_BUFFER_SIZE              ] is reset to [ 8                   ] to match PATCH_SIZE
+WARNING : parameter [FLAG_BUFFER_SIZE_MAXM1_LV     ] is reset to [ 4                   ] to match REGRID_COUNT
+WARNING : parameter [FLAG_BUFFER_SIZE_MAXM2_LV     ] is reset to [ 6                   ] 
+WARNING : parameter [OPT__RESET_FLUID_INIT         ] is reset to [ 0                   ] to match OPT__RESET_FLUID
+WARNING : parameter [OPT__FFTW_STARTUP             ] is reset to [ 0                   ] when disabling BITWISE_REPRODUCIBILITY
+Init_ResetParameter ... done
+Init_Load_FlagCriteria ...
+Init_Load_FlagCriteria ... done
+Init_OpenMP ... OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+done
+CUAPI_SetDevice ...
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+WARNING : please make sure that different MPI ranks will use different GPUs for "OPT__GPUID_SELECT == -1" !!
+CUAPI_SetDevice ... done
+CUAPI_SetCache ...
+CUAPI_SetCache ... done
+Init_FFTW ... done
+Init_TestProb_ELBDM_GaussianWavePacket ...
+   Validating test problem 1008 ...
+   Validating test problem 1008 ... done
+   Setting runtime parameters ...
+WARNING : Gau_PeriodicN should be >0 when adopting periodic BC for fluid !!
+WARNING : disabling "OPT__NORMALIZE_PASSIVE" since there are no passive scalars
+          to be normalized !!
+WARNING : disabling "OPT__INT_FRAC_PASSIVE_*" since there are no passive scalars
+          to be interpolated in fractional form !!
+=============================================================================
+  test problem ID                    = 1008
+  mean velocity                      =  0.0000000e+00
+  Gaussian width                     =  5.0000000e+00
+  Gaussian center                    =  5.0000000e-01
+  propagation direction              = 0
+  number of periodic image each side = 0
+=============================================================================
+   Setting runtime parameters ... done
+Init_TestProb_ELBDM_GaussianWavePacket ... done
+Init_Parallelization ... done
+Init_Field ...
+Init_Field ... done
+Src_Init ...
+Src_Init ... done
+CUAPI_SetConstMemory ...
+CUAPI_SetConstMemory ... done
+Aux_Check_Parameter ...
+WARNING : all flag criteria are turned off --> no refinement will be performed !!REMINDER : "OPT__TIMING_BARRIER" is off for TIMING
+           --> Some timing results (especially MPI and particle routines) may be less accurate due to load imbalance ...
+WARNING : MIN_DENS == 0.0 could be dangerous and is mainly for debugging only !!
+WARNING : OPT__FIXUP_FLUX will not be applied on wave levels when WAVE_SCHEME == WAVE_GRAMFE is on !!
+WARNING : mass is not conserved with the WAVE_GRAMFE solver even though CONSERVE_MASS is on !!
+Aux_Check_Parameter ... done
+Aux_CreateTimer ... done
+CUAPI_MemAllocate ...
+CUAPI_SetMemSize ...
+WARNING : parameter [GPU_NStream                   ] is reset to [ 16                  ] --> might be further fine-tuned (GPU_NSTREAM in Input__Parameter)
+WARNING : parameter [Flu_GPU_NPGroup               ] is reset to [ 1280                ] --> might be further fine-tuned (FLU_GPU_NPGROUP in Input__Parameter)
+WARNING : parameter [Src_GPU_NPGroup               ] is reset to [ 1280                ] --> might be further fine-tuned (SRC_GPU_NPGROUP in Input__Parameter)
+CUAPI_SetMemSize ... done
+NOTE : total memory requirement in GPU fluid solver = 451 MB
+CUAPI_MemAllocate ... done
+Init_MemAllocate ...
+Init_MemAllocate ... done
+LB_Init_ByFunction ...
+   Constructing level 0 ...
+   LB_Init_LoadBalance at Lv 0 ...
+   LB_Init_LoadBalance at Lv 0 ... done
+   Constructing level 0 ... done
+   Constructing level 1 ...
+   LB_Init_LoadBalance at Lv 1 ...
+   LB_Init_LoadBalance at Lv 1 ... done
+   Constructing level 1 ... done
+   Constructing level 2 ...
+   LB_Init_LoadBalance at Lv 2 ...
+   LB_Init_LoadBalance at Lv 2 ... done
+   Constructing level 2 ... done
+   Constructing level 3 ...
+   LB_Init_LoadBalance at Lv 3 ...
+   LB_Init_LoadBalance at Lv 3 ... done
+   Constructing level 3 ... done
+   Constructing level 4 ...
+   LB_Init_LoadBalance at Lv 4 ...
+   LB_Init_LoadBalance at Lv 4 ... done
+   Constructing level 4 ... done
+   Constructing level 5 ...
+   LB_Init_LoadBalance at Lv 5 ...
+   LB_Init_LoadBalance at Lv 5 ... done
+   Constructing level 5 ... done
+   Constructing level 6 ...
+   LB_Init_LoadBalance at Lv 6 ...
+   LB_Init_LoadBalance at Lv 6 ... done
+   Constructing level 6 ... done
+   Constructing level 7 ...
+   LB_Init_LoadBalance at Lv 7 ...
+   LB_Init_LoadBalance at Lv 7 ... done
+   Constructing level 7 ... done
+   Constructing level 8 ...
+   LB_Init_LoadBalance at Lv 8 ...
+   LB_Init_LoadBalance at Lv 8 ... done
+   Constructing level 8 ... done
+   Constructing level 9 ...
+   LB_Init_LoadBalance at Lv 9 ...
+   LB_Init_LoadBalance at Lv 9 ... done
+   Constructing level 9 ... done
+   Restricting level 8 ... done
+   Restricting level 7 ... done
+   Restricting level 6 ... done
+   Restricting level 5 ... done
+   Restricting level 4 ... done
+   Restricting level 3 ... done
+   Restricting level 2 ... done
+   Restricting level 1 ... done
+   Restricting level 0 ... done
+LB_Init_ByFunction ... done
+Initializing source-term fields ...
+   Lv  0 ... done
+   Lv  1 ... done
+   Lv  2 ... done
+   Lv  3 ... done
+   Lv  4 ... done
+   Lv  5 ... done
+   Lv  6 ... done
+   Lv  7 ... done
+   Lv  8 ... done
+   Lv  9 ... done
+Initializing source-term fields ... done
+Aux_TakeNote ...
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+cat: ./Input__Note: No such file or directory
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+Aux_TakeNote ... done
+CUAPI_DiagnoseDevice ...
+CUAPI_DiagnoseDevice ... done
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+Output_DumpData_Part (DumpID = 0)           ...
+Output_DumpData_Part (DumpID = 0)           ... done
+Output_L1Error (DumpID = 0) ...
+Output_L1Error (DumpID = 0) ... done
+Time: 0.0000000e+00 -> 1.6999582e-05,   Step:       0 ->       1,   dt_base: 1.6999582e-05
+Time: 1.6999582e-05 -> 3.3999164e-05,   Step:       1 ->       2,   dt_base: 1.6999582e-05
+Time: 3.3999164e-05 -> 5.0998746e-05,   Step:       2 ->       3,   dt_base: 1.6999582e-05
+Time: 5.0998746e-05 -> 6.7998328e-05,   Step:       3 ->       4,   dt_base: 1.6999582e-05
+Time: 6.7998328e-05 -> 8.4997910e-05,   Step:       4 ->       5,   dt_base: 1.6999582e-05
+Time: 8.4997910e-05 -> 1.0199749e-04,   Step:       5 ->       6,   dt_base: 1.6999582e-05
+Time: 1.0199749e-04 -> 1.1899707e-04,   Step:       6 ->       7,   dt_base: 1.6999582e-05
+Time: 1.1899707e-04 -> 1.3599666e-04,   Step:       7 ->       8,   dt_base: 1.6999582e-05
+Time: 1.3599666e-04 -> 1.5299624e-04,   Step:       8 ->       9,   dt_base: 1.6999582e-05
+Time: 1.5299624e-04 -> 1.6999582e-04,   Step:       9 ->      10,   dt_base: 1.6999582e-05
+Time: 1.6999582e-04 -> 1.8699540e-04,   Step:      10 ->      11,   dt_base: 1.6999582e-05
+Time: 1.8699540e-04 -> 2.0399498e-04,   Step:      11 ->      12,   dt_base: 1.6999582e-05
+Time: 2.0399498e-04 -> 2.2099457e-04,   Step:      12 ->      13,   dt_base: 1.6999582e-05
+Time: 2.2099457e-04 -> 2.3799415e-04,   Step:      13 ->      14,   dt_base: 1.6999582e-05
+Time: 2.3799415e-04 -> 2.5499373e-04,   Step:      14 ->      15,   dt_base: 1.6999582e-05
+Time: 2.5499373e-04 -> 2.7199331e-04,   Step:      15 ->      16,   dt_base: 1.6999582e-05
+Time: 2.7199331e-04 -> 2.8899289e-04,   Step:      16 ->      17,   dt_base: 1.6999582e-05
+Time: 2.8899289e-04 -> 3.0599247e-04,   Step:      17 ->      18,   dt_base: 1.6999582e-05
+Time: 3.0599247e-04 -> 3.2299206e-04,   Step:      18 ->      19,   dt_base: 1.6999582e-05
+Time: 3.2299206e-04 -> 3.3999164e-04,   Step:      19 ->      20,   dt_base: 1.6999582e-05
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+Output_DumpData_Part (DumpID = 1)           ...
+Output_DumpData_Part (DumpID = 1)           ... done
+Output_L1Error (DumpID = 1) ...
+Output_L1Error (DumpID = 1) ... done
+End_GAMER ...
+End_MemFree ... done
+End_FFTW ... done
+Src_End ...
+Src_End ... done
+End_GAMER ... done
+
+
+~ GAME OVER ~
+
+

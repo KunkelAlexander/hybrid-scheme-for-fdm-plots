@@ -1,0 +1,243 @@
+# dt         : calculate time-step
+# Flu_Adv    : evolve fluid variables
+# Gra_Adv    : calculate gravitational potential and acceleration
+# Src_Adv    : Source terms
+# Che_Adv    : Grackle cooling and chemistry library
+# SF         : Star formation
+# FB_Adv     : Feedback
+# FixUp      : use fine-grid data to correct coarse-grid data
+# Flag       : check refinement criteria
+# Refine     : allocate/remove patches on a higher level
+# Buf_Rho    : MPI for exchanging density for the Poisson solver
+# Buf_Pot    : MPI for exchanging potential
+# Buf_Flu1   : MPI for exchanging fluid data after advance
+# Buf_Flu2   : MPI for exchanging fluid data after fix-up
+# Buf_Ref    : MPI for exchanging fluid data and potential after grid refinement
+# Buf_Flux   : MPI for exchanging fluxes across coarse-fine boundaries
+# Buf_Res    : MPI for exchanging restricted fluid data in the father buffer patches (LOAD_BALANCE only)
+# Buf_Che    : MPI for exchanging fluid data after calling Grackle
+# Par_KD     : kick-drift for particles
+# Par_K      : last kick for particles staying at the same level
+# Par_K-1    : last kick for particles entering coarser grids
+# Par_2Sib   : pass particles to sibling patches after drift
+# -MPI_Sib   : MPI for exchanging particles staying at the same level after drift (included in Par_2Sib)
+# -MPI_FaSib : MPI for exchanging particles entering coarser grids after drift (included in Par_2Sib)
+# Par_2Son   : pass particles to son patches after the last kick
+# -MPI       : MPI for exchanging particles after the last kick (included in Par_2Son)
+# Par_Coll   : collect particles from finer grids for the Poisson solver
+# -MPI_Real  : MPI for collecting particles from leaf patches in other ranks (included in Par_Coll)
+# -MPI_Sib   : MPI for collecting particles to sibling buffer patches (included in Par_Coll)
+# -MPI_FaSib : MPI for collecting particles to father-sibling buffer patches (included in Par_Coll)
+#-----------------------------------------------------------------------------------------------------------------------------
+
+Time : 0.0000000e+00 -> 3.1084950e-12,     Step :        0 ->        1
+
+Main Loop
+------------------------------------------------------------------------------------------------------------------------------
+       Total    Integration       Output    Auxiliary    LoadBalance       CorrSync          libyt            Sum
+      0.2433         0.2219       0.0048       0.0160         0.0006         0.0000         0.0000         0.2433
+
+
+Integration Loop
+------------------------------------------------------------------------------------------------------------------------------
+     Lv   Total       dt Flu_Adv Gra_Adv Src_Adv Che_Adv      SF  FB_Adv   FixUp    Flag  Refine Buf_Rho Buf_Pot Buf_Flu1 Buf_Flu2 Buf_Ref Buf_Flux Buf_Res Buf_Che  Par_KD   Par_K Par_K-1 Par_2Sib -MPI_Sib -MPI_FaSib Par_2Son    -MPI Par_Coll -MPI_Real -MPI_Sib -MPI_FaSib     Sum
+      0   0.013    0.001   0.008   0.000   0.000   0.000   0.000   0.000   0.001   0.001   0.002   0.000   0.000    0.001    0.001   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.013
+      1   0.208    0.003   0.191   0.000   0.000   0.000   0.000   0.000   0.000   0.002   0.001   0.000   0.000    0.011    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.208
+      2   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      3   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      4   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      5   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      6   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      7   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      8   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      9   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+    Sum   0.222    0.004   0.199   0.000   0.000   0.000   0.000   0.000   0.001   0.003   0.003   0.000   0.000    0.012    0.001   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.222
+
+
+Summary
+------------------------------------------------------------------------------------------------------------------------------
+                  dt  Flu_Adv  Gra_Adv  Src_Adv  Che_Adv       SF   FB_Adv    FixUp     Flag   Refine MPI_Grid   Output      Aux       LB CorrSync      Par -MPI_Par    libyt         Sum
+    Time      0.0040   0.1986   0.0000   0.0000   0.0000   0.0000   0.0000   0.0010   0.0031   0.0029   0.0123   0.0048   0.0160   0.0006   0.0000   0.0000   0.0000   0.0000      0.2433
+    Frac      1.662%  81.603%   0.000%   0.000%   0.000%   0.000%   0.000%   0.393%   1.285%   1.192%   5.050%   1.969%   6.590%   0.253%   0.000%   0.000%   0.000%   0.000%     99.995%
+
+==============================================================================================================================
+==============================================================================================================================
+
+
+
+******************************************************************************************************************************
+*************                                     Accumulated timing results                                     *************
+******************************************************************************************************************************
+Total Number of Steps : 1
+Final Physical Time   : 3.1084950e-12
+Total Simulation Time : 0.690326 sec
+Timing Diagnosis      :
+------------------------------------------------------------------------------------------------------------------------------
+                dt  Flu_Adv  Gra_Adv  Src_Adv  Che_Adv       SF   FB_Adv    FixUp     Flag   Refine MPI_Grid   Output      Aux       LB CorrSync      Par -MPI_Par    libyt     Init    Other      Sum
+    Time      0.00     0.20     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.01     0.00     0.02     0.00     0.00     0.00     0.00     0.00     0.44     0.00     0.69
+    Frac    0.586%  28.763%   0.000%   0.000%   0.000%   0.000%   0.000%   0.138%   0.453%   0.420%   1.780%   0.694%   2.323%   0.089%   0.000%   0.000%   0.000%   0.000%  64.171%   0.581%  99.998%
+******************************************************************************************************************************
+
+
+# dt         : calculate time-step
+# Flu_Adv    : evolve fluid variables
+# Gra_Adv    : calculate gravitational potential and acceleration
+# Src_Adv    : Source terms
+# Che_Adv    : Grackle cooling and chemistry library
+# SF         : Star formation
+# FB_Adv     : Feedback
+# FixUp      : use fine-grid data to correct coarse-grid data
+# Flag       : check refinement criteria
+# Refine     : allocate/remove patches on a higher level
+# Buf_Rho    : MPI for exchanging density for the Poisson solver
+# Buf_Pot    : MPI for exchanging potential
+# Buf_Flu1   : MPI for exchanging fluid data after advance
+# Buf_Flu2   : MPI for exchanging fluid data after fix-up
+# Buf_Ref    : MPI for exchanging fluid data and potential after grid refinement
+# Buf_Flux   : MPI for exchanging fluxes across coarse-fine boundaries
+# Buf_Res    : MPI for exchanging restricted fluid data in the father buffer patches (LOAD_BALANCE only)
+# Buf_Che    : MPI for exchanging fluid data after calling Grackle
+# Par_KD     : kick-drift for particles
+# Par_K      : last kick for particles staying at the same level
+# Par_K-1    : last kick for particles entering coarser grids
+# Par_2Sib   : pass particles to sibling patches after drift
+# -MPI_Sib   : MPI for exchanging particles staying at the same level after drift (included in Par_2Sib)
+# -MPI_FaSib : MPI for exchanging particles entering coarser grids after drift (included in Par_2Sib)
+# Par_2Son   : pass particles to son patches after the last kick
+# -MPI       : MPI for exchanging particles after the last kick (included in Par_2Son)
+# Par_Coll   : collect particles from finer grids for the Poisson solver
+# -MPI_Real  : MPI for collecting particles from leaf patches in other ranks (included in Par_Coll)
+# -MPI_Sib   : MPI for collecting particles to sibling buffer patches (included in Par_Coll)
+# -MPI_FaSib : MPI for collecting particles to father-sibling buffer patches (included in Par_Coll)
+#-----------------------------------------------------------------------------------------------------------------------------
+
+Time : 0.0000000e+00 -> 3.1084950e-12,     Step :        0 ->        1
+
+Main Loop
+------------------------------------------------------------------------------------------------------------------------------
+       Total    Integration       Output    Auxiliary    LoadBalance       CorrSync          libyt            Sum
+      0.0223         0.0086       0.0041       0.0091         0.0005         0.0000         0.0000         0.0223
+
+
+Integration Loop
+------------------------------------------------------------------------------------------------------------------------------
+     Lv   Total       dt Flu_Adv Gra_Adv Src_Adv Che_Adv      SF  FB_Adv   FixUp    Flag  Refine Buf_Rho Buf_Pot Buf_Flu1 Buf_Flu2 Buf_Ref Buf_Flux Buf_Res Buf_Che  Par_KD   Par_K Par_K-1 Par_2Sib -MPI_Sib -MPI_FaSib Par_2Son    -MPI Par_Coll -MPI_Real -MPI_Sib -MPI_FaSib     Sum
+      0   0.009    0.001   0.007   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.001    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.009
+      1   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      2   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      3   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      4   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      5   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      6   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      7   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      8   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      9   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+    Sum   0.009    0.001   0.007   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.001    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.009
+
+
+Summary
+------------------------------------------------------------------------------------------------------------------------------
+                  dt  Flu_Adv  Gra_Adv  Src_Adv  Che_Adv       SF   FB_Adv    FixUp     Flag   Refine MPI_Grid   Output      Aux       LB CorrSync      Par -MPI_Par    libyt         Sum
+    Time      0.0006   0.0070   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0001   0.0001   0.0009   0.0041   0.0091   0.0005   0.0000   0.0000   0.0000   0.0000      0.0223
+    Frac      2.486%  31.334%   0.000%   0.000%   0.000%   0.000%   0.000%   0.000%   0.349%   0.443%   3.834%  18.457%  40.753%   2.338%   0.000%   0.000%   0.000%   0.000%     99.996%
+
+==============================================================================================================================
+==============================================================================================================================
+
+
+
+******************************************************************************************************************************
+*************                                     Accumulated timing results                                     *************
+******************************************************************************************************************************
+Total Number of Steps : 1
+Final Physical Time   : 3.1084950e-12
+Total Simulation Time : 0.294861 sec
+Timing Diagnosis      :
+------------------------------------------------------------------------------------------------------------------------------
+                dt  Flu_Adv  Gra_Adv  Src_Adv  Che_Adv       SF   FB_Adv    FixUp     Flag   Refine MPI_Grid   Output      Aux       LB CorrSync      Par -MPI_Par    libyt     Init    Other      Sum
+    Time      0.00     0.01     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.01     0.00     0.00     0.00     0.00     0.00     0.27     0.00     0.29
+    Frac    0.188%   2.373%   0.000%   0.000%   0.000%   0.000%   0.000%   0.000%   0.026%   0.034%   0.290%   1.398%   3.086%   0.177%   0.000%   0.000%   0.000%   0.000%  91.270%   1.158% 100.000%
+******************************************************************************************************************************
+
+
+# dt         : calculate time-step
+# Flu_Adv    : evolve fluid variables
+# Gra_Adv    : calculate gravitational potential and acceleration
+# Src_Adv    : Source terms
+# Che_Adv    : Grackle cooling and chemistry library
+# SF         : Star formation
+# FB_Adv     : Feedback
+# FixUp      : use fine-grid data to correct coarse-grid data
+# Flag       : check refinement criteria
+# Refine     : allocate/remove patches on a higher level
+# Buf_Rho    : MPI for exchanging density for the Poisson solver
+# Buf_Pot    : MPI for exchanging potential
+# Buf_Flu1   : MPI for exchanging fluid data after advance
+# Buf_Flu2   : MPI for exchanging fluid data after fix-up
+# Buf_Ref    : MPI for exchanging fluid data and potential after grid refinement
+# Buf_Flux   : MPI for exchanging fluxes across coarse-fine boundaries
+# Buf_Res    : MPI for exchanging restricted fluid data in the father buffer patches (LOAD_BALANCE only)
+# Buf_Che    : MPI for exchanging fluid data after calling Grackle
+# Par_KD     : kick-drift for particles
+# Par_K      : last kick for particles staying at the same level
+# Par_K-1    : last kick for particles entering coarser grids
+# Par_2Sib   : pass particles to sibling patches after drift
+# -MPI_Sib   : MPI for exchanging particles staying at the same level after drift (included in Par_2Sib)
+# -MPI_FaSib : MPI for exchanging particles entering coarser grids after drift (included in Par_2Sib)
+# Par_2Son   : pass particles to son patches after the last kick
+# -MPI       : MPI for exchanging particles after the last kick (included in Par_2Son)
+# Par_Coll   : collect particles from finer grids for the Poisson solver
+# -MPI_Real  : MPI for collecting particles from leaf patches in other ranks (included in Par_Coll)
+# -MPI_Sib   : MPI for collecting particles to sibling buffer patches (included in Par_Coll)
+# -MPI_FaSib : MPI for collecting particles to father-sibling buffer patches (included in Par_Coll)
+#-----------------------------------------------------------------------------------------------------------------------------
+
+Time : 0.0000000e+00 -> 3.1084950e-12,     Step :        0 ->        1
+
+Main Loop
+------------------------------------------------------------------------------------------------------------------------------
+       Total    Integration       Output    Auxiliary    LoadBalance       CorrSync          libyt            Sum
+      0.0782         0.0579       0.0048       0.0148         0.0006         0.0000         0.0000         0.0782
+
+
+Integration Loop
+------------------------------------------------------------------------------------------------------------------------------
+     Lv   Total       dt Flu_Adv Gra_Adv Src_Adv Che_Adv      SF  FB_Adv   FixUp    Flag  Refine Buf_Rho Buf_Pot Buf_Flu1 Buf_Flu2 Buf_Ref Buf_Flux Buf_Res Buf_Che  Par_KD   Par_K Par_K-1 Par_2Sib -MPI_Sib -MPI_FaSib Par_2Son    -MPI Par_Coll -MPI_Real -MPI_Sib -MPI_FaSib     Sum
+      0   0.058    0.001   0.007   0.000   0.000   0.000   0.000   0.000   0.000   0.001   0.042   0.000   0.000    0.001    0.000   0.006    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.058
+      1   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      2   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      3   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      4   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      5   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      6   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      7   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      8   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+      9   0.000    0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000   0.000    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.000
+    Sum   0.058    0.001   0.007   0.000   0.000   0.000   0.000   0.000   0.000   0.001   0.042   0.000   0.000    0.001    0.000   0.006    0.000   0.000   0.000   0.000   0.000   0.000    0.000    0.000      0.000    0.000   0.000    0.000     0.000    0.000      0.000   0.058
+
+
+Summary
+------------------------------------------------------------------------------------------------------------------------------
+                  dt  Flu_Adv  Gra_Adv  Src_Adv  Che_Adv       SF   FB_Adv    FixUp     Flag   Refine MPI_Grid   Output      Aux       LB CorrSync      Par -MPI_Par    libyt         Sum
+    Time      0.0005   0.0073   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0006   0.0424   0.0071   0.0048   0.0148   0.0006   0.0000   0.0000   0.0000   0.0000      0.0782
+    Frac      0.691%   9.297%   0.000%   0.000%   0.000%   0.000%   0.000%   0.000%   0.768%  54.260%   9.104%   6.179%  18.895%   0.802%   0.000%   0.000%   0.000%   0.000%     99.996%
+
+==============================================================================================================================
+==============================================================================================================================
+
+
+
+******************************************************************************************************************************
+*************                                     Accumulated timing results                                     *************
+******************************************************************************************************************************
+Total Number of Steps : 1
+Final Physical Time   : 3.1084950e-12
+Total Simulation Time : 0.408515 sec
+Timing Diagnosis      :
+------------------------------------------------------------------------------------------------------------------------------
+                dt  Flu_Adv  Gra_Adv  Src_Adv  Che_Adv       SF   FB_Adv    FixUp     Flag   Refine MPI_Grid   Output      Aux       LB CorrSync      Par -MPI_Par    libyt     Init    Other      Sum
+    Time      0.00     0.01     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.04     0.01     0.00     0.01     0.00     0.00     0.00     0.00     0.00     0.33     0.00     0.41
+    Frac    0.132%   1.779%   0.000%   0.000%   0.000%   0.000%   0.000%   0.000%   0.147%  10.382%   1.742%   1.182%   3.615%   0.153%   0.000%   0.000%   0.000%   0.000%  80.044%   0.822%  99.999%
+******************************************************************************************************************************
+
+

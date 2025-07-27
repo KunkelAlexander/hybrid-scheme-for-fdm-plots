@@ -1,0 +1,674 @@
+
+
+
+Simulation Notes
+***********************************************************************************
+***********************************************************************************
+
+
+Makefile Options (numerical schemes)
+***********************************************************************************
+MODEL                           ELBDM
+GRAVITY                         OFF
+COMOVING                        OFF
+PARTICLE                        OFF
+SUPPORT_GRACKLE                 OFF
+ELBDM_SCHEME                    ELBDM_WAVE
+WAVE_SCHEME                     GRAM FE
+GRAMFE_SCHEME                   MATMUL
+CONSERVE_MASS                   ON
+QUARTIC_SELF_INTERACTION        OFF
+***********************************************************************************
+
+
+Makefile Options (optimization and compilation)
+***********************************************************************************
+GPU                             OFF
+GAMER_DEBUG                     OFF
+BITWISE_REPRODUCIBILITY         OFF
+TIMING                          ON
+TIMING_SOLVER                   OFF
+FLOAT8                          ON
+SERIAL                          OFF
+LOAD_BALANCE                    HILBERT
+OVERLAP_MPI                     OFF
+OPENMP                          ON
+LAOHU                           OFF
+SUPPORT_HDF5                    ON
+SUPPORT_GSL                     ON
+SUPPORT_FFTW                    FFTW3
+SUPPORT_LIBYT                   OFF
+RANDOM_NUMBER                   RNG_GNU_EXT
+SUPPORT_SPECTRAL_INT            ON
+***********************************************************************************
+
+
+Other Options (in Macro.h, CUFLU.h and CUPOT.h)
+***********************************************************************************
+BIT_REP_FLUX                    OFF
+INTERP_MASK                     ON
+FB_SEP_FLUOUT                   OFF
+GRAMFE_GAMMA                    150
+GRAMFE_G                        63
+GRAMFE_NDELTA                   14
+GRAMFE_ND                       32
+GRAMFE_ORDER                    14
+GRAMFE_FLU_NXT                  64
+GRAMFE_MATMUL_FLOAT8            ON
+***********************************************************************************
+
+
+Symbolic Constants
+***********************************************************************************
+#define VERSION                 gamer-2.1.1.dev
+#define NCOMP_FLUID             3
+#define NCOMP_PASSIVE           0
+#define FLU_NIN                 2
+#define FLU_NOUT                3
+#define FLU_NIN_T               3
+#define FLU_NIN_S               3
+#define FLU_NOUT_S              3
+#define DER_NOUT_MAX            10
+#define NFIELD_STORED_MAX       50
+#define NFLUX_FLUID             1
+#define NFLUX_PASSIVE           0
+#define PATCH_SIZE              8
+#define MAX_PATCH               1000000
+#define NLEVEL                  10
+
+#define FLU_GHOST_SIZE          8
+#define SRC_GHOST_SIZE          0
+#define DER_GHOST_SIZE          1
+#define FLU_NXT                 32
+#define SRC_NXT                 8
+#define DER_NXT                 10
+#define SRC_NAUX_USER           10
+#define MAX_STRING              512
+#define TINY_NUMBER             2.22507385850720e-308
+#define HUGE_NUMBER             1.79769313486232e+308
+#define MAX_ERROR               1.00000000000000e-14
+***********************************************************************************
+
+
+Parameters of Simulation Scale
+***********************************************************************************
+BOX_SIZE (input)                1.00000000000000e+00
+BOX_SIZE_X                      1.00000000000000e+00
+BOX_SIZE_Y                      1.00000000000000e+00
+BOX_SIZE_Z                      2.50000000000000e-01
+BOX_SCALE_X                     32768
+BOX_SCALE_Y                     32768
+BOX_SCALE_Z                     8192
+NX0_TOT[0]                      64
+NX0_TOT[1]                      64
+NX0_TOT[2]                      16
+MPI_NRank                       32
+MPI_NRank_X[0]                  -1
+MPI_NRank_X[1]                  -1
+MPI_NRank_X[2]                  -1
+OMP_NTHREAD                     8
+END_T                           1.59154943091895e-01
+END_STEP                        4
+***********************************************************************************
+
+
+Parameters of Test Problems
+***********************************************************************************
+TESTPROB_ID                     1006
+***********************************************************************************
+
+
+Parameters of Code Units
+***********************************************************************************
+OPT__UNIT                       0
+***********************************************************************************
+
+
+Parameters of Boundary Condition
+***********************************************************************************
+OPT__BC_FLU[0] (-x)             1
+OPT__BC_FLU[1] (+x)             1
+OPT__BC_FLU[2] (-y)             1
+OPT__BC_FLU[3] (+y)             1
+OPT__BC_FLU[4] (-z)             1
+OPT__BC_FLU[5] (+z)             1
+***********************************************************************************
+
+
+Parameters of Time-step Determination
+***********************************************************************************
+DT__MAX                        -1.0000000e+00
+DT__FLUID                       2.0000000e-01
+DT__FLUID_INIT                  2.0000000e-01
+DT__PHASE                       0.0000000e+00
+DT__SYNC_PARENT_LV              1.0000000e-01
+DT__SYNC_CHILDREN_LV            1.0000000e-01
+OPT__DT_USER                    0
+OPT__DT_LEVEL                   3
+AUTO_REDUCE_DT                  1
+AUTO_REDUCE_DT_FACTOR           1.0000000e+00
+AUTO_REDUCE_DT_FACTOR_MIN       1.0000000e-01
+AUTO_REDUCE_INT_MONO_FACTOR     8.0000000e-01
+AUTO_REDUCE_INT_MONO_MIN        1.0000000e-02
+OPT__RECORD_DT                  1
+***********************************************************************************
+
+
+Parameters of Domain Refinement
+***********************************************************************************
+REGRID_COUNT                    4
+REFINE_NLEVEL                   1
+FLAG_BUFFER_SIZE                8
+FLAG_BUFFER_SIZE_MAXM1_LV       4
+FLAG_BUFFER_SIZE_MAXM2_LV       6
+MAX_LEVEL                       4
+OPT__FLAG_RHO                   1
+OPT__FLAG_RHO_GRADIENT          0
+OPT__FLAG_ENGY_DENSITY          0
+OPT__FLAG_SPECTRAL              0
+OPT__FLAG_LOHNER_DENS           0
+OPT__FLAG_LOHNER_FORM           LOHNER_FLASH2
+OPT__FLAG_USER                  0
+OPT__FLAG_USER_NUM              1
+OPT__FLAG_REGION                0
+OPT__NO_FLAG_NEAR_BOUNDARY      0
+OPT__PATCH_COUNT                1
+OPT__REUSE_MEMORY               2
+OPT__MEMORY_POOL                0
+***********************************************************************************
+
+
+Parameters of Parallelization
+***********************************************************************************
+Flu_ParaBuf                     8
+LB_WLI_MAX                      1.0000000e-01
+OPT__RECORD_LOAD_BALANCE        1
+OPT__LB_EXCHANGE_FATHER         0
+OPT__MINIMIZE_MPI_BARRIER       0
+***********************************************************************************
+
+
+Parameters of Source Terms
+***********************************************************************************
+SRC_ANY                         0
+SRC_DELEPTONIZATION             0
+SRC_USER                        0
+SRC_GPU_NPGROUP                 160
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in different models)
+***********************************************************************************
+ELBDM_MASS                      1.0000000e+00
+ELBDM_PLANCK_CONST              1.0000000e+00
+ELBDM_ETA                       1.0000000e+00
+ELBDM_TAYLOR3_COEFF             1.6666667e-01
+ELBDM_TAYLOR3_AUTO              0
+ELBDM_REMOVE_MOTION_CM          0
+ELBDM_BASE_SPECTRAL             0
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in all models)
+***********************************************************************************
+FLU_GPU_NPGROUP                 160
+GPU_NSTREAM                     1
+OPT__FIXUP_FLUX                 1
+OPT__FIXUP_RESTRICT             1
+OPT__CORR_AFTER_ALL_SYNC        2
+OPT__NORMALIZE_PASSIVE          0
+   Number of fields             0
+OPT__INT_FRAC_PASSIVE_LR        0
+   Number of fields             0
+OPT__OVERLAP_MPI                0
+OPT__RESET_FLUID                0
+OPT__RESET_FLUID_INIT           0
+OPT__FREEZE_FLUID               0
+MIN_DENS                        0.0000000e+00
+WITH_COARSE_FINE_FLUX           1
+MPI Thread Level                MPI_THREAD_SERIALIZED
+FFTW3_Double_OMP_Enabled        1
+FFTW3_Single_OMP_Enabled        1
+***********************************************************************************
+
+
+Parameters of Initialization
+***********************************************************************************
+OPT__INIT                       1
+RESTART_LOAD_NRANK              1
+OPT__RESTART_RESET              0
+OPT__UM_IC_LEVEL                0
+OPT__UM_IC_NLEVEL               1
+OPT__UM_IC_NVAR                 -1
+OPT__UM_IC_FORMAT               1
+OPT__UM_IC_DOWNGRADE            1
+OPT__UM_IC_REFINE               1
+OPT__UM_IC_LOAD_NRANK           1
+OPT__INIT_RESTRICT              1
+OPT__INIT_GRID_WITH_OMP         1
+OPT__GPUID_SELECT               -1
+INIT_SUBSAMPLING_NCELL          0
+OPT__FFTW_STARTUP               FFTW_ESTIMATE
+***********************************************************************************
+
+
+Parameters of Interpolation Schemes
+***********************************************************************************
+OPT__INT_TIME                   1
+OPT__INT_PHASE                  1
+OPT__RES_PHASE                  0
+SPEC_INT_TABLE_PATH             ./
+OPT__FLU_INT_SCHEME             CQUAR
+OPT__REF_FLU_INT_SCHEME         CQUAR
+INT_MONO_COEFF                  2.0000000e+00
+MONO_MAX_ITER                   10
+INT_OPP_SIGN_0TH_ORDER          0
+***********************************************************************************
+
+
+Parameters of Data Dump
+***********************************************************************************
+OPT__OUTPUT_TOTAL               0
+OPT__OUTPUT_PART                0
+OPT__OUTPUT_USER                1
+OPT__OUTPUT_TEXT_FORMAT_FLT     %24.16e
+OPT__OUTPUT_BASEPS              0
+OPT__OUTPUT_BASE                0
+OPT__OUTPUT_USER_FIELD          0
+OPT__OUTPUT_MODE                2
+OPT__OUTPUT_RESTART             0
+OUTPUT_STEP                     5
+OUTPUT_DT                       8.00000000000000e-03
+OUTPUT_WALLTIME                 -1.00000000000000e+00
+OUTPUT_WALLTIME_UNIT            0
+OUTPUT_PART_X                   5.00000000000000e-01
+OUTPUT_PART_Y                   5.00000000000000e-01
+OUTPUT_PART_Z                   0.00000000000000e+00
+INIT_DUMPID                     -1
+***********************************************************************************
+
+
+Parameters of Miscellaneous Purposes
+***********************************************************************************
+OPT__VERBOSE                    0
+OPT__TIMING_BARRIER             0
+OPT__TIMING_BALANCE             0
+OPT__TIMING_MPI                 0
+OPT__RECORD_NOTE                1
+OPT__RECORD_UNPHY               1
+OPT__RECORD_MEMORY              1
+OPT__RECORD_PERFORMANCE         1
+OPT__MANUAL_CONTROL             1
+OPT__RECORD_USER                0
+OPT__OPTIMIZE_AGGRESSIVE        0
+OPT__SORT_PATCH_BY_LBIDX        1
+***********************************************************************************
+
+
+Parameters of Simulation Checks
+***********************************************************************************
+OPT__CK_REFINE                  0
+OPT__CK_PROPER_NESTING          0
+OPT__CK_CONSERVATION            1
+OPT__CK_NORMALIZE_PASSIVE       0
+OPT__CK_RESTRICT                0
+OPT__CK_FINITE                  0
+OPT__CK_PATCH_ALLOCATE          0
+OPT__CK_FLUX_ALLOCATE           0
+OPT__CK_MEMFREE                 1.0000000e+00
+OPT__CK_INPUT_FLUID             0
+***********************************************************************************
+
+
+Flag Criterion (Density)
+***********************************************************************************
+  Level             Density
+      0       0.0000000e+00
+      1       0.0000000e+00
+      2       0.0000000e+00
+      3       0.0000000e+00
+***********************************************************************************
+
+
+Cell Size and Scale (scale = number of cells at the finest level)
+***********************************************************************************
+  Level                           Cell Size                Cell Scale
+      0              0.01562500000000000000                       512
+      1              0.00781250000000000000                       256
+      2              0.00390625000000000000                       128
+      3              0.00195312500000000000                        64
+      4              0.00097656250000000000                        32
+      5              0.00048828125000000000                        16
+      6              0.00024414062500000000                         8
+      7              0.00012207031250000000                         4
+      8              0.00006103515625000000                         2
+      9              0.00003051757812500000                         1
+***********************************************************************************
+
+
+Compilation Time
+***********************************************************************************
+Jul 14 2024 18:58:11
+***********************************************************************************
+
+
+Current Time
+***********************************************************************************
+Sun Jul 14 19:51:29 2024
+***********************************************************************************
+
+
+Git information
+***********************************************************************************
+Branch : spectral_refinement_v2
+Commit : 045fdaa9447e195c173896877afecd6662deee56
+***********************************************************************************
+
+
+Device Diagnosis
+***********************************************************************************
+MPI_Rank =   0, hostname =    spock12, PID = 531546
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   1, hostname =    spock12, PID = 531547
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   2, hostname =    spock12, PID = 531548
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   3, hostname =    spock12, PID = 531549
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   4, hostname =    spock13, PID = 406432
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 2771.092
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   5, hostname =    spock13, PID = 406433
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   6, hostname =    spock13, PID = 406434
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   7, hostname =    spock13, PID = 406435
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   8, hostname =    spock14, PID = 404903
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 2477.925
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   9, hostname =    spock14, PID = 404904
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  10, hostname =    spock14, PID = 404905
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  11, hostname =    spock14, PID = 404906
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  12, hostname =    spock23, PID = 383817
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3478.165
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  13, hostname =    spock23, PID = 383818
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  14, hostname =    spock23, PID = 383819
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  15, hostname =    spock23, PID = 383820
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  16, hostname =    spock24, PID = 383455
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.034
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  17, hostname =    spock24, PID = 383456
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.034
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  18, hostname =    spock24, PID = 383457
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.034
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  19, hostname =    spock24, PID = 383458
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.034
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  20, hostname =    spock25, PID = 373426
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 2796.335
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  21, hostname =    spock25, PID = 373427
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  22, hostname =    spock25, PID = 373428
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  23, hostname =    spock25, PID = 373429
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  24, hostname =    spock26, PID = 369309
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3465.661
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  25, hostname =    spock26, PID = 369310
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  26, hostname =    spock26, PID = 369311
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  27, hostname =    spock26, PID = 369312
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  28, hostname =    spock27, PID = 384458
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4029.864
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  29, hostname =    spock27, PID = 384459
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  30, hostname =    spock27, PID = 384460
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  31, hostname =    spock27, PID = 384461
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+***********************************************************************************
+
+
+OpenMP Diagnosis
+***********************************************************************************
+OMP__SCHEDULE                   DYNAMIC
+OMP__SCHEDULE_CHUNK_SIZE        1
+OMP__NESTED                     OFF
+
+CPU core IDs of all OpenMP threads (tid == thread ID):
+------------------------------------------------------------------------
+ Rank        Host  NThread  tid-00  tid-01  tid-02  tid-03  tid-04  tid-05  tid-06  tid-07
+    0     spock12        8       7      33       2      35       4      32      38      37
+    1     spock12        8      15      40      41      13      14      11      10      44
+    2     spock12        8      55      16      49      54      50      51      52      53
+    3     spock12        8      63      56      61      60      62      57      58      59
+    4     spock13        8       7      32       4      37      38      33      34      35
+    5     spock13        8      15       8      12      45      46      41      42      43
+    6     spock13        8      23      48      50      51      54      49      52      53
+    7     spock13        8      63      24      60      61      62      58      57      27
+    8     spock14        8       7      32      36      37      38      33      34      35
+    9     spock14        8      15      40      44      45      46      42      41      43
+   10     spock14        8      55      53      49      50      54      51      48      52
+   11     spock14        8      63      24      60      61      62      57      58      59
+   12     spock23        8       7      32      36      37      38      33      34      35
+   13     spock23        8      15      40      43      45      46      41      42      44
+   14     spock23        8      55      48      49      50      51      52      54      53
+   15     spock23        8      63      24      60      61      62      57      58      59
+   16     spock24        8       7       0      37      38      34      33      35      36
+   17     spock24        8      15       8       9      45      46      42      43      44
+   18     spock24        8      23      49      50      51      52      53      54      16
+   19     spock24        8      63      56      59      62      60      57      61      58
+   20     spock25        8       7      32      36       6      37      33      34      35
+   21     spock25        8      15      40      45      46      44      41      42      43
+   22     spock25        8      23      49      52      53      48      50      54      51
+   23     spock25        8      63      56      60      61      62      57      58      59
+   24     spock26        8       7      34      37      38      32      33      35      36
+   25     spock26        8      15      40      44      45      46      41      42      43
+   26     spock26        8      23      49      50      52      53      51      54      48
+   27     spock26        8      63      62      56      58      57      59      60      61
+   28     spock27        8       7      32      36      37      38      33      34      35
+   29     spock27        8      15      40      44      45      46      42      41      43
+   30     spock27        8      23      48      49      52      51      53      54      18
+   31     spock27        8      63      56      60      61      62      57      58      59
+***********************************************************************************
+
+
+
+Total Processing Time : 382.989073 s
+

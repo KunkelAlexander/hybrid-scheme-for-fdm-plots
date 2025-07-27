@@ -1,0 +1,2199 @@
+
+***** Working on data ../../Data_000049 ... *****
+
+***** Working on data ../../Data_000049 ... *****
+
+***** Working on data ../../Data_000049 ... *****
+[eureka31:71493] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka31:71493] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka31:71493] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka31:71493] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+
+***** Working on data ../../Data_000049 ... *****
+LoadData_HDF5 ...
+LoadData_HDF5 ...
+LoadData_HDF5 ...
+LoadData_HDF5 ...
+   Loading simulation information ...
+   Loading simulation information ...
+   Loading simulation information ...
+   Loading simulation information ...
+      The format version of the HDF5 RESTART file = 2455
+      The format version of the HDF5 RESTART file = 2455
+      The format version of the HDF5 RESTART file = 2455
+      The format version of the HDF5 RESTART file = 2455
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+        0.0% completed ...
+        0.0% completed ...
+        0.0% completed ...
+        0.0% completed ...
+        9.4% completed ...
+        9.4% completed ...
+        9.4% completed ...
+        9.4% completed ...
+       18.8% completed ...
+       18.8% completed ...
+       18.8% completed ...
+       18.8% completed ...
+       28.1% completed ...
+       28.1% completed ...
+       28.1% completed ...
+       28.1% completed ...
+       37.5% completed ...
+       37.5% completed ...
+       37.5% completed ...
+       37.5% completed ...
+       46.9% completed ...
+       46.9% completed ...
+       46.9% completed ...
+       46.9% completed ...
+       56.2% completed ...
+       56.2% completed ...
+       56.2% completed ...
+       65.6% completed ...
+       56.2% completed ...
+       75.0% completed ...
+       65.6% completed ...
+       65.6% completed ...
+       75.0% completed ...
+       65.6% completed ...
+       75.0% completed ...
+       84.4% completed ...
+       75.0% completed ...
+       93.8% completed ...
+       84.4% completed ...
+       84.4% completed ...
+       84.4% completed ...
+       93.8% completed ...
+       93.8% completed ...
+       93.8% completed ...
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+   GetMinShellWidth ...
+   GetMinShellWidth ...
+      Minimum distance = 1.3815096e+02
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ...
+      Minimum distance = 1.3815096e+02
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ...
+   GOOD : No high density points (> 2.1951137e+00) were found outside the target region
+   ===================================================================================
+   Maximum density:
+   Ranking  Lv  (            x,             y,             z)        Density
+         0   1  (5.9062500e-01, 7.2187500e-01, 1.4218750e+00)  2.4329453e+00
+         1   1  (5.9062500e-01, 6.7812500e-01, 1.4656250e+00)  2.4286602e+00
+         2   1  (5.9062500e-01, 6.7812500e-01, 1.4218750e+00)  2.3313093e+00
+         3   1  (6.3437500e-01, 6.3437500e-01, 1.4218750e+00)  2.3179007e+00
+         4   1  (5.4687500e-01, 6.7812500e-01, 1.4656250e+00)  2.2591126e+00
+         5   1  (6.3437500e-01, 6.3437500e-01, 1.3781250e+00)  2.2251446e+00
+         6   1  (5.9062500e-01, 7.2187500e-01, 1.3781250e+00)  2.2233636e+00
+         7   1  (5.9062500e-01, 6.3437500e-01, 1.4656250e+00)  2.1951137e+00
+
+   New center: (5.9605155e-01, 6.7317859e-01, 1.4276590e+00)
+   ===================================================================================
+   GOOD : No high density points (> 2.1951137e+00) were found outside the target region
+   ===================================================================================
+   Maximum density:
+   Ranking  Lv  (            x,             y,             z)        Density
+         0   1  (5.9062500e-01, 7.2187500e-01, 1.4218750e+00)  2.4329453e+00
+         1   1  (5.9062500e-01, 6.7812500e-01, 1.4656250e+00)  2.4286602e+00
+         2   1  (5.9062500e-01, 6.7812500e-01, 1.4218750e+00)  2.3313093e+00
+         3   1  (6.3437500e-01, 6.3437500e-01, 1.4218750e+00)  2.3179007e+00
+         4   1  (5.4687500e-01, 6.7812500e-01, 1.4656250e+00)  2.2591126e+00
+         5   1  (6.3437500e-01, 6.3437500e-01, 1.3781250e+00)  2.2251446e+00
+         6   1  (5.9062500e-01, 7.2187500e-01, 1.3781250e+00)  2.2233636e+00
+         7   1  (5.9062500e-01, 6.3437500e-01, 1.4656250e+00)  2.1951137e+00
+
+   New center: (5.9605155e-01, 6.7317859e-01, 1.4276590e+00)
+   ===================================================================================
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+   GetMinShellWidth ...
+      Minimum distance = 1.3815096e+02
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ...
+   GOOD : No high density points (> 2.1951137e+00) were found outside the target region
+   ===================================================================================
+   Maximum density:
+   Ranking  Lv  (            x,             y,             z)        Density
+         0   1  (5.9062500e-01, 7.2187500e-01, 1.4218750e+00)  2.4329453e+00
+         1   1  (5.9062500e-01, 6.7812500e-01, 1.4656250e+00)  2.4286602e+00
+         2   1  (5.9062500e-01, 6.7812500e-01, 1.4218750e+00)  2.3313093e+00
+         3   1  (6.3437500e-01, 6.3437500e-01, 1.4218750e+00)  2.3179007e+00
+         4   1  (5.4687500e-01, 6.7812500e-01, 1.4656250e+00)  2.2591126e+00
+         5   1  (6.3437500e-01, 6.3437500e-01, 1.3781250e+00)  2.2251446e+00
+         6   1  (5.9062500e-01, 7.2187500e-01, 1.3781250e+00)  2.2233636e+00
+         7   1  (5.9062500e-01, 6.3437500e-01, 1.4656250e+00)  2.1951137e+00
+
+   New center: (5.9605155e-01, 6.7317859e-01, 1.4276590e+00)
+   ===================================================================================
+LoadData_HDF5 ...
+   Loading simulation information ...
+LoadData_HDF5 ...
+   Loading simulation information ...
+LoadData_HDF5 ...
+   Loading simulation information ...
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+      The format version of the HDF5 RESTART file = 2455
+   GetMinShellWidth ...
+      The format version of the HDF5 RESTART file = 2455
+      The format version of the HDF5 RESTART file = 2455
+      Minimum distance = 1.3815096e+02
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ...
+   GOOD : No high density points (> 2.1951137e+00) were found outside the target region
+   ===================================================================================
+   Maximum density:
+   Ranking  Lv  (            x,             y,             z)        Density
+         0   1  (5.9062500e-01, 7.2187500e-01, 1.4218750e+00)  2.4329453e+00
+         1   1  (5.9062500e-01, 6.7812500e-01, 1.4656250e+00)  2.4286602e+00
+         2   1  (5.9062500e-01, 6.7812500e-01, 1.4218750e+00)  2.3313093e+00
+         3   1  (6.3437500e-01, 6.3437500e-01, 1.4218750e+00)  2.3179007e+00
+         4   1  (5.4687500e-01, 6.7812500e-01, 1.4656250e+00)  2.2591126e+00
+         5   1  (6.3437500e-01, 6.3437500e-01, 1.3781250e+00)  2.2251446e+00
+         6   1  (5.9062500e-01, 7.2187500e-01, 1.3781250e+00)  2.2233636e+00
+         7   1  (5.9062500e-01, 6.3437500e-01, 1.4656250e+00)  2.1951137e+00
+
+   New center: (5.9605155e-01, 6.7317859e-01, 1.4276590e+00)
+   ===================================================================================
+LoadData_HDF5 ...
+   Loading simulation information ...
+      The format version of the HDF5 RESTART file = 2455
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+        0.0% completed ...
+        9.4% completed ...
+   Loading simulation information ... done
+   Loading corner table ...
+       18.8% completed ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+        0.0% completed ...
+       28.1% completed ...
+        9.4% completed ...
+       37.5% completed ...
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+       46.9% completed ...
+        0.0% completed ...
+       18.8% completed ...
+   Loading simulation information ... done
+   Loading corner table ...
+   Loading corner table ... done
+   Loading son table ...
+   Loading son table ... done
+   Loading patches ...
+        0.0% completed ...
+       56.2% completed ...
+       28.1% completed ...
+        9.4% completed ...
+        9.4% completed ...
+       65.6% completed ...
+       75.0% completed ...
+       84.4% completed ...
+       37.5% completed ...
+       93.8% completed ...
+       18.8% completed ...
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+       46.9% completed ...
+       28.1% completed ...
+   GetMinShellWidth ...
+       18.8% completed ...
+      Minimum distance = 5.4694147e+01
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ... done
+TakeNote ... 
+======================================================================================
+
+Command-line arguments :
+ ./GAMER_ExtractProfile -i ../../Data_000049 -o _000049 -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+
+MODEL            =          ELBDM
+FLOAT8           =            OFF
+GAMER_DEBUG      =            OFF
+SUPPORT_HDF5     =             ON
+NCOMP_FLUID      =              3
+NCOMP_PASSIVE    =              0
+DumpID           =             49
+Time             =  5.6204679e-01
+Step             =            509
+NX0_TOT[0]       =             32
+NX0_TOT[1]       =             32
+NX0_TOT[2]       =             32
+NIn              =              3
+NOut             =              3
+Center_x         =  5.9605155e-01
+Center_y         =  6.7317859e-01
+Center_z         =  1.4276590e+00
+MappedCenter_x   =  3.3960516e+00
+MappedCenter_y   =  3.4731786e+00
+MappedCenter_z   = -1.3723410e+00
+       56.2% completed ...
+Radius           =  1.0000000e-01
+UseMaxRhoPos     =              8
+UseMaxRhoPos_R   =  1.0000000e-01
+UseMaxRhoPos_Par =              0
+Periodic         =              1
+InputScale       =              0
+LogBin           =  0.0000000e+00
+GetNShell        =  1.0000000e+00
+NShell           =              3
+ShellWidth       =  4.3750000e-02
+RhoThres         = -9.9999900e+05
+OutputPot        =  NO
+OutputParDens    =  0
+OutputCenter     =  NO
+NeedGhost        =  NO
+UseTree          =  NO
+FileName_Tree    =  (null)
+IntScheme        =  CQUAR
+ELBDM_IntPhase   =  YES
+ELBDM_GetVir     =  NO
+ELBDM_ETA        =  1.5496075e+03
+INT_MONO_COEFF   =  2.0000000e+00
+GetAvePot        =  NO
+======================================================================================
+TakeNote ... done
+CheckParameter ... done
+Init_ShellAve ... done
+Evaluating the shell average ...
+   Level 0 ... done
+       28.1% completed ...
+       37.5% completed ...
+       65.6% completed ...
+       75.0% completed ...
+   Level 1 ... done
+       46.9% completed ...
+       84.4% completed ...
+   Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Evaluating the RMS ...
+   Level 0 ... done
+       93.8% completed ...
+       56.2% completed ...
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+   Level 1 ... done
+       37.5% completed ...
+       65.6% completed ...
+       75.0% completed ...
+   GetMinShellWidth ...
+   Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Output_ShellAve ...        84.4% completed ...
+      Minimum distance = 5.4694147e+01
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ... done
+TakeNote ... 
+======================================================================================
+
+Command-line arguments :
+ ./GAMER_ExtractProfile -i ../../Data_000049 -o _000049 -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+
+MODEL            =          ELBDM
+FLOAT8           =            OFF
+GAMER_DEBUG      =            OFF
+SUPPORT_HDF5     =             ON
+NCOMP_FLUID      =              3
+NCOMP_PASSIVE    =              0
+DumpID           =             49
+Time             =  5.6204679e-01
+Step             =            509
+NX0_TOT[0]       =             32
+NX0_TOT[1]       =             32
+NX0_TOT[2]       =             32
+NIn              =              3
+NOut             =              3
+Center_x         =  5.9605155e-01
+Center_y         =  6.7317859e-01
+Center_z         =  1.4276590e+00
+MappedCenter_x   =  3.3960516e+00
+MappedCenter_y   =  3.4731786e+00
+       46.9% completed ...
+MappedCenter_z   = -1.3723410e+00
+Radius           =  1.0000000e-01
+UseMaxRhoPos     =              8
+UseMaxRhoPos_R   =  1.0000000e-01
+UseMaxRhoPos_Par =              0
+Periodic         =              1
+InputScale       =              0
+LogBin           =  0.0000000e+00
+GetNShell        =  1.0000000e+00
+NShell           =              3
+ShellWidth       =  4.3750000e-02
+RhoThres         = -9.9999900e+05
+OutputPot        =  NO
+       93.8% completed ...
+OutputParDens    =  0
+OutputCenter     =  NO
+NeedGhost        =  NO
+UseTree          =  NO
+FileName_Tree    =  (null)
+IntScheme        =  CQUAR
+ELBDM_IntPhase   =  YES
+ELBDM_GetVir     =  NO
+ELBDM_ETA        =  1.5496075e+03
+INT_MONO_COEFF   =  2.0000000e+00
+GetAvePot        =  NO
+======================================================================================
+TakeNote ... done
+CheckParameter ... done
+Init_ShellAve ... done
+Evaluating the shell average ...
+   Level 0 ... done
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+   GetMinShellWidth ...
+   Level 1 ... done
+       56.2% completed ...
+      Minimum distance = 5.4694147e+01
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ... done
+TakeNote ... 
+======================================================================================
+
+Command-line arguments :
+ ./GAMER_ExtractProfile -i ../../Data_000049 -o _000049 -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+
+MODEL            =          ELBDM
+FLOAT8           =            OFF
+GAMER_DEBUG      =            OFF
+SUPPORT_HDF5     =             ON
+NCOMP_FLUID      =              3
+NCOMP_PASSIVE    =              0
+DumpID           =             49
+Time             =  5.6204679e-01
+Step             =            509
+NX0_TOT[0]       =             32
+NX0_TOT[1]       =             32
+NX0_TOT[2]       =             32
+NIn              =              3
+NOut             =              3
+Center_x         =  5.9605155e-01
+Center_y         =  6.7317859e-01
+Center_z         =  1.4276590e+00
+MappedCenter_x   =  3.3960516e+00
+MappedCenter_y   =  3.4731786e+00
+MappedCenter_z   = -1.3723410e+00
+Radius           =  1.0000000e-01
+UseMaxRhoPos     =              8
+UseMaxRhoPos_R   =  1.0000000e-01
+UseMaxRhoPos_Par =              0
+Periodic         =              1
+InputScale       =              0
+LogBin           =  0.0000000e+00
+GetNShell        =  1.0000000e+00
+   Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+NShell           =              3
+ShellWidth       =  4.3750000e-02
+RhoThres         = -9.9999900e+05
+OutputPot        =  NO
+OutputParDens    =  0
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Evaluating the RMS ...
+   Level 0 ... done
+OutputCenter     =  NO
+NeedGhost        =  NO
+UseTree          =  NO
+FileName_Tree    =  (null)
+IntScheme        =  CQUAR
+ELBDM_IntPhase   =  YES
+ELBDM_GetVir     =  NO
+ELBDM_ETA        =  1.5496075e+03
+INT_MONO_COEFF   =  2.0000000e+00
+GetAvePot        =  NO
+======================================================================================
+TakeNote ... done
+CheckParameter ... done
+Init_ShellAve ... done
+Evaluating the shell average ...
+   Level 0 ... done
+       65.6% completed ...
+   Level 1 ... done
+   Level 1 ... done
+done
+       75.0% completed ...
+   Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Output_ShellAve ...    Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+*** Error in `./GAMER_ExtractProfile': free(): invalid pointer: 0x000000000bc40bc0 ***
+Evaluating the RMS ...
+   Level 0 ... done
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81329)[0x7f3f5a474329]
+./GAMER_ExtractProfile[0x40415f]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f3f5a415555]
+./GAMER_ExtractProfile[0x4035a9]
+======= Memory map: ========
+00400000-0045d000 r-xp 00000000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065d000-0065e000 r--p 0005d000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065e000-00661000 rw-p 0005e000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+00661000-09ef9000 rw-p 00000000 00:00 0 
+0bba6000-0bf8b000 rw-p 00000000 00:00 0                                  [heap]
+7f3f4c000000-7f3f4c021000 rw-p 00000000 00:00 0 
+7f3f4c021000-7f3f50000000 ---p 00000000 00:00 0 
+7f3f53463000-7f3f53472000 r-xp 00000000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f3f53472000-7f3f53671000 ---p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f3f53671000-7f3f53672000 r--p 0000e000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f3f53672000-7f3f53673000 rw-p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f3f53673000-7f3f53698000 r-xp 00000000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f3f53698000-7f3f53897000 ---p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f3f53897000-7f3f53898000 r--p 00024000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f3f53898000-7f3f53899000 rw-p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f3f53899000-7f3f538b0000 r-xp 00000000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f3f538b0000-7f3f53aaf000 ---p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f3f53aaf000-7f3f53ab0000 r--p 00016000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f3f53ab0000-7f3f53ab1000 rw-p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f3f53ab1000-7f3f53ab5000 r-xp 00000000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f3f53ab5000-7f3f53cb4000 ---p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f3f53cb4000-7f3f53cb5000 r--p 00003000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f3f53cb5000-7f3f53cb6000 rw-p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f3f53cb6000-7f3f53d04000 r-xp 00000000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f3f53d04000-7f3f53f04000 ---p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f3f53f04000-7f3f53f06000 r--p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f3f53f06000-7f3f53f07000 rw-p 00050000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f3f53f07000-7f3f53f0b000 r-xp 00000000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f3f53f0b000-7f3f5410a000 ---p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f3f5410a000-7f3f5410b000 r--p 00003000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f3f5410b000-7f3f5410c000 rw-p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f3f5410c000-7f3f54170000 r-xp 00000000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f3f54170000-7f3f5436f000 ---p 00064000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f3f5436f000-7f3f54372000 r--p 00063000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f3f54372000-7f3f54377000 rw-p 00066000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f3f54377000-7f3f54379000 rw-p 00000000 00:00 0 
+7f3f54379000-7f3f54397000 r-xp 00000000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f3f54397000-7f3f54597000 ---p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f3f54597000-7f3f54599000 r--p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f3f54599000-7f3f5459a000 rw-p 00020000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f3f5459a000-7f3f5459c000 r-xp 00000000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f3f5459c000-7f3f5479b000 ---p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f3f5479b000-7f3f5479c000 r--p 00001000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f3f5479c000-7f3f5479d000 rw-p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f3f5479d000-7f3f547a4000 r-xp 00000000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f3f547a4000-7f3f549a3000 ---p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f3f549a3000-7f3f549a4000 r--p 00006000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f3f549a4000-7f3f549a5000 rw-p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f3f549a5000-7f3f549b9000 r-xp 00000000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f3f549b9000-7f3f54bb9000 ---p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f3f54bb9000-7f3f54bba000 r--p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f3f54bba000-7f3f54bbb000 rw-p 00015000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f3f54bbb000-7f3f54bd9000 r-xp 00000000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f3f54bd9000-7f3f54dd8000 ---p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f3f54dd8000-7f3f54dd9000 r--p 0001d000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f3f54dd9000-7f3f54dda000 rw-p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f3f54dda000-7f3f54df2000 r-xp 00000000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f3f54df2000-7f3f54ff1000 ---p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f3f54ff1000-7f3f54ff2000 r--p 00017000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f3f54ff2000-7f3f54ff3000 rw-p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f3f54ff3000-7f3f54ff4000 rw-p 00000000 00:00 0 
+7f3f54ff4000-7f3f5500c000 r-xp 00000000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f3f5500c000-7f3f5520b000 ---p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f3f5520b000-7f3f5520c000 r--p 00017000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f3f5520c000-7f3f5520d000 rw-p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f3f5520d000-7f3f5520e000 rw-p 00000000 00:00 0 
+7f3f5520e000-7f3f55218000 r-xp 00000000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f3f55218000-7f3f55418000 ---p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f3f55418000-7f3f55419000 r--p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f3f55419000-7f3f5541a000 rw-p 0000b000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f3f5541a000-7f3f55576000 r-xp 00000000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f3f55576000-7f3f55775000 ---p 0015c000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f3f55775000-7f3f55788000 r--p 0015b000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f3f55788000-7f3f55790000 rw-p 0016e000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f3f55790000-7f3f55798000 rw-p 00000000 00:00 0 
+7f3f55798000-7f3f557cb000 r-xp 00000000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f3f557cb000-7f3f559cb000 ---p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f3f559cb000-7f3f559cc000 r--p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f3f559cc000-7f3f559d0000 rw-p 00034000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f3f559d0000-7f3f55a6c000 r-xp 00000000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f3f55a6c000-7f3f55c6b000 ---p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f3f55c6b000-7f3f55c6c000 r--p 0009b000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f3f55c6c000-7f3f55c70000 rw-p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f3f55c70000-7f3f56059000 r-xp 00000000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f3f56059000-7f3f56258000 ---p 003e9000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f3f56258000-7f3f5625e000 r--p 003e8000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f3f5625e000-7f3f56274000 rw-p 003ee000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f3f56274000-7f3f56280000 rw-p 00000000 00:00 0 
+7f3f56280000-7f3f56281000 r-xp 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f3f56281000-7f3f56480000 ---p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f3f56480000-7f3f56481000 r--p 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f3f56481000-7f3f56482000 rw-p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f3f56482000-7f3f564b0000 r-xp 00000000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f3f564b0000-7f3f566b0000 ---p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f3f566b0000-7f3f566b1000 r--p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f3f566b1000-7f3f566b2000 rw       84.4% completed ...
+-p 0002f000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f3f566b2000-7f3f56786000 rw-p 00000000 00:00 0 
+7f3f56786000-7f3f56922000 r-xp 00000000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f3f56922000-7f3f56b21000 ---p 0019c000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f3f56b21000-7f3f56b23000 r--p 0019b000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f3f56b23000-7f3f56b2f000 rw-p 0019d000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f3f56b2f000-7f3f56b31000 rw-p 00000000 00:00 0 
+7f3f56b31000-7f3f56b48000 r-xp 00000000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f3f56b48000-7f3f56d47000 ---p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f3f56d47000-7f3f56d48000 r--p 00016000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f3f56d48000-7f3f56d49000 rw-p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f3f56d49000-7f3f56d4d000 rw-p 00000000 00:00 0 
+7f3f56d4d000-7f3f56dc1000 r-xp 00000000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f3f56dc1000-7f3f56fc1000 ---p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f3f56fc1000-7f3f56fc2000 r--p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f3f56fc2000-7f3f56fc3000 rw-p 00075000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f3f56fc3000-7f3f56fc5000 rw-p 00000000 00:00 0 
+7f3f56fc5000-7f3f5711c000 r-xp 00000000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f3f5711c000-7f3f5731b000 ---p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f3f5731b000-7f3f5731c000 r--p 00156000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f3f5731c000-7f3f5732f000 rw-p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f3f5732f000-7f3f5900c000 r-xp 00000000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f3f5900c000-7f3f5920b000 ---p 01cdd000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f3f5920b000-7f3f592c2000 r--p 01cdc000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f3f592c2000-7f3f5931b000 rw-p 01d93000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f3f5931b000-7f3f5972c000 r-xp 00000000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f3f5972c000-7f3f5992b000 ---p 00411000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f3f5992b000-7f3f59932000 r--p 00410000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f3f59932000-7f3f599a9000 rw-p 00417000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f3f599a9000-7f3f59d8f000 r-xp 00000000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f3f59d8f000-7f3f59f8e000 ---p 003e6000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f3f59f8e000-7f3f59f92000 r--p 003e5000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f3f59f92000-7f3f59fc1000 rw-p 003e9000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f3f59fc1000-7f3f59fd9000 rw-p 00000000 00:00 0 
+7f3f59fd9000-7f3f59fee000 r-xp 00000000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f3f59fee000-7f3f5a1ed000 ---p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f3f5a1ed000-7f3f5a1ee000 r--p 00014000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f3f5a1ee000-7f3f5a1ef000 rw-p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f3f5a1ef000-7f3f5a1f1000 r-xp 00000000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f3f5a1f1000-7f3f5a3f1000 ---p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f3f5a3f1000-7f3f5a3f2000 r--p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f3f5a3f2000-7f3f5a3f3000 rw-p 00003000Warning : the file "AveDens_000049" already exists and will be overwritten !!
+ fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f3f5a3f3000-7f3f5a4e8000 r-xp 00000000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a4e8000-7f3f5a4e9000 r-xp 000f5000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a4e9000-7f3f5a4eb000 r-xp 000f6000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a4eb000-7f3f5a4ed000 r-xp 000f8000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a4ed000-7f3f5a4f2000 r-xp 000fa000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a4f2000-7f3f5a4f4000 r-xp 000ff000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a4f4000-7f3f5a5b7000 r-xp 00101000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a5b7000-7f3f5a7b6000 ---p 001c4000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a7b6000-7f3f5a7ba000 r--p 001c3000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a7ba000-7f3f5a7bc000 rw-p 001c7000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f3f5a7bc000-7f3f5a7c1000 rw-p 00000000 00:00 0 
+7f3f5a7c1000-7f3f5a7d8000 r-xp 00000000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f3f5a7d8000-7f3f5a9d7000 ---p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f3f5a9d7000-7f3f5a9d8000 r--p 00016000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f3f5a9d8000-7f3f5a9d9000 rw-p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f3f5a9d9000-7f3f5aada000 r-xp 00000000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f3f5aada000-7f3f5acd9000 ---p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f3f5acd9000-7f3f5acda000 r--p 00100000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f3f5acda000-7f3f5acdb000 rw-p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f3f5acdb000-7f3f5aea4000 r-xp 00000000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f3f5aea4000-7f3f5b0a4000 ---p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f3f5b0a4000-7f3f5b0af000 r--p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f3f5b0af000-7f3f5b0b2000 rw-p 001d4000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f3f5b0b2000-7f3f5b0b5000 rw-p 00000000 00:00 0 
+7f3f5b0b5000-7f3f5b581000 r-xp 00000000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f3f5b581000-7f3f5b781000 ---p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f3f5b781000-7f3f5b78b000 r--p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f3f5b78b000-7f3f5b796000 rw-p 004d6000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f3f5b796000-7f3f5b799000 rw-p 00000000 00:00 0 
+7f3f5b799000-7f3f5b7bb000 r-xp 00000000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f3f5b8e5000-7f3f5b98b000 rw-p 00000000 00:00 0 
+7f3f5b993000-7f3f5b9ba000 rw-p 00000000 00:00 0 
+7f3f5b9ba000-7f3f5b9bb000 r--p 00021000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f3f5b9bb000-7f3f5b9bc000 rw-p 00022000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f3f5b9bc000-7f3f5b9bd000 rw-p 00000000 00:00 0 
+7ffe5c74e000-7ffe5c770000 rw-p 00000000 00:00 0                          [stack]
+7ffe5c7f6000-7ffe5c7f8000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+       93.8% completed ...
+   Level 1 ... done
+
+      Lv  0:         64 patches loaded
+      Lv  1:        512 patches loaded
+      Lv  2:        640 patches loaded
+      Lv  3:        712 patches loaded
+      Lv  4:       1384 patches loaded
+      Lv  5:       3312 patches loaded
+      Lv  6:       1656 patches loaded
+      Lv  7:          0 patches loaded
+      Lv  8:          0 patches loaded
+   Level 2 ... done
+   Level 3 ... done
+      Lv  9:          0 patches loaded
+
+   Loading patches ... done
+   Level 4 ... done
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Output_ShellAve ... Warning : the file "AveReal_000049" already exists and will be overwritten !!
+Warning : the file "AveDens_000049" already exists and will be overwritten !!
+   GetMinShellWidth ...
+      Minimum distance = 5.4694147e+01
+      Level            = 1
+      Shell scale      = 2.5600000e+02
+   GetMinShellWidth ... done
+LoadData_HDF5 ... done
+SetMaxRhoPos ... done
+TakeNote ... 
+======================================================================================
+
+Command-line arguments :
+ ./GAMER_ExtractProfile -i ../../Data_000049 -o _000049 -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+
+MODEL            =          ELBDM
+FLOAT8           =            OFF
+GAMER_DEBUG      =            OFF
+SUPPORT_HDF5     =             ON
+NCOMP_FLUID      =              3
+NCOMP_PASSIVE    =              0
+DumpID           =             49
+Time             =  5.6204679e-01
+Step             =            509
+NX0_TOT[0]       =             32
+NX0_TOT[1]       =             32
+NX0_TOT[2]       =             32
+NIn              =              3
+Warning : the file "AveImag_000049" already exists and will be overwritten !!
+Warning : the file "AveReal_000049" already exists and will be overwritten !!
+NOut             =              3
+Center_x         =  5.9605155e-01
+Center_y         =  6.7317859e-01
+Center_z         =  1.4276590e+00
+MappedCenter_x   =  3.3960516e+00
+MappedCenter_y   =  3.4731786e+00
+MappedCenter_z   = -1.3723410e+00
+Radius           =  1.0000000e-01
+UseMaxRhoPos     =              8
+UseMaxRhoPos_R   =  1.0000000e-01
+UseMaxRhoPos_Par =              0
+Periodic         =              1
+InputScale       =              0
+LogBin           =  0.0000000e+00
+GetNShell        =  1.0000000e+00
+NShell           =              3
+ShellWidth       =  4.3750000e-02
+RhoThres         = -9.9999900e+05
+OutputPot        =  NO
+OutputParDens    =  0
+OutputCenter     =  NO
+NeedGhost        =  NO
+UseTree          =  NO
+FileName_Tree    =  (null)
+IntScheme        =  CQUAR
+ELBDM_IntPhase   =  YES
+ELBDM_GetVir     =  NO
+ELBDM_ETA        =  1.5496075e+03
+INT_MONO_COEFF   =  2.0000000e+00
+GetAvePot        =  NO
+======================================================================================
+TakeNote ... done
+CheckParameter ... done
+Init_ShellAve ... done
+Evaluating the shell average ...
+   Level 0 ... done
+done
+Warning : the file "AveImag_000049" already exists and will be overwritten !!
+*** Error in `./GAMER_ExtractProfile': free(): invalid pointer: 0x000000000ba06bc0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81329)[0x7f26c445e329]
+./GAMER_ExtractProfile[0x40415f]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f26c43ff555]
+./GAMER_ExtractProfile[0x4035a9]
+======= Memory map: ========
+00400000-0045d000 r-xp 00000000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065d000-0065e000 r--p 0005d000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065e000-00661000 rw-p 0005e000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+00661000-09ef9000 rw-p 00000000 00:00 0 
+0b96c000-0bd51000 rw-p 00000000 00:00 0                                  [heap]
+7f26b8000000-7f26b8021000 rw-p 00000000 00:00 0 
+7f26b8021000-7f26bc000000 ---p 00000000 00:00 0 
+7f26bd44d000-7f26bd45c000 r-xp 00000000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f26bd45c000-7f26bd65b000 ---p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f26bd65b000-7f26bd65c000 r--p 0000e000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f26bd65c000-7f26bd65d000 rw-p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f26bd65d000-7f26bd682000 r-xp 00000000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f26bd682000-7f26bd881000 ---p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f26bd881000-7f26bd882000 r--p 00024000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f26bd882000-7f26bd883000 rw-p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f26bd883000-7f26bd89a000 r-xp 00000000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f26bd89a000-7f26bda99000 ---p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f26bda99000-7f26bda9a000 r--p 00016000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f26bda9a000-7f26bda9b000 rw-p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f26bda9b000-7f26bda9f000 r-xp 00000000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f26bda9f000-7f26bdc9e000 ---p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f26bdc9e000-7f26bdc9f000 r--p 00003000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f26bdc9f000-7f26bdca0000 rw-p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f26bdca0000-7f26bdcee000 r-xp 00000000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f26bdcee000-7f26bdeee000 ---p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f26bdeee000-7f26bdef0000 r--p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f26bdef0000-7f26bdef1000 rw-p 00050000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f26bdef1000-7f26bdef5000 r-xp 00000000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f26bdef5000-7f26be0f4000 ---p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f26be0f4000-7f26be0f5000 r--p 00003000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f26be0f5000-7f26be0f6000 rw-p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f26be0f6000-7f26be15a000 r-xp 00000000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f26be15a000-7f26be359000 ---p 00064000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f26be359000-7f26be35c000 r--p 00063000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f26be35c000-7f26be361000 rw-p 00066000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f26be361000-7f26be363000 rw-p 00000000 00:00 0 
+7f26be363000-7f26be381000 r-xp 00000000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f26be381000-7f26be581000 ---p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f26be581000-7f26be583000 r--p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f26be583000-7f26be584000 rw-p 00020000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f26be584000-7f26be586000 r-xp 00000000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f26be586000-7f26be785000 ---p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f26be785000-7f26be786000 r--p 00001000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f26be786000-7f26be787000 rw-p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f26be787000-7f26be78e000 r-xp 00000000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f26be78e000-7f26be98d000 ---p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f26be98d000-7f26be98e000 r--p 00006000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f26be98e000-7f26be98f000 rw-p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f26be98f000-7f26be9a3000 r-xp 00000000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f26be9a3000-7f26beba3000 ---p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f26beba3000-7f26beba4000 r--p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f26beba4000-7f26beba5000 rw-p 00015000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f26beba5000-7f26bebc3000 r-xp 00000000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f26bebc3000-7f26bedc2000 ---p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f26bedc2000-7f26bedc3000 r--p 0001d000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f26bedc3000-7f26bedc4000 rw-p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f26bedc4000-7f26beddc000 r-xp 00000000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f26beddc000-7f26befdb000 ---p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f26befdb000-7f26befdc000 r--p 00017000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f26befdc000-7f26befdd000 rw-p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f26befdd000-7f26befde000 rw-p 00000000 00:00 0 
+7f26befde000-7f26beff6000 r-xp 00000000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f26beff6000-7f26bf1f5000 ---p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f26bf1f5000-7f26bf1f6000 r--p 00017000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f26bf1f6000-7f26bf1f7000 rw-p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f26bf1f7000-7f26bf1f8000 rw-p 00000000 00:00 0 
+7f26bf1f8000-7f26bf202000 r-xp 00000000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f26bf202000-7f26bf402000 ---p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f26bf402000-7f26bf403000 r--p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f26bf403000-7f26bf404000 rw-p 0000b000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f26bf404000-7f26bf560000 r-xp 00000000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f26bf560000-7f26bf75f000 ---p 0015c000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f26bf75f000-7f26bf772000 r--p 0015b000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f26bf772000-7f26bf77a000 rw-p 0016e000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f26bf77a000-7f26bf782000 rw-p 00000000 00:00 0 
+7f26bf782000-7f26bf7b5000 r-xp 00000000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f26bf7b5000-7f26bf9b5000 ---p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f26bf9b5000-7f26bf9b6000 r--p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f26bf9b6000-7f26bf9ba000 rw-p 00034000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f26bf9ba000-7f26bfa56000 r-xp 00000000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f26bfa56000-7f26bfc55000 ---p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f26bfc55000-7f26bfc56000 r--p 0009b000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f26bfc56000-7f26bfc5a000 rw-p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f26bfc5a000-7f26c0043000 r-xp 00000000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f26c0043000-7f26c0242000 ---p 003e9000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f26c0242000-7f26c0248000 r--p 003e8000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f26c0248000-7f26c025e000 rw-p 003ee000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f26c025e000-7f26c026a000 rw-p 00000000 00:00 0 
+7f26c026a000-7f26c026b000 r-xp 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f26c026b000-7f26c046a000 ---p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f26c046a000-7f26c046b000 r--p 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f26c046b000-7f26c046c000 rw-p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f26c046c000-7f26c049a000 r-xp 00000000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f26c049a000-7f26c069a000 ---p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f26c069a000-7f26c069b000 r--p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f26c069b000-7f26c069c000 rw-p 0002f000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f26c069c000-7f26c0770000 rw-p 00000000 00:00 0 
+7f26c0770000-7f26c090c000 r-xp 00000000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f26c090c000-7f26c0b0b000 ---p 0019c000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f26c0b0b000-7f26c0b0d000 r--p 0019b000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f26c0b0d000-7f26c0b19000 rw-p 0019d000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f26c0b19000-7f26c0b1b000 rw-p 00000000 00:00 0 
+7f26c0b1b000-7f26c0b32000 r-xp 00000000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f26c0b32000-7f26c0d31000 ---p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f26c0d31000-7f26c0d32000 r--p 00016000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f26c0d32000-7f26c0d33000 rw-p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f26c0d33000-7f26c0d37000 rw-p 00000000 00:00 0 
+7f26c0d37000-7f26c0dab000 r-xp 00000000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f26c0dab000-7f26c0fab000 ---p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f26c0fab000-7f26c0fac000 r--p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f26c0fac000-7f26c0fad000 rw-p 00075000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f26c0fad000-7f26c0faf000 rw-p 00000000 00:00 0 
+7f26c0faf000-7f26c1106000 r-xp 00000000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f26c1106000-7f26c1305000 ---p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f26c1305000-7f26c1306000 r--p 00156000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f26c1306000-7f26c1319000 rw-p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f26c1319000-7f26c2ff6000 r-xp 00000000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f26c2ff6000-7f26c31f5000 ---p 01cdd000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f26c31f5000-7f26c32ac000 r--p 01cdc000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f26c32ac000-7f26c3305000 rw-p 01d93000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f26c3305000-7f26c3716000 r-xp 00000000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f26c3716000-7f26c3915000 ---p 00411000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f26c3915000-7f26c391c000 r--p 00410000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f26c391c000-7f26c3993000 rw-p 00417000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f26c3993000-7f26c3d79000 r-xp 00000000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f26c3d79000-7f26c3f78000 ---p 003e6000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f26c3f78000-7f26c3f7c000 r--p 003e5000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f26c3f7c000-7f26c3fab000 rw-p 003e9000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f26c3fab000-7f26c3fc3000 rw-p 00000000 00:00 0 
+7f26c3fc3000-7f26c3fd8000 r-xp 00000000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f26c3fd8000-7f26c41d7000 ---p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f26c41d7000-7f26c41d8000 r--p 00014000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f26c41d8000-7f26c41d9000 rw-p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f26c41d9000-7f26c41db000 r-xp 00000000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f26c41db000-7f26c43db000 ---p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f26c43db000-7f26c43dc000 r--p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f26c43dc000-7f26c43dd000 rw-p 00003000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f26c43dd000-7f26c44d2000 r-xp 00000000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c44d2000-7f26c44d3000 r-xp 000f5000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c44d3000-7f26c44d5000 r-xp 000f6000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c44d5000-7f26c44d7000 r-xp 000f8000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c44d7000-7f26c44dc000 r-xp 000fa000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c44dc000-7f26c44de000 r-xp 000ff000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c44de000-7f26c45a1000 r-xp 00101000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c45a1000-7f26c47a0000 ---p 001c4000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c47a0000-7f26c47a4000 r--p 001c3000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c47a4000-7f26c47a6000 rw-p 001c7000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f26c47a6000-7f26c47ab000 rw-p 00000000 00:00 0 
+7f26c47ab000-7f26c47c2000 r-xp 00000000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f26c47c2000-7f26c49c1000 ---p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f26c49c1000-7f26c49c2000 r--p 00016000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f26c49c2000-7f26c49c3000 rw-p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f26c49c3000-7f26c4ac4000 r-xp 00000000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f26c4ac4000-7f26c4cc3000 ---p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f26c4cc3000-7f26c4cc4000 r--p 00100000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f26c4cc4000-7f26c4cc5000 rw-p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f26c4cc5000-7f26c4e8e000 r-xp 00000000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f26c4e8e000-7f26c508e000 ---p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f26c508e000-7f26c5099000 r--p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f26c5099000-7f26c509c000 rw-p 001d4000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f26c509c000-7f26c509f000 rw-p 00000000 00:00 0 
+7f26c509f000-7f26c556b000 r-xp 00000000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f26c556b000-7f26c576b000 ---p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f26c576b000-7f26c5775000 r--p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f26c5775000-7f26c5780000 rw-p 004d6000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f26c5780000-7f26c5783000 rw-p 00000000 00:00 0 
+7f26c5783000-7f26c57a5000 r-xp 00000000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f26c58cf000-7f26c5975000 rw-p 00000000 00:00 0 
+7f26c597d000-7f26c59a4000 rw-p 00000000 00:00 0 
+7f26c59a4000-7f26c59a5000 r--p 00021000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f26c59a5000-7f26c59a6000 rw-p 00022000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f26c59a6000-7f26c59a7000 rw-p 00000000 00:00 0 
+7fffcbecb000-7fffcbeed000 rw-p 00000000 00:00 0                          [stack]
+7fffcbf57000-7fffcbf59000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+   Level 1 ... done
+done
+*** Error in `./GAMER_ExtractProfile': free(): invalid pointer: 0x000000000a400bc0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81329)[0x7f202b83f329]
+./GAMER_ExtractProfile[0x40415f]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f202b7e0555]
+./GAMER_ExtractProfile[0x4035a9]
+======= Memory map: ========
+00400000-0045d000 r-xp 00000000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065d000-0065e000 r--p 0005d000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065e000-00661000 rw-p 0005e000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+00661000-09ef9000 rw-p 00000000 00:00 0 
+0a366000-0a74b000 rw-p 00000000 00:00 0                                  [heap]
+7f2020000000-7f2020021000 rw-p 00000000 00:00 0 
+7f2020021000-7f2024000000 ---p 00000000 00:00 0 
+7f202482e000-7f202483d000 r-xp 00000000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f202483d000-7f2024a3c000 ---p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f2024a3c000-7f2024a3d000 r--p 0000e000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f2024a3d000-7f2024a3e000 rw-p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f2024a3e000-7f2024a63000 r-xp 00000000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f2024a63000-7f2024c62000 ---p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f2024c62000-7f2024c63000 r--p 00024000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f2024c63000-7f2024c64000 rw-p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f2024c64000-7f2024c7b000 r-xp 00000000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f2024c7b000-7f2024e7a000 ---p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f2024e7a000-7f2024e7b000 r--p 00016000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f2024e7b000-7f2024e7c000 rw-p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f2024e7c000-7f2024e80000 r-xp 00000000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f2024e80000-7f202507f000 ---p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f202507f000-7f2025080000 r--p 00003000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f2025080000-7f2025081000 rw-p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f2025081000-7f20250cf000 r-xp 00000000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f20250cf000-7f20252cf000 ---p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f20252cf000-7f20252d1000 r--p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f20252d1000-7f20252d2000 rw-p 00050000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f20252d2000-7f20252d6000 r-xp 00000000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f20252d6000-7f20254d5000 ---p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f20254d5000-7f20254d6000 r--p 00003000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f20254d6000-7f20254d7000 rw-p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f20254d7000-7f202553b000 r-xp 00000000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f202553b000-7f202573a000 ---p 00064000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f202573a000-7f202573d000 r--p 00063000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f202573d000-7f2025742000 rw-p 00066000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f2025742000-7f2025744000 rw-p 00000000 00:00 0 
+7f2025744000-7f2025762000 r-xp 00000000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f2025762000-7f2025962000 ---p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f2025962000-7f2025964000 r--p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f2025964000-7f2025965000 rw-p 00020000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f2025965000-7f2025967000 r-xp 00000000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f2025967000-7f2025b66000 ---p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f2025b66000-7f2025b67000 r--p 00001000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f2025b67000-7f2025b68000 rw-p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f2025b68000-7f2025b6f000 r-xp 00000000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f2025b6f000-7f2025d6e000 ---p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f2025d6e000-7f2025d6f000 r--p 00006000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f2025d6f000-7f2025d70000 rw-p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f2025d70000-7f2025d84000 r-xp 00000000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f2025d84000-7f2025f84000 ---p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f2025f84000-7f2025f85000 r--p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f2025f85000-7f2025f86000 rw-p 00015000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f2025f86000-7f2025fa4000 r-xp 00000000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f2025fa4000-7f20261a3000 ---p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f20261a3000-7f20261a4000 r--p 0001d000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f20261a4000-7f20261a5000 rw-p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f20261a5000-7f20261bd000 r-xp 00000000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f20261bd000-7f20263bc000 ---p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f20263bc000-7f20263bd000 r--p 00017000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f20263bd000-7f20263be000 rw-p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f20263be000-7f20263bf000 rw-p 00000000 00:00 0 
+7f20263bf000-7f20263d7000 r-xp 00000000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f20263d7000-7f20265d6000 ---p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f20265d6000-7f20265d7000 r--p 00017000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f20265d7000-7f20265d8000 rw-p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f20265d8000-7f20265d9000 rw-p 00000000 00:00 0 
+7f20265d9000-7f20265e3000 r-xp 00000000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f20265e3000-7f20267e3000 ---p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f20267e3000-7f20267e4000 r--p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f20267e4000-7f20267e5000 rw-p 0000b000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f20267e5000-7f2026941000 r-xp 00000000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f2026941000-7f2026b40000 ---p 0015c000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f2026b40000-7f2026b53000 r--p 0015b000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f2026b53000-7f2026b5b000 rw-p 0016e000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f2026b5b000-7f2026b63000 rw-p 00000000 00:00 0 
+7f2026b63000-7f2026b96000 r-xp 00000000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f2026b96000-7f2026d96000 ---p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f2026d96000-7f2026d97000 r--p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f2026d97000-7f2026d9b000 rw-p 00034000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f2026d9b000-7f2026e37000 r-xp 00000000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f2026e37000-7f2027036000 ---p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f2027036000-7f2027037000 r--p 0009b000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f2027037000-7f202703b000 rw-p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f202703b000-7f2027424000 r-xp 00000000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f2027424000-7f2027623000 ---p 003e9000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f2027623000-7f2027629000 r--p 003e8000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f2027629000-7f202763f000 rw-p 003ee000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f202763f000-7f202764b000 rw-p 00000000 00:00 0 
+7f202764b000-7f202764c000 r-xp 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f202764c000-7f202784b000 ---p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f202784b000-7f202784c000 r--p 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f202784c000-7f202784d000 rw-p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f202784d000-7f202787b000 r-xp 00000000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f202787b000-7f2027a7b000 ---p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f2027a7b000-7f2027a7c000 r--p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f2027a7c000-7f2027a7d000 rw-p 0002f000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f2027a7d000-7f2027b51000 rw-p 00000000 00:00 0 
+7f2027b51000-7f2027ced000 r-xp 00000000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f2027ced000-7f2027eec000 ---p 0019c000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f2027eec000-7f2027eee000 r--p 0019b000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f2027eee000-7f2027efa000 rw-p 0019d000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f2027efa000-7f2027efc000 rw-p 00000000 00:00 0 
+7f2027efc000-7f2027f13000 r-xp 00000000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f2027f13000-7f2028112000 ---p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f2028112000-7f2028113000 r--p 00016000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f2028113000-7f2028114000 rw-p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f2028114000-7f2028118000 rw-p 00000000 00:00 0 
+7f2028118000-7f202818c000 r-xp 00000000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f202818c000-7f202838c000 ---p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f202838c000-7f202838d000 r--p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f202838d000-7f202838e000 rw-p 00075000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f202838e000-7f2028390000 rw-p 00000000 00:00 0 
+7f2028390000-7f20284e7000 r-xp 00000000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f20284e7000-7f20286e6000 ---p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f20286e6000-7f20286e7000 r--p 00156000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f20286e7000-7f20286fa000 rw-p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f20286fa000-7f202a3d7000 r-xp 00000000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f202a3d7000-7f202a5d6000 ---p 01cdd000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f202a5d6000-7f202a68d000 r--p 01cdc000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f202a68d000-7f202a6e6000 rw-p 01d93000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f202a6e6000-7f202aaf7000 r-xp 00000000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f202aaf7000-7f202acf6000 ---p 00411000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f202acf6000-7f202acfd000 r--p 00410000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f202acfd000-7f202ad74000 rw-p 00417000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f202ad74000-7f202b15a000 r-xp 00000000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f202b15a000-7f202b359000 ---p 003e6000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f202b359000-7f202b35d000 r--p 003e5000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f202b35d000-7f202b38c000 rw-p 003e9000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f202b38c000-7f202b3a4000 rw-p 00000000 00:00 0 
+7f202b3a4000-7f202b3b9000 r-xp 00000000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f202b3b9000-7f202b5b8000 ---p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f202b5b8000-7f202b5b9000 r--p 00014000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f202b5b9000-7f202b5ba000 rw-p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f202b5ba000-7f202b5bc000 r-xp 00000000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f202b5bc000-7f202b7bc000 ---p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f202b7bc000-7f202b7bd000 r--p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f202b7bd000-7f202b7be000 rw-p 00003000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f202b7be000-7f202b8b3000 r-xp 00000000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b8b3000-7f202b8b4000 r-xp 000f5000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b8b4000-7f202b8b6000 r-xp 000f6000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b8b6000-7f202b8b8000 r-xp 000f8000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b8b8000-7f202b8bd000 r-xp 000fa000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b8bd000-7f202b8bf000 r-xp 000ff000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b8bf000-7f202b982000 r-xp 00101000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202b982000-7f202bb81000 ---p 001c4000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202bb81000-7f202bb85000 r--p 001c3000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f202bb85000-7f202bb87000 rw-p 001c7000 fd:00 171012                     /usr/lib64/libc-2.1   Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+   Level 5 ... done
+7.so
+7f202bb87000-7f202bb8c000 rw-p 00000000 00:00 0 
+7f202bb8c000-7f202bba3000 r-xp 00000000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f202bba3000-7f202bda2000 ---p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f202bda2000-7f202bda3000 r--p 00016000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f202bda3000-7f202bda4000 rw-p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f202bda4000-7f202bea5000 r-xp 00000000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f202bea5000-7f202c0a4000 ---p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f202c0a4000-7f202c0a5000 r--p 00100000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f202c0a5000-7f202c0a6000 rw-p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f202c0a6000-7f202c26f000 r-xp 00000000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f202c26f000-7f202c46f000 ---p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f202c46f000-7f202c47a000 r--p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f202c47a000-7f202c47d000 rw-p 001d4000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f202c47d000-7f202c480000 rw-p 00000000 00:00 0 
+7f202c480000-7f202c94c000 r-xp 00000000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f202c94c000-7f202cb4c000 ---p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f202cb4c000-7f202cb56000 r--p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f202cb56000-7f202cb61000 rw-p 004d6000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f202cb61000-7f202cb64000 rw-p 00000000 00:00 0 
+7f202cb64000-7f202cb86000 r-xp 00000000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f202ccb0000-7f202cd56000 rw-p 00000000 00:00 0 
+7f202cd5e000-7f202cd85000 rw-p 00000000 00:00 0 
+7f202cd85000-7f202cd86000 r--p 00021000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f202cd86000-7f202cd87000 rw-p 00022000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f202cd87000-7f202cd88000 rw-p 00000000 00:00 0 
+7fff59133000-7fff59155000 rw-p 00000000 00:00 0                          [stack]
+7fff591e3000-7fff591e5000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Evaluating the RMS ...
+   Level 0 ... done
+   Level 1 ... done
+   Level 2 ... done
+   Level 3 ... done
+   Level 4 ... done
+   Level 5 ... done
+   Level 6 ... done
+   Level 7 ... done
+   Level 8 ... done
+   Level 9 ... done
+Output_ShellAve ... Warning : the file "AveDens_000049" already exists and will be overwritten !!
+Warning : the file "AveReal_000049" already exists and will be overwritten !!
+Warning : the file "AveImag_000049" already exists and will be overwritten !!
+done
+*** Error in `./GAMER_ExtractProfile': free(): invalid pointer: 0x000000000bc39bc0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81329)[0x7f0c250ec329]
+./GAMER_ExtractProfile[0x40415f]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f0c2508d555]
+./GAMER_ExtractProfile[0x4035a9]
+======= Memory map: ========
+00400000-0045d000 r-xp 00000000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065d000-0065e000 r--p 0005d000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+0065e000-00661000 rw-p 0005e000 00:31 417158                             /work1/kunkelalexander/IsolatedHalo/Fromm/Plots/Profile/GAMER_ExtractProfile
+00661000-09ef9000 rw-p 00000000 00:00 0 
+0bb9f000-0bf84000 rw-p 00000000 00:00 0                                  [heap]
+7f0c18000000-7f0c18021000 rw-p 00000000 00:00 0 
+7f0c18021000-7f0c1c000000 ---p 00000000 00:00 0 
+7f0c1e0db000-7f0c1e0ea000 r-xp 00000000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f0c1e0ea000-7f0c1e2e9000 ---p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f0c1e2e9000-7f0c1e2ea000 r--p 0000e000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f0c1e2ea000-7f0c1e2eb000 rw-p 0000f000 fd:00 171290                     /usr/lib64/libbz2.so.1.0.6
+7f0c1e2eb000-7f0c1e310000 r-xp 00000000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f0c1e310000-7f0c1e50f000 ---p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f0c1e50f000-7f0c1e510000 r--p 00024000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f0c1e510000-7f0c1e511000 rw-p 00025000 fd:00 171258                     /usr/lib64/liblzma.so.5.2.2
+7f0c1e511000-7f0c1e528000 r-xp 00000000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f0c1e528000-7f0c1e727000 ---p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f0c1e727000-7f0c1e728000 r--p 00016000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f0c1e728000-7f0c1e729000 rw-p 00017000 fd:00 270457                     /usr/lib64/libelf-0.176.so
+7f0c1e729000-7f0c1e72d000 r-xp 00000000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f0c1e72d000-7f0c1e92c000 ---p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f0c1e92c000-7f0c1e92d000 r--p 00003000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f0c1e92d000-7f0c1e92e000 rw-p 00004000 fd:00 171543                     /usr/lib64/libattr.so.1.1.0
+7f0c1e92e000-7f0c1e97c000 r-xp 00000000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f0c1e97c000-7f0c1eb7c000 ---p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f0c1eb7c000-7f0c1eb7e000 r--p 0004e000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f0c1eb7e000-7f0c1eb7f000 rw-p 00050000 fd:00 1240215                    /usr/lib64/libdw-0.176.so
+7f0c1eb7f000-7f0c1eb83000 r-xp 00000000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f0c1eb83000-7f0c1ed82000 ---p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f0c1ed82000-7f0c1ed83000 r--p 00003000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f0c1ed83000-7f0c1ed84000 rw-p 00004000 fd:00 171547                     /usr/lib64/libcap.so.2.22
+7f0c1ed84000-7f0c1ede8000 r-xp 00000000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f0c1ede8000-7f0c1efe7000 ---p 00064000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f0c1efe7000-7f0c1efea000 r--p 00063000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f0c1efea000-7f0c1efef000 rw-p 00066000 fd:00 171310                     /usr/lib64/libnl-route-3.so.200.23.0
+7f0c1efef000-7f0c1eff1000 rw-p 00000000 00:00 0 
+7f0c1eff1000-7f0c1f00f000 r-xp 00000000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f0c1f00f000-7f0c1f20f000 ---p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f0c1f20f000-7f0c1f211000 r--p 0001e000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f0c1f211000-7f0c1f212000 rw-p 00020000 fd:00 171302                     /usr/lib64/libnl-3.so.200.23.0
+7f0c1f212000-7f0c1f214000 r-xp 00000000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f0c1f214000-7f0c1f413000 ---p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f0c1f413000-7f0c1f414000 r--p 00001000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f0c1f414000-7f0c1f415000 rw-p 00002000 fd:00 171120                     /usr/lib64/libutil-2.17.so
+7f0c1f415000-7f0c1f41c000 r-xp 00000000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f0c1f41c000-7f0c1f61b000 ---p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f0c1f61b000-7f0c1f61c000 r--p 00006000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f0c1f61c000-7f0c1f61d000 rw-p 00007000 fd:00 171116                     /usr/lib64/librt-2.17.so
+7f0c1f61d000-7f0c1f631000 r-xp 00000000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f0c1f631000-7f0c1f831000 ---p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f0c1f831000-7f0c1f832000 r--p 00014000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f0c1f832000-7f0c1f833000 rw-p 00015000 fd:00 1240230                    /usr/lib64/libudev.so.1.6.2
+7f0c1f833000-7f0c1f851000 r-xp 00000000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f0c1f851000-7f0c1fa50000 ---p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f0c1fa50000-7f0c1fa51000 r--p 0001d000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f0c1fa51000-7f0c1fa52000 rw-p 0001e000 fd:00 173095                     /usr/lib64/libibverbs.so.1.14.40.0
+7f0c1fa52000-7f0c1fa6a000 r-xp 00000000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f0c1fa6a000-7f0c1fc69000 ---p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f0c1fc69000-7f0c1fc6a000 r--p 00017000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f0c1fc6a000-7f0c1fc6b000 rw-p 00018000 fd:00 1247962                    /usr/lib64/librdmacm.so.1.3.40.0
+7f0c1fc6b000-7f0c1fc6c000 rw-p 00000000 00:00 0 
+7f0c1fc6c000-7f0c1fc84000 r-xp 00000000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f0c1fc84000-7f0c1fe83000 ---p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f0c1fe83000-7f0c1fe84000 r--p 00017000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f0c1fe84000-7f0c1fe85000 rw-p 00018000 00:2b 808710353                  /software/openucx/ucx-1.12.0-with_mt/lib/libucm.so.0.0.0
+7f0c1fe85000-7f0c1fe86000 rw-p 00000000 00:00 0 
+7f0c1fe86000-7f0c1fe90000 r-xp 00000000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f0c1fe90000-7f0c20090000 ---p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f0c20090000-7f0c20091000 r--p 0000a000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f0c20091000-7f0c20092000 rw-p 0000b000 fd:00 171229                     /usr/lib64/libnuma.so.1.0.0
+7f0c20092000-7f0c201ee000 r-xp 00000000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f0c201ee000-7f0c203ed000 ---p 0015c000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f0c203ed000-7f0c20400000 r--p 0015b000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f0c20400000-7f0c20408000 rw-p 0016e000 00:2b 808710358                  /software/openucx/ucx-1.12.0-with_mt/lib/libucs.so.0.0.0
+7f0c20408000-7f0c20410000 rw-p 00000000 00:00 0 
+7f0c20410000-7f0c20443000 r-xp 00000000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f0c20443000-7f0c20643000 ---p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f0c20643000-7f0c20644000 r--p 00033000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f0c20644000-7f0c20648000 rw-p 00034000 00:2b 808732804                  /software/openucx/ucx-1.12.0-with_mt/lib/libuct.so.0.0.0
+7f0c20648000-7f0c206e4000 r-xp 00000000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f0c206e4000-7f0c208e3000 ---p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f0c208e3000-7f0c208e4000 r--p 0009b000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f0c208e4000-7f0c208e8000 rw-p 0009c000 00:2b 808732822                  /software/openucx/ucx-1.12.0-with_mt/lib/libucp.so.0.0.0
+7f0c208e8000-7f0c20cd1000 r-xp 00000000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f0c20cd1000-7f0c20ed0000 ---p 003e9000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f0c20ed0000-7f0c20ed6000 r--p 003e8000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f0c20ed6000-7f0c20eec000 rw-p 003ee000 00:2b 11588                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-pal.so.40.30.1
+7f0c20eec000-7f0c20ef8000 rw-p 00000000 00:00 0 
+7f0c20ef8000-7f0c20ef9000 r-xp 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f0c20ef9000-7f0c210f8000 ---p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f0c210f8000-7f0c210f9000 r--p 00000000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f0c210f9000-7f0c210fa000 rw-p 00001000 00:2b 11596                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-orted-mpir.so
+7f0c210fa000-7f0c21128000 r-xp 00000000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f0c21128000-7f0c21328000 ---p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f0c21328000-7f0c21329000 r--p 0002e000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f0c21329000-7f0c2132a000 rw-p 0002f000 fd:00 269031015                  /usr/local/torque/lib/libtorque.so.2.0.0
+7f0c2132a000-7f0c213fe000 rw-p 00000000 00:00 0 
+7f0c213fe000-7f0c2159a000 r-xp 00000000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f0c2159a000-7f0c21799000 ---p 0019c000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f0c21799000-7f0c2179b000 r--p 0019b000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f0c2179b000-7f0c217a7000 rw-p 0019d000 00:2b 12743                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libopen-rte.so.40.30.1
+7f0c217a7000-7f0c217a9000 rw-p 00000000 00:00 0 
+7f0c217a9000-7f0c217c0000 r-xp 00000000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f0c217c0000-7f0c219bf000 ---p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f0c219bf000-7f0c219c0000 r--p 00016000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f0c219c0000-7f0c219c1000 rw-p 00017000 fd:00 171050                     /usr/lib64/libpthread-2.17.so
+7f0c219c1000-7f0c219c5000 rw-p 00000000 00:00 0 
+7f0c219c5000-7f0c21a39000 r-xp 00000000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f0c21a39000-7f0c21c39000 ---p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f0c21c39000-7f0c21c3a000 r--p 00074000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f0c21c3a000-7f0c21c3b000 rw-p 00075000 00:2b 841827651                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libintlc.so.5
+7f0c21c3b000-7f0c21c3d000 rw-p 00000000 00:00 0 
+7f0c21c3d000-7f0c21d94000 r-xp 00000000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f0c21d94000-7f0c21f93000 ---p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f0c21f93000-7f0c21f94000 r--p 00156000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f0c21f94000-7f0c21fa7000 rw-p 00157000 00:2b 841827653                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libirng.so
+7f0c21fa7000-7f0c23c84000 r-xp 00000000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f0c23c84000-7f0c23e83000 ---p 01cdd000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f0c23e83000-7f0c23f3a000 r--p 01cdc000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f0c23f3a000-7f0c23f93000 rw-p 01d93000 00:2b 841827658                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libsvml.so
+7f0c23f93000-7f0c243a4000 r-xp 00000000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f0c243a4000-7f0c245a3000 ---p 00411000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f0c245a3000-7f0c245aa000 r--p 00410000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f0c245aa000-7f0c24621000 rw-p 00417000 00:2b 841827649                  /software/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/libimf.so
+7f0c24621000-7f0c24a07000 r-xp 00000000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f0c24a07000-7f0c24c06000 ---p 003e6000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f0c24c06000-7f0c24c0a000 r--p 003e5000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f0c24c0a000-7f0c24c39000 rw-p 003e9000 00:2b 16919                      /software/openmpi/4.1.1-ucx_mt-intel-2022.0.1/lib/libmpi.so.40.30.1
+7f0c24c39000-7f0c24c51000 rw-p 00000000 00:00 0 
+7f0c24c51000-7f0c24c66000 r-xp 00000000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f0c24c66000-7f0c24e65000 ---p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f0c24e65000-7f0c24e66000 r--p 00014000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f0c24e66000-7f0c24e67000 rw-p 00015000 fd:00 171124                     /usr/lib64/libz.so.1.2.7
+7f0c24e67000-7f0c24e69000 r-xp 00000000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f0c24e69000-7f0c25069000 ---p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f0c25069000-7f0c2506a000 r--p 00002000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f0c2506a000-7f0c2506b000 rw-p 00003000 fd:00 171022                     /usr/lib64/libdl-2.17.so
+7f0c2506b000-7f0c25160000 r-xp 00000000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c25160000-7f0c25161000 r-xp 000f5000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c25161000-7f0c25163000 r-xp 000f6000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c25163000-7f0c25165000 r-xp 000f8000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c25165000-7f0c2516a000 r-xp 000fa000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c2516a000-7f0c2516c000 r-xp 000ff000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c2516c000-7f0c2522f000 r-xp 00101000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c2522f000-7f0c2542e000 ---p 001c4000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c2542e000-7f0c25432000 r--p 001c3000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c25432000-7f0c25434000 rw-p 001c7000 fd:00 171012                     /usr/lib64/libc-2.17.so
+7f0c25434000-7f0c25439000 rw-p 00000000 00:00 0 
+7f0c25439000-7f0c25450000 r-xp 00000000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f0c25450000-7f0c2564f000 ---p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f0c2564f000-7f0c25650000 r--p 00016000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f0c25650000-7f0c25651000 rw-p 00017000 00:2b 548662251                  /software/gcc/9.3.0/lib64/libgcc_s.so.1
+7f0c25651000-7f0c25752000 r-xp 00000000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f0c25752000-7f0c25951000 ---p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f0c25951000-7f0c25952000 r--p 00100000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f0c25952000-7f0c25953000 rw-p 00101000 fd:00 171024                     /usr/lib64/libm-2.17.so
+7f0c25953000-7f0c25b1c000 r-xp 00000000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f0c25b1c000-7f0c25d1c000 ---p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f0c25d1c000-7f0c25d27000 r--p 001c9000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f0c25d27000-7f0c25d2a000 rw-p 001d4000 00:2b 548643863                  /software/gcc/9.3.0/lib64/libstdc++.so.6.0.28
+7f0c25d2a000-7f0c25d2d000 rw-p 00000000 00:00 0 
+7f0c25d2d000-7f0c261f9000 r-xp 00000000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f0c261f9000-7f0c263f9000 ---p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f0c263f9000-7f0c26403000 r--p 004cc000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f0c26403000-7f0c2640e000 rw-p 004d6000 00:31 67242                      /work1/vivi235711/hdf5/hdf5-1.10.6_intel/lib/libhdf5.so.103.2.0
+7f0c2640e000-7f0c26411000 rw-p 00000000 00:00 0 
+7f0c26411000-7f0c26433000 r-xp 00000000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f0c2655d000-7f0c26603000 rw-p 00000000 00:00 0 
+7f0c2660b000-7f0c26632000 rw-p 00000000 00:00 0 
+7f0c26632000-7f0c26633000 r--p 00021000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f0c26633000-7f0c26634000 rw-p 00022000 fd:00 171005                     /usr/lib64/ld-2.17.so
+7f0c26634000-7f0c26635000 rw-p 00000000 00:00 0 
+7ffd68cf6000-7ffd68d18000 rw-p 00000000 00:00 0                          [stack]
+7ffd68d64000-7ffd68d66000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+./MultiFiles__GAMER_ExtractProfile.sh: line 87: 71500 Aborted                 (core dumped) ./GAMER_ExtractProfile -i $FILE_IN -o "$SUFFIX" -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+./MultiFiles__GAMER_ExtractProfile.sh failed ... (error code = 134)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+./MultiFiles__GAMER_ExtractProfile.sh failed ... (error code = 134)
+./MultiFiles__GAMER_ExtractProfile.sh failed ... (error code = 134)
+./MultiFiles__GAMER_ExtractProfile.sh failed ... (error code = 134)
+./MultiFiles__GAMER_ExtractProfile.sh: line 87: 71505 Aborted                 (core dumped) ./GAMER_ExtractProfile -i $FILE_IN -o "$SUFFIX" -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+./MultiFiles__GAMER_ExtractProfile.sh: line 87: 71501 Aborted                 (core dumped) ./GAMER_ExtractProfile -i $FILE_IN -o "$SUFFIX" -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+./MultiFiles__GAMER_ExtractProfile.sh: line 87: 71506 Aborted                 (core dumped) ./GAMER_ExtractProfile -i $FILE_IN -o "$SUFFIX" -S -a 1 -m 8 -p -r 0.10 -x 0.54 -y 0.64 -z 1.40
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[57237,1],0]
+  Exit code:    3
+--------------------------------------------------------------------------
+[eureka14:44906] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka14:44906] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka14:44906] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka14:44906] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+python3: can't open file '/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_profile': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_profile': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_profile': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_profile': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16534,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+[eureka14:45005] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka14:45005] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka14:45005] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka14:45005] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 29
+    print str(sys.argv[t]),
+          ^
+SyntaxError: invalid syntax
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 29
+    print str(sys.argv[t]),
+          ^
+SyntaxError: invalid syntax
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 29
+    print str(sys.argv[t]),
+          ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 29
+    print str(sys.argv[t]),
+          ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16433,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+[eureka14:45074] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka14:45074] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka14:45074] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka14:45074] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-19 09:55:23,042 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 09:55:23,042 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-19 09:55:23,042 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-19 09:55:23,042 Global parallel computation enabled: 0 / 4
+P000 yt : [INFO     ] 2022-12-19 09:55:23,730 Parameters: current_time              = 2.1650248112405792e+17 s
+P000 yt : [INFO     ] 2022-12-19 09:55:23,730 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:55:23,730 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:55:23,731 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 09:55:24,166 Parameters: current_time              = 2.1650248112405792e+17 s
+P000 yt : [INFO     ] 2022-12-19 09:55:24,166 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:55:24,167 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 09:55:24,567 Parameters: current_time              = 2.1650248112405792e+17 s
+P000 yt : [INFO     ] 2022-12-19 09:55:24,567 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:55:24,567 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:55:24,567 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:55:24,567 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:55:24,567 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 09:55:24,568 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:55:24,568 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:55:24,568 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:55:24,568 Parameters: hubble_constant           = 0.6732117
+/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py:60: VisibleDeprecationWarning: Dataset.periodicity should not be overriden manually. In the future, this will become an error. Use `Dataset.force_periodicity` instead.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  ds.periodicity = (True, True, True)
+P002 yt : [INFO     ] 2022-12-19 09:55:24,615 Parameters: current_time              = 2.339431703371931e+17 s
+P002 yt : [INFO     ] 2022-12-19 09:55:24,615 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 09:55:24,615 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: current_redshift          = 0.6791312404905487
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 09:55:24,616 Parameters: hubble_constant           = 0.6732117
+/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py:60: VisibleDeprecationWarning: Dataset.periodicity should not be overriden manually. In the future, this will become an error. Use `Dataset.force_periodicity` instead.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  ds.periodicity = (True, True, True)
+P003 yt : [INFO     ] 2022-12-19 09:55:24,669 Parameters: current_time              = 2.4305767825594275e+17 s
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: current_redshift          = 0.6312574243604048
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 09:55:24,670 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 09:55:24,671 Parameters: current_time              = 2.2509386310103315e+17 s
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: domain_dimensions         = [64 64 64]
+/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py:60: VisibleDeprecationWarning: Dataset.periodicity should not be overriden manually. In the future, this will become an error. Use `Dataset.force_periodicity` instead.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  ds.periodicity = (True, True, True)
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: current_redshift          = 0.7284219616306109
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 09:55:24,672 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 09:55:24,673 Parameters: hubble_constant           = 0.6732117
+/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py:60: VisibleDeprecationWarning: Dataset.periodicity should not be overriden manually. In the future, this will become an error. Use `Dataset.force_periodicity` instead.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  ds.periodicity = (True, True, True)
+[6.10138841e-25 4.84263216e-25 1.00074105e-25] code_length
+[6.06857723e-25 4.83666649e-25 1.01565522e-25] code_length
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/profiles.py:1279: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'gamer'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  wf = data_source.ds._get_field_info(weight_field)
+[6.04471455e-25 4.84859783e-25 9.58981361e-26] code_length
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'gamer'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/profiles.py:1279: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'gamer'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  wf = data_source.ds._get_field_info(weight_field)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 181, in <module>
+    h = str("{:.7e}".format(float(halo_radius2*current_time_a)))
+P000 yt : [ERROR    ] 2022-12-19 09:55:26,415 NameError: name 'halo_radius2' is not defined
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/profiles.py:1279: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gamer', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  wf = data_source.ds._get_field_info(weight_field)
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'gamer'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gamer', 'gas'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+[eureka14:45074] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka14:45074] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka14:45074] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 181, in <module>
+    h = str("{:.7e}".format(float(halo_radius2*current_time_a)))
+P001 yt : [ERROR    ] 2022-12-19 09:55:26,508 NameError: name 'halo_radius2' is not defined
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/profiles.py:1279: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'gamer'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("gas", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  wf = data_source.ds._get_field_info(weight_field)
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/data_containers.py:1421: VisibleDeprecationWarning: The requested field name 'cell_volume' is ambiguous and corresponds to any one of the following field types:
+ {'gas', 'gamer'}
+Please specify the requested field as an explicit tuple (ftype, fname).
+Defaulting to '("index", "cell_volume")'.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  finfo = self.ds._get_field_info(field)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 181, in <module>
+    h = str("{:.7e}".format(float(halo_radius2*current_time_a)))
+P003 yt : [ERROR    ] 2022-12-19 09:55:26,821 NameError: name 'halo_radius2' is not defined
+[6.08945707e-25 4.84859783e-25 1.01267239e-25] code_length
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/Profile/plot_single_profile.py", line 181, in <module>
+    h = str("{:.7e}".format(float(halo_radius2*current_time_a)))
+P002 yt : [ERROR    ] 2022-12-19 09:55:26,508 NameError: name 'halo_radius2' is not defined
+[eureka14:45074] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka14:45074] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka01:97160] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:97160] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:97160] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:97160] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+yt : [INFO     ] 2022-12-19 09:59:13,356 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-19 09:59:13,356 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-19 09:59:13,356 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 09:59:13,357 Global parallel computation enabled: 3 / 4
+P000 yt : [INFO     ] 2022-12-19 09:59:13,992 Parameters: current_time              = 0.56204678934342
+P000 yt : [INFO     ] 2022-12-19 09:59:13,992 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:59:13,992 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:59:13,992 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:59:13,992 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:59:13,993 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 09:59:13,993 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:59:13,993 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:59:13,993 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:59:13,993 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 09:59:14,562 Parameters: current_time              = 0.56204678934342
+P000 yt : [INFO     ] 2022-12-19 09:59:14,562 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:59:14,562 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:59:14,563 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: current_time              = 0.6130240298474579
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: current_redshift          = 0.6312574243604048
+P003 yt : [INFO     ] 2022-12-19 09:59:14,938 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 09:59:14,939 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 09:59:14,939 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 09:59:14,939 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: current_time              = 0.595546063277255
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: current_redshift          = 0.6791312404905487
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 09:59:14,971 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 09:59:14,972 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 09:59:14,972 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 09:59:14,972 Parameters: current_time              = 0.5785624241065473
+P001 yt : [INFO     ] 2022-12-19 09:59:14,972 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 09:59:14,972 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 09:59:14,972 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 09:59:14,973 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 09:59:14,973 Parameters: current_redshift          = 0.7284219616306109
+P001 yt : [INFO     ] 2022-12-19 09:59:14,973 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 09:59:14,973 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 09:59:14,973 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 09:59:14,973 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+P000 yt : [INFO     ] 2022-12-19 09:59:15,013 Parameters: current_time              = 0.56204678934342
+P000 yt : [INFO     ] 2022-12-19 09:59:15,013 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:59:15,013 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:59:15,014 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+[2.77060547 2.22236328 0.43955078] code_length
+[2.79658203 2.21962891 0.45869141] code_length
+[2.78154297 2.21689453 0.46552734] code_length
+[2.79111328 2.22236328 0.46416016] code_length
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: current_time              = 0.631024810797757
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: current_redshift          = 0.5847237428521639
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:59:22,830 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 09:59:23,061 Parameters: current_time              = 0.649579308178316
+P001 yt : [INFO     ] 2022-12-19 09:59:23,061 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 09:59:23,061 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: current_redshift          = 0.5394579036151965
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 09:59:23,062 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 09:59:24,836 Parameters: current_time              = 0.6687211729389841
+P002 yt : [INFO     ] 2022-12-19 09:59:24,836 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 09:59:24,836 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 09:59:24,836 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 09:59:24,837 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 09:59:24,837 Parameters: current_redshift          = 0.49539156298142606
+P002 yt : [INFO     ] 2022-12-19 09:59:24,837 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 09:59:24,837 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 09:59:24,837 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 09:59:24,837 Parameters: hubble_constant           = 0.6732117
+[2.79282227 2.22202148 0.46245117] code_length
+[2.79162598 2.21911621 0.46535645] code_length
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: current_time              = 0.6884872598419997
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: current_redshift          = 0.45245970162104254
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 09:59:26,207 Parameters: hubble_constant           = 0.6732117
+[2.78649902 2.2201416  0.46535645] code_length
+[2.7885498  2.21945801 0.46809082] code_length
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: current_time              = 0.7089182546757654
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: current_redshift          = 0.41059987298163914
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:59:34,295 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 09:59:36,376 Parameters: current_time              = 0.7300595373040358
+P001 yt : [INFO     ] 2022-12-19 09:59:36,376 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 09:59:36,376 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 09:59:36,376 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 09:59:36,377 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 09:59:36,377 Parameters: current_redshift          = 0.3697512995896204
+P001 yt : [INFO     ] 2022-12-19 09:59:36,377 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 09:59:36,377 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 09:59:36,377 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 09:59:36,377 Parameters: hubble_constant           = 0.6732117
+[2.78444824 2.22287598 0.46774902] code_length
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: current_time              = 0.7519623492947621
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: current_redshift          = 0.32985381640166334
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 09:59:40,570 Parameters: hubble_constant           = 0.6732117
+[2.78615723 2.2201416  0.46638184] code_length
+P003 yt : [INFO     ] 2022-12-19 09:59:44,481 Parameters: current_time              = 0.7746853173110612
+P003 yt : [INFO     ] 2022-12-19 09:59:44,481 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: current_redshift          = 0.29084671885999835
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 09:59:44,482 Parameters: hubble_constant           = 0.6732117
+[2.78410645 2.22355957 0.46774902] code_length
+[2.77966309 2.22355957 0.46706543] code_length
+P000 yt : [INFO     ] 2022-12-19 09:59:53,776 Parameters: current_time              = 0.7982963071149658
+P000 yt : [INFO     ] 2022-12-19 09:59:53,776 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: current_redshift          = 0.252667701312548
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 09:59:53,777 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 09:59:57,980 Parameters: current_time              = 0.8228743661061253
+P001 yt : [INFO     ] 2022-12-19 09:59:57,980 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 09:59:57,980 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: current_redshift          = 0.21525234129243853
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 09:59:57,981 Parameters: hubble_constant           = 0.6732117
+[2.77932129 2.22287598 0.46877441] code_length
+[2.77556152 2.22219238 0.46672363] code_length
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: current_time              = 0.8485109691809872
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: current_redshift          = 0.1785351472418033
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 10:00:07,123 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 10:00:07,124 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 10:00:07,124 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 10:00:15,313 Parameters: current_time              = 0.8753084975593693
+P003 yt : [INFO     ] 2022-12-19 10:00:15,313 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 10:00:15,313 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 10:00:15,313 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 10:00:15,314 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 10:00:15,314 Parameters: current_redshift          = 0.14245434928177803
+P003 yt : [INFO     ] 2022-12-19 10:00:15,314 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 10:00:15,314 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 10:00:15,314 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 10:00:15,314 Parameters: hubble_constant           = 0.6732117
+[2.77248535 2.22185059 0.46774902] code_length
+P000 yt : [INFO     ] 2022-12-19 10:00:25,737 Parameters: current_time              = 0.9033709686008085
+P000 yt : [INFO     ] 2022-12-19 10:00:25,737 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 10:00:25,737 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: current_redshift          = 0.10696495100883752
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 10:00:25,738 Parameters: hubble_constant           = 0.6732117
+[2.77248535 2.22321777 0.46843262] code_length
+P001 yt : [INFO     ] 2022-12-19 10:00:36,595 Parameters: current_time              = 0.9327759052183688
+P001 yt : [INFO     ] 2022-12-19 10:00:36,595 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: current_redshift          = 0.07206885856029221
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 10:00:36,596 Parameters: hubble_constant           = 0.6732117
+[2.7677002  2.22321777 0.46672363] code_length
+[2.76599121 2.22526855 0.46809082] code_length
+P002 yt : [INFO     ] 2022-12-19 10:00:55,071 Parameters: current_time              = 0.9635055660148353
+P002 yt : [INFO     ] 2022-12-19 10:00:55,071 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 10:00:55,071 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 10:00:55,071 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 10:00:55,072 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 10:00:55,072 Parameters: current_redshift          = 0.037876723573180504
+P002 yt : [INFO     ] 2022-12-19 10:00:55,072 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 10:00:55,072 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 10:00:55,072 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 10:00:55,072 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 10:01:09,317 Parameters: current_time              = 0.995307361571286
+P003 yt : [INFO     ] 2022-12-19 10:01:09,317 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 10:01:09,317 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: current_redshift          = 0.004714763107253495
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 10:01:09,318 Parameters: hubble_constant           = 0.6732117
+[2.76394043 2.22697754 0.4697998 ] code_length
+[2.76223145 2.22731934 0.46774902] code_length
+[eureka01:121563] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:121563] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:121563] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:121563] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+yt : [INFO     ] 2022-12-19 11:30:34,441 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-19 11:30:34,441 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-19 11:30:34,442 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 11:30:34,442 Global parallel computation enabled: 3 / 4
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: current_time              = 0.56204678934342
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:30:35,087 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:30:35,613 Parameters: current_time              = 0.56204678934342
+P000 yt : [INFO     ] 2022-12-19 11:30:35,613 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:30:35,614 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:30:36,038 Parameters: current_time              = 0.595546063277255
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: current_redshift          = 0.6791312404905487
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:30:36,039 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+P000 yt : [INFO     ] 2022-12-19 11:30:36,077 Parameters: current_time              = 0.56204678934342
+P000 yt : [INFO     ] 2022-12-19 11:30:36,077 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:30:36,077 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:30:36,077 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:30:36,078 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:30:36,078 Parameters: current_redshift          = 0.7792113022622094
+P000 yt : [INFO     ] 2022-12-19 11:30:36,078 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:30:36,078 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:30:36,078 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:30:36,078 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+P003 yt : [INFO     ] 2022-12-19 11:30:36,094 Parameters: current_time              = 0.6130240298474579
+P003 yt : [INFO     ] 2022-12-19 11:30:36,094 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:30:36,094 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: current_redshift          = 0.6312574243604048
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:30:36,095 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+P001 yt : [INFO     ] 2022-12-19 11:30:36,125 Parameters: current_time              = 0.5785624241065473
+P001 yt : [INFO     ] 2022-12-19 11:30:36,125 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: current_redshift          = 0.7284219616306109
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:30:36,126 Parameters: hubble_constant           = 0.6732117
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:87: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  grid_corner      = self._handle['Tree/Corner'].value[::self.pgroup]
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+/usr/lib64/python2.7/site-packages/yt/frontends/gamer/data_structures.py:132: H5pyDeprecationWarning: dataset.value has been deprecated. Use dataset[()] instead.
+  son_list = self._handle["Tree/Son"].value
+[2.79384766 2.21962891 0.45732422] code_length
+[2.78017578 2.22373047 0.46416016] code_length
+[2.78701172 2.21552734 0.46552734] code_length
+[2.78154297 2.21142578 0.46552734] code_length
+P000 yt : [INFO     ] 2022-12-19 11:30:42,878 Parameters: current_time              = 0.631024810797757
+P000 yt : [INFO     ] 2022-12-19 11:30:42,878 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: current_redshift          = 0.5847237428521639
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:30:42,879 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:30:44,126 Parameters: current_time              = 0.649579308178316
+P001 yt : [INFO     ] 2022-12-19 11:30:44,126 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:30:44,126 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:30:44,126 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:30:44,126 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:30:44,126 Parameters: current_redshift          = 0.5394579036151965
+P001 yt : [INFO     ] 2022-12-19 11:30:44,127 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:30:44,127 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:30:44,127 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:30:44,127 Parameters: hubble_constant           = 0.6732117
+[2.78530273 2.21860352 0.46450195] code_length
+P002 yt : [INFO     ] 2022-12-19 11:30:46,353 Parameters: current_time              = 0.6687211729389841
+P002 yt : [INFO     ] 2022-12-19 11:30:46,353 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: current_redshift          = 0.49539156298142606
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:30:46,354 Parameters: hubble_constant           = 0.6732117
+[2.78803711 2.21928711 0.46313477] code_length
+P003 yt : [INFO     ] 2022-12-19 11:30:47,754 Parameters: current_time              = 0.6884872598419997
+P003 yt : [INFO     ] 2022-12-19 11:30:47,754 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:30:47,754 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:30:47,754 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:30:47,755 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:30:47,755 Parameters: current_redshift          = 0.45245970162104254
+P003 yt : [INFO     ] 2022-12-19 11:30:47,755 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:30:47,755 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:30:47,755 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:30:47,755 Parameters: hubble_constant           = 0.6732117
+[2.78786621 2.21945801 0.46433105] code_length
+[2.78649902 2.21911621 0.46467285] code_length
+P000 yt : [INFO     ] 2022-12-19 11:30:54,916 Parameters: current_time              = 0.7089182546757654
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: current_redshift          = 0.41059987298163914
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:30:54,917 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:30:57,240 Parameters: current_time              = 0.7300595373040358
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: current_redshift          = 0.3697512995896204
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:30:57,241 Parameters: hubble_constant           = 0.6732117
+[2.78649902 2.21911621 0.46501465] code_length
+P002 yt : [INFO     ] 2022-12-19 11:31:01,838 Parameters: current_time              = 0.7519623492947621
+P002 yt : [INFO     ] 2022-12-19 11:31:01,838 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:31:01,838 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: current_redshift          = 0.32985381640166334
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:31:01,839 Parameters: hubble_constant           = 0.6732117
+[2.78513184 2.2201416  0.46433105] code_length
+P003 yt : [INFO     ] 2022-12-19 11:31:05,878 Parameters: current_time              = 0.7746853173110612
+P003 yt : [INFO     ] 2022-12-19 11:31:05,878 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:31:05,878 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:31:05,878 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:31:05,879 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:31:05,879 Parameters: current_redshift          = 0.29084671885999835
+P003 yt : [INFO     ] 2022-12-19 11:31:05,879 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:31:05,879 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:31:05,879 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:31:05,879 Parameters: hubble_constant           = 0.6732117
+[2.78410645 2.21843262 0.46501465] code_length
+[2.7779541  2.22150879 0.46569824] code_length
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: current_time              = 0.7982963071149658
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: current_redshift          = 0.252667701312548
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:31:12,821 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: current_time              = 0.8228743661061253
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: current_redshift          = 0.21525234129243853
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:31:18,598 Parameters: hubble_constant           = 0.6732117
+[2.7776123  2.21945801 0.46467285] code_length
+[2.77658691 2.21809082 0.46501465] code_length
+P002 yt : [INFO     ] 2022-12-19 11:31:28,417 Parameters: current_time              = 0.8485109691809872
+P002 yt : [INFO     ] 2022-12-19 11:31:28,417 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: current_redshift          = 0.1785351472418033
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:31:28,418 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:31:35,797 Parameters: current_time              = 0.8753084975593693
+P003 yt : [INFO     ] 2022-12-19 11:31:35,797 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:31:35,797 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:31:35,797 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:31:35,798 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:31:35,798 Parameters: current_redshift          = 0.14245434928177803
+P003 yt : [INFO     ] 2022-12-19 11:31:35,798 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:31:35,798 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:31:35,798 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:31:35,798 Parameters: hubble_constant           = 0.6732117
+[2.77214355 2.21945801 0.46535645] code_length
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: current_time              = 0.9033709686008085
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: current_redshift          = 0.10696495100883752
+P000 yt : [INFO     ] 2022-12-19 11:31:46,846 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:31:46,847 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:31:46,847 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:31:46,847 Parameters: hubble_constant           = 0.6732117
+[2.77077637 2.21809082 0.46604004] code_length
+P001 yt : [INFO     ] 2022-12-19 11:31:56,150 Parameters: current_time              = 0.9327759052183688
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: current_redshift          = 0.07206885856029221
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:31:56,151 Parameters: hubble_constant           = 0.6732117
+[2.76804199 2.22150879 0.46706543] code_length
+[2.76599121 2.22287598 0.46774902] code_length
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: current_time              = 0.9635055660148353
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: current_redshift          = 0.037876723573180504
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:32:12,498 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: current_time              = 0.995307361571286
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: current_redshift          = 0.004714763107253495
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:32:29,864 Parameters: hubble_constant           = 0.6732117
+[2.76291504 2.22150879 0.46535645] code_length
+[2.76257324 2.22116699 0.46809082] code_length

@@ -1,0 +1,20 @@
+# Vir_Max  : maximum virtual  memory size of a single process at the present
+# Vir_Sum  : total   virtual  memory size of all processes    at the present
+# Vir_Peak : maximum virtual  memory size of a single process during the entire simulation
+# Phy_Max  : maximum physical memory size of a single process at the present
+# Phy_Sum  : total   physical memory size of all processes    at the present
+# Phy_Peak : maximum physical memory size of a single process during the entire simulation
+#------------------------------------------------------------------------------------------
+
+#         Time          Step         Vir_Max (MB)        Vir_Sum (MB)       Vir_Peak (MB)        Phy_Max (MB)        Phy_Sum (MB)       Phy_Peak (MB)
+ 0.0000000e+00             0              622.61              622.61              628.61              302.49              302.49              308.29
+ 1.1512944e-06             1              622.79              622.79              628.61              319.33              319.33              319.33
+ 2.3025889e-06             2              622.79              622.79              628.61              319.33              319.33              319.34
+ 3.4538833e-06             3              622.79              622.79              628.61              319.33              319.33              319.34
+ 4.6051778e-06             4              622.79              622.79              628.61              319.33              319.33              319.34
+ 5.7564722e-06             5              622.79              622.79              628.61              319.33              319.33              319.34
+ 6.9077666e-06             6              622.79              622.79              628.61              319.33              319.33              319.34
+ 8.0590611e-06             7              622.79              622.79              628.61              319.33              319.33              319.34
+ 9.2103555e-06             8              622.79              622.79              628.61              319.33              319.33              319.34
+ 1.0361650e-05             9              622.79              622.79              628.61              319.33              319.33              319.34
+ 1.1512944e-05            10              622.79              622.79              628.61              319.33              319.33              319.34

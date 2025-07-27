@@ -1,0 +1,338 @@
+[spock25:1385220] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 9 bound to socket 0[core 9[hwt 0-1]]: [../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 10 bound to socket 0[core 10[hwt 0-1]]: [../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 8 bound to socket 0[core 8[hwt 0-1]]: [../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 11 bound to socket 0[core 11[hwt 0-1]]: [../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 13 bound to socket 0[core 13[hwt 0-1]]: [../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 12 bound to socket 0[core 12[hwt 0-1]]: [../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 14 bound to socket 0[core 14[hwt 0-1]]: [../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 15 bound to socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 16 bound to socket 0[core 16[hwt 0-1]]: [../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 17 bound to socket 0[core 17[hwt 0-1]]: [../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 19 bound to socket 0[core 19[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 18 bound to socket 0[core 18[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../..]
+[spock25:1385220] MCW rank 20 bound to socket 0[core 20[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../..]
+[spock25:1385220] MCW rank 21 bound to socket 0[core 21[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../..]
+[spock25:1385220] MCW rank 22 bound to socket 0[core 22[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../..]
+[spock25:1385220] MCW rank 23 bound to socket 0[core 23[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../..]
+[spock25:1385220] MCW rank 24 bound to socket 0[core 24[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../..]
+[spock25:1385220] MCW rank 25 bound to socket 0[core 25[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../..]
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+[spock25:1385220] MCW rank 26 bound to socket 0[core 26[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../..]
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+[spock25:1385220] MCW rank 27 bound to socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../..]
+[spock25:1385220] MCW rank 28 bound to socket 0[core 28[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../..]
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+[spock25:1385220] MCW rank 29 bound to socket 0[core 29[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../..]
+[spock25:1385220] MCW rank 30 bound to socket 0[core 30[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/..]
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[spock25:1385220] MCW rank 31 bound to socket 0[core 31[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB]
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+python3: can't open file '/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_5/compute_interpolation_tables.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[57335,1],1]
+  Exit code:    2
+--------------------------------------------------------------------------
+[spock25:1385340] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 8 bound to socket 0[core 8[hwt 0-1]]: [../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 9 bound to socket 0[core 9[hwt 0-1]]: [../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 10 bound to socket 0[core 10[hwt 0-1]]: [../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 11 bound to socket 0[core 11[hwt 0-1]]: [../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 12 bound to socket 0[core 12[hwt 0-1]]: [../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 14 bound to socket 0[core 14[hwt 0-1]]: [../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 15 bound to socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 13 bound to socket 0[core 13[hwt 0-1]]: [../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 16 bound to socket 0[core 16[hwt 0-1]]: [../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 18 bound to socket 0[core 18[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 19 bound to socket 0[core 19[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 17 bound to socket 0[core 17[hwt 0-1]]: [../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../..]
+[spock25:1385340] MCW rank 20 bound to socket 0[core 20[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../..]
+[spock25:1385340] MCW rank 23 bound to socket 0[core 23[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../..]
+[spock25:1385340] MCW rank 22 bound to socket 0[core 22[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../..]
+[spock25:1385340] MCW rank 21 bound to socket 0[core 21[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../..]
+[spock25:1385340] MCW rank 27 bound to socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../..]
+[spock25:1385340] MCW rank 24 bound to socket 0[core 24[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../..]
+[spock25:1385340] MCW rank 26 bound to socket 0[core 26[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../..]
+[spock25:1385340] MCW rank 25 bound to socket 0[core 25[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../..]
+[spock25:1385340] MCW rank 28 bound to socket 0[core 28[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../..]
+[spock25:1385340] MCW rank 31 bound to socket 0[core 31[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB]
+[spock25:1385340] MCW rank 30 bound to socket 0[core 30[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/..]
+[spock25:1385340] MCW rank 29 bound to socket 0[core 29[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../..]
+[Errno 17] File exists: './'
+Rank 1: Computing interpolation table for N = 5
+Rank 2: Computing interpolation table for N = 6
+Rank 3: Computing interpolation table for N = 7
+Rank 4: Computing interpolation table for N = 8
+Rank 5: Computing interpolation table for N = 9
+Rank 6: Computing interpolation table for N = 10
+Rank 7: Computing interpolation table for N = 11
+Rank 8: Computing interpolation table for N = 12
+Rank 9: Computing interpolation table for N = 13
+Rank 10: Computing interpolation table for N = 14
+Rank 11: Computing interpolation table for N = 15
+Rank 12: Computing interpolation table for N = 16
+Rank 13: Computing interpolation table for N = 17
+Rank 14: Computing interpolation table for N = 18
+Rank 15: Computing interpolation table for N = 19
+Rank 16: Computing interpolation table for N = 20
+Rank 17: Computing interpolation table for N = 21
+Rank 18: Computing interpolation table for N = 22
+Rank 19: Computing interpolation table for N = 23
+Rank 20: Computing interpolation table for N = 24
+Rank 21: Computing interpolation table for N = 25
+Rank 22: Computing interpolation table for N = 26
+Rank 23: Computing interpolation table for N = 27
+Rank 24: Computing interpolation table for N = 28
+Rank 25: Computing interpolation table for N = 29
+Rank 26: Computing interpolation table for N = 30
+Rank 27: Computing interpolation table for N = 31
+Rank 28: Computing interpolation table for N = 32
+Rank 29: Computing fixed extension for nd = 24
+Rank 30: Computing fixed extension for nd = 25
+Rank 31: Computing fixed extension for nd = 26
+Rank 0: Computing interpolation table for N = 4
+[spock28:2036419] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 8 bound to socket 0[core 8[hwt 0-1]]: [../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 10 bound to socket 0[core 10[hwt 0-1]]: [../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 9 bound to socket 0[core 9[hwt 0-1]]: [../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 11 bound to socket 0[core 11[hwt 0-1]]: [../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 12 bound to socket 0[core 12[hwt 0-1]]: [../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 14 bound to socket 0[core 14[hwt 0-1]]: [../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 13 bound to socket 0[core 13[hwt 0-1]]: [../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 15 bound to socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 16 bound to socket 0[core 16[hwt 0-1]]: [../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 17 bound to socket 0[core 17[hwt 0-1]]: [../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 18 bound to socket 0[core 18[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 19 bound to socket 0[core 19[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../../..]
+[spock28:2036419] MCW rank 20 bound to socket 0[core 20[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../../..]
+[spock28:2036419] MCW rank 21 bound to socket 0[core 21[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../../..]
+[spock28:2036419] MCW rank 22 bound to socket 0[core 22[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../../..]
+[spock28:2036419] MCW rank 23 bound to socket 0[core 23[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../../..]
+[spock28:2036419] MCW rank 24 bound to socket 0[core 24[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../../..]
+[spock28:2036419] MCW rank 25 bound to socket 0[core 25[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../../..]
+[spock28:2036419] MCW rank 26 bound to socket 0[core 26[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../../..]
+[spock28:2036419] MCW rank 27 bound to socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../../..]
+[spock28:2036419] MCW rank 29 bound to socket 0[core 29[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../..]
+[spock28:2036419] MCW rank 28 bound to socket 0[core 28[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/../../..]
+[spock28:2036419] MCW rank 30 bound to socket 0[core 30[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/..]
+[spock28:2036419] MCW rank 31 bound to socket 0[core 31[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB]
+[Errno 17] File exists: './'
+Rank 1: Computing interpolation table for N = 5
+Rank 2: Computing interpolation table for N = 6
+Rank 3: Computing interpolation table for N = 7
+Rank 4: Computing interpolation table for N = 8
+Rank 5: Computing interpolation table for N = 9
+Rank 6: Computing interpolation table for N = 10
+Rank 7: Computing interpolation table for N = 11
+Rank 8: Computing interpolation table for N = 12
+Rank 9: Computing interpolation table for N = 13
+Rank 10: Computing interpolation table for N = 14
+Rank 11: Computing interpolation table for N = 15
+Rank 12: Computing interpolation table for N = 16
+Rank 13: Computing interpolation table for N = 17
+Rank 14: Computing interpolation table for N = 18
+Rank 15: Computing interpolation table for N = 19
+Rank 16: Computing interpolation table for N = 20
+Rank 17: Computing interpolation table for N = 21
+Rank 18: Computing interpolation table for N = 22
+Rank 19: Computing interpolation table for N = 23
+Rank 20: Computing interpolation table for N = 24
+Rank 21: Computing interpolation table for N = 25
+Rank 22: Computing interpolation table for N = 26
+Rank 23: Computing interpolation table for N = 27
+Rank 24: Computing interpolation table for N = 28
+Rank 25: Computing interpolation table for N = 29
+Rank 26: Computing interpolation table for N = 30
+Rank 27: Computing interpolation table for N = 31
+Rank 28: Computing interpolation table for N = 32
+Rank 29: Computing fixed extension for nd = 24
+Rank 30: Computing fixed extension for nd = 25
+Rank 31: Computing fixed extension for nd = 26
+Rank 0: Computing interpolation table for N = 4
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 0: Computing fixed extension for nd = 27
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 1: Computing fixed extension for nd = 28
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 2: Computing fixed extension for nd = 29
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 3: Computing fixed extension for nd = 30
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 4: Computing fixed extension for nd = 31
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 5: Computing fixed extension for nd = 32
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 6: Computing fixed extension for nd = 33
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 7: Computing fixed extension for nd = 34
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 8: Computing fixed extension for nd = 35
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 9: Computing fixed extension for nd = 36
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+Rank 10: Computing fixed extension for nd = 37
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:443: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyboundary2Extension = np.array(self.boundary2Extension.tolist(), dtype=np.complex256).reshape(nExt, 2*nDelta).astype(np.float128)
+/work1/kunkelalexander/gamer-fork/tool/table_maker/GramFE/order_14/compute_interpolation_tables.py:537: ComplexWarning: Casting complex values to real discards the imaginary part
+  self.numpyInterpolationMatrix = np.array(self.interpolationMatrix.tolist(), dtype=complex).reshape(2 * (N - 2), N).astype(float)

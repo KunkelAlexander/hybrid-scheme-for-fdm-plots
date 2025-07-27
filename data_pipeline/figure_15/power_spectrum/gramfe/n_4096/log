@@ -1,0 +1,958 @@
+[eureka04:124824] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka04:124824] MCW rank 1 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka13:112571] MCW rank 8 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka16:87629] MCW rank 12 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka17:126016] MCW rank 14 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka22:01571] MCW rank 20 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka07:36160] MCW rank 4 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka21:80626] MCW rank 18 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka15:53549] MCW rank 10 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka24:97671] MCW rank 22 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka13:112571] MCW rank 9 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka16:87629] MCW rank 13 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka17:126016] MCW rank 15 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka22:01571] MCW rank 21 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka07:36160] MCW rank 5 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka21:80626] MCW rank 19 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka15:53549] MCW rank 11 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka24:97671] MCW rank 23 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka12:99797] MCW rank 6 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka12:99797] MCW rank 7 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka20:70926] MCW rank 16 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka20:70926] MCW rank 17 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka05:32043] MCW rank 2 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka05:32043] MCW rank 3 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+Init_MPI ... done
+   Current level of MPI thread support : MPI_THREAD_SERIALIZED
+Init_Load_Parameter ...
+WARNING : unrecognizable parameter [DT__HYBRID               ] at line   56 !!
+WARNING : unrecognizable parameter [DT__VELOCITY             ] at line   57 !!
+WARNING : unrecognizable parameter [DT__PARVEL               ] at line   59 !!
+WARNING : unrecognizable parameter [DT__PARVEL_MAX           ] at line   60 !!
+WARNING : unrecognizable parameter [DT__PARACC               ] at line   61 !!
+WARNING : unrecognizable parameter [OPT__FLAG_INTERFERENCE   ] at line   87 !!
+WARNING : unrecognizable parameter [OPT__FLAG_NPAR_PATCH     ] at line   90 !!
+WARNING : unrecognizable parameter [OPT__FLAG_NPAR_CELL      ] at line   91 !!
+WARNING : unrecognizable parameter [OPT__FLAG_PAR_MASS_CELL  ] at line   92 !!
+WARNING : unrecognizable parameter [OPT__PARTICLE_COUNT      ] at line   95 !!
+WARNING : unrecognizable parameter [LB_INPUT__PAR_WEIGHT     ] at line  102 !!
+WARNING : unrecognizable parameter [ELBDM_FIRST_WAVE_LEVEL   ] at line  115 !!
+WARNING : unrecognizable parameter [OPT__MATCH_PHASE         ] at line  163 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_PAR_TEXT     ] at line  178 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_PAR_DENS     ] at line  182 !!
+WARNING : unrecognizable parameter [OPT__CK_PARTICLE         ] at line  218 !!
+NOTE : parameter [MPI_NRANK_X              ] is set to the default value [-1                   ]
+NOTE : parameter [MPI_NRANK_Y              ] is set to the default value [-1                   ]
+NOTE : parameter [MPI_NRANK_Z              ] is set to the default value [-1                   ]
+NOTE : parameter [UNIT_L                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_M                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_T                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_V                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_D                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [GFUNC_COEFF0             ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [AUTO_REDUCE_INT_MONO_FACTOR] is set to the default value [ 8.00000000000000e-01]
+NOTE : parameter [AUTO_REDUCE_INT_MONO_MIN ] is set to the default value [ 1.00000000000000e-02]
+NOTE : parameter [OPT__FLAG_SPECTRAL       ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__FLAG_USER_NUM       ] is set to the default value [ 1                   ]
+NOTE : parameter [SRC_DELEPTONIZATION      ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_USER                 ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_GPU_NPGROUP          ] is set to the default value [-1                   ]
+NOTE : parameter [ELBDM_BASE_SPECTRAL      ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__INT_FRAC_PASSIVE_LR ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__RESET_FLUID_INIT    ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__FREEZE_FLUID        ] is set to the default value [ 0                   ]
+NOTE : parameter [MG_MAX_ITER              ] is set to the default value [-1                   ]
+NOTE : parameter [MG_NPRE_SMOOTH           ] is set to the default value [-1                   ]
+NOTE : parameter [MG_NPOST_SMOOTH          ] is set to the default value [-1                   ]
+NOTE : parameter [MG_TOLERATED_ERROR       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [OPT__GRA_P5_GRADIENT     ] is set to the default value [ 0                   ]
+NOTE : parameter [EXT_POT_TABLE_NAME       ] is set to the default value [                     ]
+NOTE : parameter [EXT_POT_TABLE_NPOINT_X   ] is set to the default value [-1                   ]
+NOTE : parameter [EXT_POT_TABLE_NPOINT_Y   ] is set to the default value [-1                   ]
+NOTE : parameter [EXT_POT_TABLE_NPOINT_Z   ] is set to the default value [-1                   ]
+NOTE : parameter [EXT_POT_TABLE_DH_X       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [EXT_POT_TABLE_DH_Y       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [EXT_POT_TABLE_DH_Z       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [EXT_POT_TABLE_EDGEL_X    ] is set to the default value [ 1.79769313486232e+308]
+NOTE : parameter [EXT_POT_TABLE_EDGEL_Y    ] is set to the default value [ 1.79769313486232e+308]
+NOTE : parameter [EXT_POT_TABLE_EDGEL_Z    ] is set to the default value [ 1.79769313486232e+308]
+NOTE : parameter [EXT_POT_TABLE_FLOAT8     ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__GRAVITY_EXTRA_MASS  ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__UM_IC_NLEVEL        ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__FFTW_STARTUP        ] is set to the default value [-1                   ]
+NOTE : parameter [MONO_MAX_ITER            ] is set to the default value [ 10                  ]
+NOTE : parameter [INT_OPP_SIGN_0TH_ORDER   ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__OUTPUT_TEXT_FORMAT_FLT] is set to the default value [%24.16e              ]
+NOTE : parameter [OPT__OUTPUT_USER_FIELD   ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__OUTPUT_RESTART      ] is set to the default value [ 0                   ]
+NOTE : parameter [OUTPUT_WALLTIME          ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [OUTPUT_WALLTIME_UNIT     ] is set to the default value [ 0                   ]
+NOTE : parameter [SPEC_INT_TABLE_PATH      ] is set to the default value [                     ]
+NOTE : parameter [OPT__SORT_PATCH_BY_LBIDX ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__CK_INPUT_FLUID      ] is set to the default value [ 0                   ]
+Init_Load_Parameter ... done
+Init_Unit ...
+NOTE : code units in cosmological simulations are fixed to
+   UNIT_L = Mpc/h
+   UNIT_D = current matter density = 3*OMEGA_M0*H0^2/(8*pi*G)
+   UNIT_T = 1/H0 = s*Mpc/(100*h*km)
+   UNIT_V = UNIT_L/UNIT_T = 100 km/s
+NOTE : UNIT_M is set to 2.5891128e+44
+NOTE : UNIT_V is set to 1.0000000e+07
+NOTE : UNIT_E is set to 2.5891128e+58
+NOTE : UNIT_P is set to 2.6887740e-16
+NOTE : NEWTON_G is set to 3.7698604e-02 internally
+NOTE : ELBDM_MASS is set to 5.5081784e-100 internally
+NOTE : ELBDM_PLANCK_CONST is set to 8.8864088e-104 internally
+Init_Unit ... done
+Init_ResetParameter ...
+WARNING : parameter [DT__FLUID                     ] is reset to [ 2.00000000000000e-01] 
+WARNING : parameter [DT__FLUID_INIT                ] is reset to [ 2.00000000000000e-01] 
+WARNING : parameter [DT__GRAVITY                   ] is reset to [ 1.25000000000000e-01] 
+WARNING : parameter [SOR_OMEGA                     ] is reset to [ 1.70408819104185e+00] 
+WARNING : parameter [SOR_MAX_ITER                  ] is reset to [ 94                  ] 
+WARNING : parameter [SOR_MIN_ITER                  ] is reset to [ 18                  ] 
+WARNING : parameter [ELBDM_ETA                     ] is reset to [ 6.19843009376045e+03] 
+          --> corresponding initial Jean's wavenumber (wavelength) = 3.8868549e+01 h/Mpc (1.6165217e-01 Mpc/h))
+WARNING : parameter [OPT__TIMING_BARRIER           ] is reset to [ 0                   ] 
+WARNING : parameter [OPT__CORR_AFTER_ALL_SYNC      ] is reset to [ 2                   ] 
+WARNING : parameter [FLAG_BUFFER_SIZE_MAXM2_LV     ] is reset to [ 6                   ] 
+WARNING : parameter [OPT__RESET_FLUID_INIT         ] is reset to [ 0                   ] to match OPT__RESET_FLUID
+WARNING : parameter [OPT__FFTW_STARTUP             ] is reset to [ 0                   ] when disabling BITWISE_REPRODUCIBILITY
+Init_ResetParameter ... done
+Init_Load_FlagCriteria ...
+Init_Load_FlagCriteria ... done
+Init_Load_DumpTable ...
+Init_Load_DumpTable ... done
+Init_OpenMP ... OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+done
+CUAPI_SetDevice ...
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+WARNING : please make sure that different MPI ranks will use different GPUs for "OPT__GPUID_SELECT == -1" !!
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+CUAPI_SetDevice ... done
+CUAPI_SetCache ...
+CUAPI_SetCache ... done
+Init_FFTW ... done
+Init_TestProb_ELBDM_LSS ...
+   Validating test problem 1009 ...
+   Validating test problem 1009 ... done
+   Setting runtime parameters ...
+WARNING : parameter [END_STEP                      ] is reset to [ 2147483647          ] 
+WARNING : disabling "OPT__INT_FRAC_PASSIVE_*" since there are no passive scalars
+          to be interpolated in fractional form !!
+=============================================================================
+  test problem ID     = 1009
+  initialization mode = 2
+=============================================================================
+   Setting runtime parameters ... done
+Init_TestProb_ELBDM_LSS ... done
+Init_Parallelization ... done
+Init_Field ...
+Init_Field ... done
+Init_ExtAccPot ...
+Init_ExtAccPot ... done
+Src_Init ...
+Src_Init ... done
+CUAPI_SetConstMemory ...
+CUAPI_SetConstMemory ... done
+Aux_Check_Parameter ...
+REMINDER : "OPT__TIMING_BARRIER" is off for TIMING
+           --> Some timing results (especially MPI and particle routines) may be less accurate due to load imbalance ...
+WARNING : MIN_DENS == 0.0 could be dangerous and is mainly for debugging only !!
+WARNING : currently we don't check MIN_DENS for the initial data loaded from UM_IC !!
+WARNING : currently STORE_POT_GHOST is useless when PARTICLE is disabled !!
+Aux_Check_Parameter ... done
+Aux_CreateTimer ... done
+CUAPI_MemAllocate ...
+CUAPI_SetMemSize ...
+WARNING : parameter [GPU_NStream                   ] is reset to [ 16                  ] --> might be further fine-tuned (GPU_NSTREAM in Input__Parameter)
+WARNING : parameter [Flu_GPU_NPGroup               ] is reset to [ 768                 ] --> might be further fine-tuned (FLU_GPU_NPGROUP in Input__Parameter)
+WARNING : parameter [Pot_GPU_NPGroup               ] is reset to [ 768                 ] --> might be further fine-tuned (POT_GPU_NPGROUP in Input__Parameter)
+WARNING : parameter [Src_GPU_NPGroup               ] is reset to [ 768                 ] --> might be further fine-tuned (SRC_GPU_NPGROUP in Input__Parameter)
+CUAPI_SetMemSize ... done
+NOTE : total memory requirement in GPU fluid solver = 207 MB
+NOTE : total memory requirement in GPU Poisson and gravity solver = 241 MB
+CUAPI_MemAllocate ... done
+Init_MemAllocate ...
+Init_MemAllocate ... done
+Init_ByFile ...
+   Allocating level 0 ...
+   Allocating level 0 ... done
+   Constructing patch relation ...
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+   Constructing patch relation ... done
+   Assigning data on level 0 ...
+      Loading data from the input file on level 0 ...
+      Loading ranks    0 --    0 ... done
+      Loading ranks    1 --    1 ... done
+      Loading ranks    2 --    2 ... done
+      Loading ranks    3 --    3 ...       Loading ranks    4 --    4 ... done
+done
+      Loading ranks    5 --    5 ... done
+      Loading ranks    6 --    6 ... done
+      Loading ranks    7 --    7 ... done
+      Loading ranks    8 --    8 ... done
+      Loading ranks    9 --    9 ... done
+      Loading ranks   10 --   10 ... done
+      Loading ranks   11 --   11 ... done
+      Loading ranks   12 --   12 ... done
+      Loading ranks   13 --   13 ... done
+      Loading ranks   14 --   14 ... done
+      Loading ranks   15 --   15 ...       Loading ranks   16 --   16 ... done
+done
+      Loading ranks   17 --   17 ...       Loading ranks   18 --   18 ... done
+done
+      Loading ranks   19 --   19 ...       Loading ranks   20 --   20 ... done
+done
+      Loading ranks   21 --   21 ...       Loading ranks   22 --   22 ... done
+done
+      Loading ranks   23 --   23 ...       Loading data from the input file on level 0 ... done
+done
+   Assigning data on level 0 ... done
+   Restricting level 2 ... done
+   Restricting level 1 ... done
+   Restricting level 0 ... done
+Init_ByFile ... done
+Poi_GetAverageDensity ...
+NOTE : background density = 9.99999999801580e-01
+Poi_GetAverageDensity ... done
+Calculating gravitational potential ...
+   Lv  0 ... done
+   Lv  1 ... done
+   Lv  2 ... done
+   Lv  3 ... done
+   Lv  4 ... done
+   Lv  5 ... done
+   Lv  6 ... done
+   Lv  7 ... done
+   Lv  8 ... done
+   Lv  9 ... done
+Calculating gravitational potential ... done
+Initializing source-term fields ...
+   Lv  0 ... done
+   Lv  1 ... done
+   Lv  2 ... done
+   Lv  3 ... done
+   Lv  4 ... done
+   Lv  5 ... done
+   Lv  6 ... done
+   Lv  7 ... done
+   Lv  8 ... done
+   Lv  9 ... done
+Initializing source-term fields ... done
+Aux_TakeNote ...
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+cat: ./Input__Note: No such file or directory
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+Aux_TakeNote ... done
+CUAPI_DiagnoseDevice ...
+CUAPI_DiagnoseDevice ... done
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+Output_BasePowerSpectrum (DumpID = 0) ...
+Output_BasePowerSpectrum (DumpID = 0) ... done
+WARNING : function "Aux_Check_Conservation" is NOT fully supported in COMOVING !! Only mass conservation check works !!
+Time: 9.9009901e-03 -> 1.0000000e-02,   Step:       0 ->       1,   dt_base: 9.9009901e-05
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+Output_BasePowerSpectrum (DumpID = 1) ...
+Output_BasePowerSpectrum (DumpID = 1) ... done
+Time: 1.0000000e-02 -> 1.0100000e-02,   Step:       1 ->       2,   dt_base: 1.0000000e-04
+Time: 1.0100000e-02 -> 1.0201000e-02,   Step:       2 ->       3,   dt_base: 1.0100000e-04
+Time: 1.0201000e-02 -> 1.0303010e-02,   Step:       3 ->       4,   dt_base: 1.0201000e-04
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <13>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 13
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <1>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 1
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <0>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 0
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <8>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 8
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <7>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 7
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <15>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 15
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <21>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 21
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <4>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 4
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <18>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 18
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <10>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 10
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <23>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 23
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <3>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 3
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <6>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 6
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <20>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 20
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <22>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 22
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <12>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 12
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <9>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 9
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <14>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 14
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <19>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 19
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <2>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 2
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <11>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 11
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <5>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 5
+
+[eureka04:124824] 21 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka04:124824] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <17>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 17
+
+[eureka04:124824] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[eureka01:93015] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka01:93015] MCW rank 1 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka23:42746] MCW rank 12 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka22:109320] MCW rank 10 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka13:24821] MCW rank 6 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka06:129034] MCW rank 4 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka21:49595] MCW rank 8 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka04:87623] MCW rank 2 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka24:74394] MCW rank 14 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka26:34496] MCW rank 18 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka23:42746] MCW rank 13 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka22:109320] MCW rank 11 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka13:24821] MCW rank 7 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka06:129034] MCW rank 5 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka21:49595] MCW rank 9 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka04:87623] MCW rank 3 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka24:74394] MCW rank 15 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka26:34496] MCW rank 19 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka28:68265] MCW rank 22 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka28:68265] MCW rank 23 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka27:126805] MCW rank 20 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka27:126805] MCW rank 21 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+[eureka25:03697] MCW rank 16 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../..]
+[eureka25:03697] MCW rank 17 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB]
+Init_MPI ... done
+   Current level of MPI thread support : MPI_THREAD_SERIALIZED
+Init_Load_Parameter ...
+WARNING : unrecognizable parameter [DT__HYBRID               ] at line   56 !!
+WARNING : unrecognizable parameter [DT__VELOCITY             ] at line   57 !!
+WARNING : unrecognizable parameter [DT__PARVEL               ] at line   59 !!
+WARNING : unrecognizable parameter [DT__PARVEL_MAX           ] at line   60 !!
+WARNING : unrecognizable parameter [DT__PARACC               ] at line   61 !!
+WARNING : unrecognizable parameter [OPT__FLAG_INTERFERENCE   ] at line   87 !!
+WARNING : unrecognizable parameter [OPT__FLAG_NPAR_PATCH     ] at line   90 !!
+WARNING : unrecognizable parameter [OPT__FLAG_NPAR_CELL      ] at line   91 !!
+WARNING : unrecognizable parameter [OPT__FLAG_PAR_MASS_CELL  ] at line   92 !!
+WARNING : unrecognizable parameter [OPT__PARTICLE_COUNT      ] at line   95 !!
+WARNING : unrecognizable parameter [LB_INPUT__PAR_WEIGHT     ] at line  102 !!
+WARNING : unrecognizable parameter [ELBDM_FIRST_WAVE_LEVEL   ] at line  115 !!
+WARNING : unrecognizable parameter [OPT__MATCH_PHASE         ] at line  163 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_PAR_TEXT     ] at line  178 !!
+WARNING : unrecognizable parameter [OPT__OUTPUT_PAR_DENS     ] at line  182 !!
+WARNING : unrecognizable parameter [OPT__CK_PARTICLE         ] at line  218 !!
+NOTE : parameter [MPI_NRANK_X              ] is set to the default value [-1                   ]
+NOTE : parameter [MPI_NRANK_Y              ] is set to the default value [-1                   ]
+NOTE : parameter [MPI_NRANK_Z              ] is set to the default value [-1                   ]
+NOTE : parameter [UNIT_L                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_M                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_T                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_V                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [UNIT_D                   ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [GFUNC_COEFF0             ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [AUTO_REDUCE_INT_MONO_FACTOR] is set to the default value [ 8.00000000000000e-01]
+NOTE : parameter [AUTO_REDUCE_INT_MONO_MIN ] is set to the default value [ 1.00000000000000e-02]
+NOTE : parameter [OPT__FLAG_SPECTRAL       ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__FLAG_USER_NUM       ] is set to the default value [ 1                   ]
+NOTE : parameter [SRC_DELEPTONIZATION      ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_USER                 ] is set to the default value [ 0                   ]
+NOTE : parameter [SRC_GPU_NPGROUP          ] is set to the default value [-1                   ]
+NOTE : parameter [ELBDM_BASE_SPECTRAL      ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__INT_FRAC_PASSIVE_LR ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__RESET_FLUID_INIT    ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__FREEZE_FLUID        ] is set to the default value [ 0                   ]
+NOTE : parameter [MG_MAX_ITER              ] is set to the default value [-1                   ]
+NOTE : parameter [MG_NPRE_SMOOTH           ] is set to the default value [-1                   ]
+NOTE : parameter [MG_NPOST_SMOOTH          ] is set to the default value [-1                   ]
+NOTE : parameter [MG_TOLERATED_ERROR       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [OPT__GRA_P5_GRADIENT     ] is set to the default value [ 0                   ]
+NOTE : parameter [EXT_POT_TABLE_NAME       ] is set to the default value [                     ]
+NOTE : parameter [EXT_POT_TABLE_NPOINT_X   ] is set to the default value [-1                   ]
+NOTE : parameter [EXT_POT_TABLE_NPOINT_Y   ] is set to the default value [-1                   ]
+NOTE : parameter [EXT_POT_TABLE_NPOINT_Z   ] is set to the default value [-1                   ]
+NOTE : parameter [EXT_POT_TABLE_DH_X       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [EXT_POT_TABLE_DH_Y       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [EXT_POT_TABLE_DH_Z       ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [EXT_POT_TABLE_EDGEL_X    ] is set to the default value [ 1.79769313486232e+308]
+NOTE : parameter [EXT_POT_TABLE_EDGEL_Y    ] is set to the default value [ 1.79769313486232e+308]
+NOTE : parameter [EXT_POT_TABLE_EDGEL_Z    ] is set to the default value [ 1.79769313486232e+308]
+NOTE : parameter [EXT_POT_TABLE_FLOAT8     ] is set to the default value [-1                   ]
+NOTE : parameter [OPT__GRAVITY_EXTRA_MASS  ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__UM_IC_NLEVEL        ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__FFTW_STARTUP        ] is set to the default value [-1                   ]
+NOTE : parameter [MONO_MAX_ITER            ] is set to the default value [ 10                  ]
+NOTE : parameter [INT_OPP_SIGN_0TH_ORDER   ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__OUTPUT_TEXT_FORMAT_FLT] is set to the default value [%24.16e              ]
+NOTE : parameter [OPT__OUTPUT_USER_FIELD   ] is set to the default value [ 0                   ]
+NOTE : parameter [OPT__OUTPUT_RESTART      ] is set to the default value [ 0                   ]
+NOTE : parameter [OUTPUT_WALLTIME          ] is set to the default value [-1.00000000000000e+00]
+NOTE : parameter [OUTPUT_WALLTIME_UNIT     ] is set to the default value [ 0                   ]
+NOTE : parameter [SPEC_INT_TABLE_PATH      ] is set to the default value [                     ]
+NOTE : parameter [OPT__SORT_PATCH_BY_LBIDX ] is set to the default value [ 1                   ]
+NOTE : parameter [OPT__CK_INPUT_FLUID      ] is set to the default value [ 0                   ]
+Init_Load_Parameter ... done
+Init_Unit ...
+NOTE : code units in cosmological simulations are fixed to
+   UNIT_L = Mpc/h
+   UNIT_D = current matter density = 3*OMEGA_M0*H0^2/(8*pi*G)
+   UNIT_T = 1/H0 = s*Mpc/(100*h*km)
+   UNIT_V = UNIT_L/UNIT_T = 100 km/s
+NOTE : UNIT_M is set to 2.5891128e+44
+NOTE : UNIT_V is set to 1.0000000e+07
+NOTE : UNIT_E is set to 2.5891128e+58
+NOTE : UNIT_P is set to 2.6887740e-16
+NOTE : NEWTON_G is set to 3.7698604e-02 internally
+NOTE : ELBDM_MASS is set to 5.5081784e-100 internally
+NOTE : ELBDM_PLANCK_CONST is set to 8.8864088e-104 internally
+Init_Unit ... done
+Init_ResetParameter ...
+WARNING : parameter [DT__FLUID                     ] is reset to [ 2.00000000000000e-01] 
+WARNING : parameter [DT__FLUID_INIT                ] is reset to [ 2.00000000000000e-01] 
+WARNING : parameter [DT__GRAVITY                   ] is reset to [ 1.25000000000000e-01] 
+WARNING : parameter [SOR_OMEGA                     ] is reset to [ 1.70408819104185e+00] 
+WARNING : parameter [SOR_MAX_ITER                  ] is reset to [ 94                  ] 
+WARNING : parameter [SOR_MIN_ITER                  ] is reset to [ 18                  ] 
+WARNING : parameter [ELBDM_ETA                     ] is reset to [ 6.19843009376045e+03] 
+Init_ResetParameter ... done
+Init_Load_FlagCriteria ...
+          --> corresponding initial Jean's wavenumber (wavelength) = 3.8868549e+01 h/Mpc (1.6165217e-01 Mpc/h))
+WARNING : parameter [OPT__TIMING_BARRIER           ] is reset to [ 0                   ] 
+WARNING : parameter [OPT__CORR_AFTER_ALL_SYNC      ] is reset to [ 2                   ] 
+WARNING : parameter [FLAG_BUFFER_SIZE_MAXM2_LV     ] is reset to [ 6                   ] 
+WARNING : parameter [OPT__RESET_FLUID_INIT         ] is reset to [ 0                   ] to match OPT__RESET_FLUID
+WARNING : parameter [OPT__FFTW_STARTUP             ] is reset to [ 0                   ] when disabling BITWISE_REPRODUCIBILITY
+Init_Load_FlagCriteria ... done
+Init_Load_DumpTable ...
+Init_Load_DumpTable ... done
+Init_OpenMP ... OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+done
+CUAPI_SetDevice ...
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+WARNING : please make sure that different MPI ranks will use different GPUs for "OPT__GPUID_SELECT == -1" !!
+CUAPI_SetDevice ... done
+CUAPI_SetCache ...
+CUAPI_SetCache ... done
+Init_FFTW ... done
+Init_TestProb_ELBDM_LSS ...
+   Validating test problem 1009 ...
+   Validating test problem 1009 ... done
+   Setting runtime parameters ...
+WARNING : parameter [END_STEP                      ] is reset to [ 2147483647          ] 
+WARNING : disabling "OPT__INT_FRAC_PASSIVE_*" since there are no passive scalars
+          to be interpolated in fractional form !!
+=============================================================================
+  test problem ID     = 1009
+  initialization mode = 2
+=============================================================================
+   Setting runtime parameters ... done
+Init_TestProb_ELBDM_LSS ... done
+Init_Parallelization ... done
+Init_Field ...
+Init_Field ... done
+Init_ExtAccPot ...
+Init_ExtAccPot ... done
+Src_Init ...
+Src_Init ... done
+CUAPI_SetConstMemory ...
+CUAPI_SetConstMemory ... done
+Aux_Check_Parameter ...
+REMINDER : "OPT__TIMING_BARRIER" is off for TIMING
+           --> Some timing results (especially MPI and particle routines) may be less accurate due to load imbalance ...
+WARNING : MIN_DENS == 0.0 could be dangerous and is mainly for debugging only !!
+WARNING : currently we don't check MIN_DENS for the initial data loaded from UM_IC !!
+WARNING : currently STORE_POT_GHOST is useless when PARTICLE is disabled !!
+Aux_Check_Parameter ... done
+Aux_CreateTimer ... done
+CUAPI_MemAllocate ...
+CUAPI_SetMemSize ...
+WARNING : parameter [GPU_NStream                   ] is reset to [ 16                  ] --> might be further fine-tuned (GPU_NSTREAM in Input__Parameter)
+WARNING : parameter [Flu_GPU_NPGroup               ] is reset to [ 768                 ] --> might be further fine-tuned (FLU_GPU_NPGROUP in Input__Parameter)
+WARNING : parameter [Pot_GPU_NPGroup               ] is reset to [ 768                 ] --> might be further fine-tuned (POT_GPU_NPGROUP in Input__Parameter)
+WARNING : parameter [Src_GPU_NPGroup               ] is reset to [ 768                 ] --> might be further fine-tuned (SRC_GPU_NPGROUP in Input__Parameter)
+CUAPI_SetMemSize ... done
+NOTE : total memory requirement in GPU fluid solver = 207 MB
+NOTE : total memory requirement in GPU Poisson and gravity solver = 241 MB
+CUAPI_MemAllocate ... done
+Init_MemAllocate ...
+Init_MemAllocate ... done
+Init_ByFile ...
+   Allocating level 0 ...
+   Allocating level 0 ... done
+   Constructing patch relation ...
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+   Constructing patch relation ... done
+   Assigning data on level 0 ...
+      Loading data from the input file on level 0 ...
+      Loading ranks    0 --    0 ... done
+      Loading ranks    1 --    1 ... done
+      Loading ranks    2 --    2 ... done
+      Loading ranks    3 --    3 ... done
+      Loading ranks    4 --    4 ... done
+      Loading ranks    5 --    5 ... done
+      Loading ranks    6 --    6 ... done
+      Loading ranks    7 --    7 ... done
+      Loading ranks    8 --    8 ... done
+      Loading ranks    9 --    9 ... done
+      Loading ranks   10 --   10 ... done
+      Loading ranks   11 --   11 ... done
+      Loading ranks   12 --   12 ... done
+      Loading ranks   13 --   13 ... done
+      Loading ranks   14 --   14 ... done
+      Loading ranks   15 --   15 ... done
+      Loading ranks   16 --   16 ... done
+      Loading ranks   17 --   17 ... done
+      Loading ranks   18 --   18 ... done
+      Loading ranks   19 --   19 ...       Loading ranks   20 --   20 ... done
+done
+      Loading ranks   21 --   21 ... done
+      Loading ranks   22 --   22 ... done
+      Loading ranks   23 --   23 ...       Loading data from the input file on level 0 ... done
+done
+   Assigning data on level 0 ... done
+   Restricting level 3 ... done
+   Restricting level 2 ... done
+   Restricting level 1 ... done
+   Restricting level 0 ... done
+Init_ByFile ... done
+Poi_GetAverageDensity ...
+NOTE : background density = 9.99999999801580e-01
+Poi_GetAverageDensity ... done
+Calculating gravitational potential ...
+   Lv  0 ... done
+   Lv  1 ... done
+   Lv  2 ... done
+   Lv  3 ... done
+   Lv  4 ... done
+   Lv  5 ... done
+   Lv  6 ... done
+   Lv  7 ... done
+   Lv  8 ... done
+   Lv  9 ... done
+Calculating gravitational potential ... done
+Initializing source-term fields ...
+   Lv  0 ... done
+   Lv  1 ... done
+   Lv  2 ... done
+   Lv  3 ... done
+   Lv  4 ... done
+   Lv  5 ... done
+   Lv  6 ... done
+   Lv  7 ... done
+   Lv  8 ... done
+   Lv  9 ... done
+Initializing source-term fields ... done
+Aux_TakeNote ...
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+cat: ./Input__Note: No such file or directory
+OMP: Info #277: omp_get_nested routine deprecated, please use omp_get_max_active_levels instead.
+Aux_TakeNote ... done
+CUAPI_DiagnoseDevice ...
+CUAPI_DiagnoseDevice ... done
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+Output_BasePowerSpectrum (DumpID = 0) ...
+Output_BasePowerSpectrum (DumpID = 0) ... done
+WARNING : function "Aux_Check_Conservation" is NOT fully supported in COMOVING !! Only mass conservation check works !!
+Time: 9.9009901e-03 -> 1.0000000e-02,   Step:       0 ->       1,   dt_base: 9.9009901e-05
+   LB_Init_LoadBalance at all levels ...
+   LB_Init_LoadBalance at all levels ... done
+Output_BasePowerSpectrum (DumpID = 1) ...
+Output_BasePowerSpectrum (DumpID = 1) ... done
+Time: 1.0000000e-02 -> 1.0100000e-02,   Step:       1 ->       2,   dt_base: 1.0000000e-04
+Time: 1.0100000e-02 -> 1.0201000e-02,   Step:       2 ->       3,   dt_base: 1.0100000e-04
+Time: 1.0201000e-02 -> 1.0303010e-02,   Step:       3 ->       4,   dt_base: 1.0201000e-04
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <4>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 4
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <0>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 0
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <12>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 12
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <10>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 10
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <6>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 6
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <5>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 5
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <8>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 8
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <3>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 3
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <14>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 14
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <20>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 20
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <16>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 16
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <22>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 22
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <19>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 19
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <13>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 13
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <2>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 2
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <23>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 23
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <11>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 11
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <7>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 7
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <9>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 9
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <15>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 15
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <21>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 21
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <17>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 17
+
+********************************************************************************
+ERROR : exceed MAX_PATCH (1000000) => please reset it in the Makefile !!
+        Rank <18>, file <../include/AMR.h>, line <266>, function <pnew>
+********************************************************************************
+
+Program terminated with error ...... rank 18
+
+[eureka01:93015] 22 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka01:93015] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

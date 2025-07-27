@@ -1,0 +1,1037 @@
+
+
+
+Simulation Notes
+***********************************************************************************
+***********************************************************************************
+
+
+Makefile Options (numerical schemes)
+***********************************************************************************
+MODEL                           ELBDM
+GRAVITY                         ON
+POT_SCHEME                      SOR
+STORE_POT_GHOST                 ON
+UNSPLIT_GRAVITY                 OFF
+COMOVING                        ON
+PARTICLE                        OFF
+SUPPORT_GRACKLE                 OFF
+ELBDM_SCHEME                    ELBDM_WAVE
+WAVE_SCHEME                     GRAM FE
+GRAMFE_SCHEME                   MATMUL
+CONSERVE_MASS                   ON
+QUARTIC_SELF_INTERACTION        OFF
+***********************************************************************************
+
+
+Makefile Options (optimization and compilation)
+***********************************************************************************
+GPU                             ON
+GAMER_DEBUG                     OFF
+BITWISE_REPRODUCIBILITY         OFF
+TIMING                          ON
+TIMING_SOLVER                   OFF
+FLOAT8                          OFF
+SERIAL                          OFF
+LOAD_BALANCE                    HILBERT
+OVERLAP_MPI                     OFF
+OPENMP                          ON
+GPU_ARCH                        TURING
+LAOHU                           OFF
+SUPPORT_HDF5                    ON
+SUPPORT_GSL                     ON
+SUPPORT_FFTW                    FFTW3
+SUPPORT_LIBYT                   OFF
+RANDOM_NUMBER                   RNG_GNU_EXT
+SUPPORT_SPECTRAL_INT            ON
+***********************************************************************************
+
+
+Other Options (in Macro.h, CUFLU.h and CUPOT.h)
+***********************************************************************************
+BIT_REP_FLUX                    OFF
+INTERP_MASK                     ON
+FB_SEP_FLUOUT                   OFF
+GRAMFE_GAMMA                    150
+GRAMFE_G                        63
+GRAMFE_NDELTA                   14
+GRAMFE_ND                       32
+GRAMFE_ORDER                    14
+GRAMFE_FLU_NXT                  64
+GRAMFE_MATMUL_FLOAT8            ON
+SOR_RHO_SHARED                  ON
+SOR_CPOT_SHARED                 OFF
+SOR_USE_SHUFFLE                 ON
+SOR_USE_PADDING                 ON
+SOR_MOD_REDUCTION               2
+DT_FLU_USE_SHUFFLE              ON
+DT_GRA_USE_SHUFFLE              ON
+***********************************************************************************
+
+
+Symbolic Constants
+***********************************************************************************
+#define VERSION                 gamer-2.1.1.dev
+#define NCOMP_FLUID             3
+#define NCOMP_PASSIVE           0
+#define FLU_NIN                 2
+#define FLU_NOUT                3
+#define FLU_NIN_T               3
+#define FLU_NIN_S               3
+#define FLU_NOUT_S              3
+#define DER_NOUT_MAX            10
+#define NFIELD_STORED_MAX       50
+#define NFLUX_FLUID             1
+#define NFLUX_PASSIVE           0
+#define GRA_NIN                 2
+#define PATCH_SIZE              8
+#define MAX_PATCH               1000000
+#define NLEVEL                  10
+
+#define FLU_GHOST_SIZE          8
+#define POT_GHOST_SIZE          5
+#define RHO_GHOST_SIZE          4
+#define GRA_GHOST_SIZE          2
+#define SRC_GHOST_SIZE          0
+#define DER_GHOST_SIZE          1
+#define FLU_NXT                 32
+#define POT_NXT                 12
+#define RHO_NXT                 16
+#define GRA_NXT                 12
+#define SRC_NXT                 8
+#define DER_NXT                 10
+#define EXT_POT_NAUX_MAX        20
+#define EXT_ACC_NAUX_MAX        20
+#define EXT_POT_NGENE_MAX       6
+#define SRC_NAUX_USER           10
+#define FLU_BLOCK_SIZE_X        16
+#define FLU_BLOCK_SIZE_Y        32
+#define POT_BLOCK_SIZE_Z        4
+#define EXTPOT_BLOCK_SIZE       256
+#define GRA_BLOCK_SIZE          256
+#define DT_FLU_BLOCK_SIZE       512
+#define DT_GRA_BLOCK_SIZE       256
+#define SRC_BLOCK_SIZE          512
+#define MAX_STRING              512
+#define TINY_NUMBER             1.17549435082229e-38
+#define HUGE_NUMBER             3.40282346638529e+38
+#define MAX_ERROR               9.99999997475243e-07
+***********************************************************************************
+
+
+Parameters of Simulation Scale
+***********************************************************************************
+BOX_SIZE (input)                1.00000000000000e+01
+BOX_SIZE_X                      1.00000000000000e+01
+BOX_SIZE_Y                      1.00000000000000e+01
+BOX_SIZE_Z                      1.00000000000000e+01
+BOX_SCALE_X                     262144
+BOX_SCALE_Y                     262144
+BOX_SCALE_Z                     262144
+NX0_TOT[0]                      512
+NX0_TOT[1]                      512
+NX0_TOT[2]                      512
+MPI_NRank                       16
+MPI_NRank_X[0]                  -1
+MPI_NRank_X[1]                  -1
+MPI_NRank_X[2]                  -1
+OMP_NTHREAD                     8
+END_T                           1.25000000000000e-01
+END_STEP                        2147483647
+***********************************************************************************
+
+
+Parameters of Test Problems
+***********************************************************************************
+TESTPROB_ID                     1009
+***********************************************************************************
+
+
+Parameters of Code Units
+***********************************************************************************
+OPT__UNIT                       1
+
+### All units marked with (*) assume h = 6.7321170e-01 ###
+
+rho_bg = current matter density = 3.97265038582169e+01 Msun/kpc^3 (*)
+
+UNIT_L (length)                 1.00000000000000e+00 Mpc/h
+                              = 4.58351746039173e+24 cm         (*)
+UNIT_M (mass)                   8.76550690630076e+10 Msun/h
+                              = 2.58911282783396e+44 g          (*)
+UNIT_T (time)                   1.45246009595121e+01 Gyr        (*)
+                              = 4.58351746039173e+17 s          (*)
+UNIT_V (velocity)               1.00000000000000e+02 km/s
+                              = 1.00000000000000e+07 cm/s
+UNIT_D (mass density)           1.00000000000000e+00 rho_bg     (*)
+                              = 2.68877403877662e-30 g/cm^3     (*)
+UNIT_E (energy)                 2.58911282783396e+58 g*cm^2/s^2 (*)
+UNIT_P (energy density)         2.68877403877662e-16 g/cm/s^2   (*)
+***********************************************************************************
+
+
+Parameters of Boundary Condition
+***********************************************************************************
+OPT__BC_FLU[0] (-x)             1
+OPT__BC_FLU[1] (+x)             1
+OPT__BC_FLU[2] (-y)             1
+OPT__BC_FLU[3] (+y)             1
+OPT__BC_FLU[4] (-z)             1
+OPT__BC_FLU[5] (+z)             1
+OPT__BC_POT                     1
+GFUNC_COEFF0                    -1.0000000e+00
+***********************************************************************************
+
+
+Parameters of Cosmological Simulation
+***********************************************************************************
+A_INIT                          9.9009901e-03
+OMEGA_M0                        3.1582309e-01
+HUBBLE0 (h)                     6.7321170e-01
+***********************************************************************************
+
+
+Parameters of Time-step Determination
+***********************************************************************************
+DT__MAX                        -1.0000000e+00
+DT__FLUID                       2.0000000e-01
+DT__FLUID_INIT                  2.0000000e-01
+DT__GRAVITY                     1.2500000e-01
+DT__PHASE                       0.0000000e+00
+DT__MAX_DELTA_A                 1.0000000e-02
+DT__SYNC_PARENT_LV              1.0000000e-01
+DT__SYNC_CHILDREN_LV            1.0000000e-01
+OPT__DT_USER                    0
+OPT__DT_LEVEL                   3
+AUTO_REDUCE_DT                  1
+AUTO_REDUCE_DT_FACTOR           8.0000000e-01
+AUTO_REDUCE_DT_FACTOR_MIN       1.0000000e-01
+AUTO_REDUCE_INT_MONO_FACTOR     8.0000000e-01
+AUTO_REDUCE_INT_MONO_MIN        1.0000000e-02
+OPT__RECORD_DT                  1
+***********************************************************************************
+
+
+Parameters of Domain Refinement
+***********************************************************************************
+REGRID_COUNT                    4
+REFINE_NLEVEL                   4
+FLAG_BUFFER_SIZE                8
+FLAG_BUFFER_SIZE_MAXM1_LV       4
+FLAG_BUFFER_SIZE_MAXM2_LV       6
+MAX_LEVEL                       0
+OPT__FLAG_RHO                   1
+OPT__FLAG_RHO_GRADIENT          0
+OPT__FLAG_ENGY_DENSITY          0
+OPT__FLAG_SPECTRAL              0
+OPT__FLAG_LOHNER_DENS           0
+OPT__FLAG_LOHNER_FORM           LOHNER_FLASH1
+OPT__FLAG_USER                  0
+OPT__FLAG_USER_NUM              1
+OPT__FLAG_REGION                0
+OPT__NO_FLAG_NEAR_BOUNDARY      0
+OPT__PATCH_COUNT                1
+OPT__REUSE_MEMORY               2
+OPT__MEMORY_POOL                0
+***********************************************************************************
+
+
+Parameters of Parallelization
+***********************************************************************************
+Flu_ParaBuf                     8
+Pot_ParaBuf                     4
+Rho_ParaBuf                     4
+LB_WLI_MAX                      1.0000000e-01
+OPT__RECORD_LOAD_BALANCE        1
+OPT__LB_EXCHANGE_FATHER         1
+OPT__MINIMIZE_MPI_BARRIER       0
+***********************************************************************************
+
+
+Parameters of Source Terms
+***********************************************************************************
+SRC_ANY                         0
+SRC_DELEPTONIZATION             0
+SRC_USER                        0
+SRC_GPU_NPGROUP                 768
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in different models)
+***********************************************************************************
+ELBDM_MASS                      1.1883335e-22 h*ev/c^2
+                              = 8.0000000e-23 ev/c^2 (assuming h = 6.7321170e-01)
+ELBDM_PLANCK_CONST              8.8864088e-104
+ELBDM_ETA                       6.1984301e+03
+ELBDM_TAYLOR3_COEFF             1.6666667e-01
+ELBDM_TAYLOR3_AUTO              0
+ELBDM_REMOVE_MOTION_CM          0
+ELBDM_BASE_SPECTRAL             0
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in all models)
+***********************************************************************************
+FLU_GPU_NPGROUP                 768
+GPU_NSTREAM                     16
+OPT__FIXUP_FLUX                 1
+OPT__FIXUP_RESTRICT             1
+OPT__CORR_AFTER_ALL_SYNC        2
+OPT__NORMALIZE_PASSIVE          0
+   Number of fields             0
+OPT__INT_FRAC_PASSIVE_LR        0
+   Number of fields             0
+OPT__OVERLAP_MPI                0
+OPT__RESET_FLUID                0
+OPT__RESET_FLUID_INIT           0
+OPT__FREEZE_FLUID               0
+MIN_DENS                        0.0000000e+00
+WITH_COARSE_FINE_FLUX           1
+MPI Thread Level                MPI_THREAD_SERIALIZED
+FFTW3_Double_OMP_Enabled        1
+FFTW3_Single_OMP_Enabled        1
+***********************************************************************************
+
+
+Parameters of Poisson and Gravity Solvers
+***********************************************************************************
+NEWTON_G                        3.7698604e-02
+SOR_OMEGA                       1.7040882e+00
+SOR_MAX_ITER                    94
+SOR_MIN_ITER                    18
+POT_GPU_NPGROUP                 768
+OPT__GRA_P5_GRADIENT            0
+OPT__SELF_GRAVITY               1
+OPT__EXT_ACC                    0
+OPT__EXT_POT                    0
+OPT__GRAVITY_EXTRA_MASS         0
+AveDensity_Init                 1.0000000e+00
+***********************************************************************************
+
+
+Parameters of Initialization
+***********************************************************************************
+OPT__INIT                       3
+RESTART_LOAD_NRANK              1
+OPT__RESTART_RESET              0
+OPT__UM_IC_LEVEL                0
+OPT__UM_IC_NLEVEL               1
+OPT__UM_IC_NVAR                 2
+OPT__UM_IC_FORMAT               1
+OPT__UM_IC_DOWNGRADE            1
+OPT__UM_IC_REFINE               0
+OPT__UM_IC_LOAD_NRANK           1
+OPT__INIT_RESTRICT              1
+OPT__INIT_GRID_WITH_OMP         1
+OPT__GPUID_SELECT               -1
+INIT_SUBSAMPLING_NCELL          0
+OPT__FFTW_STARTUP               FFTW_ESTIMATE
+***********************************************************************************
+
+
+Parameters of Interpolation Schemes
+***********************************************************************************
+OPT__INT_TIME                   1
+OPT__INT_PHASE                  1
+OPT__RES_PHASE                  0
+SPEC_INT_TABLE_PATH             
+OPT__FLU_INT_SCHEME             CQUAR
+OPT__POT_INT_SCHEME             QUAD
+OPT__RHO_INT_SCHEME             CQUAD
+OPT__GRA_INT_SCHEME             QUAD
+OPT__REF_FLU_INT_SCHEME         CQUAR
+OPT__REF_POT_INT_SCHEME         QUAD
+INT_MONO_COEFF                  2.0000000e+00
+MONO_MAX_ITER                   10
+INT_OPP_SIGN_0TH_ORDER          0
+***********************************************************************************
+
+
+Parameters of Data Dump
+***********************************************************************************
+OPT__OUTPUT_TOTAL               0
+OPT__OUTPUT_PART                0
+OPT__OUTPUT_USER                0
+OPT__OUTPUT_TEXT_FORMAT_FLT     %24.16e
+OPT__OUTPUT_BASEPS              1
+OPT__OUTPUT_BASE                0
+OPT__OUTPUT_POT                 0
+OPT__OUTPUT_USER_FIELD          0
+OPT__OUTPUT_MODE                3
+OPT__OUTPUT_RESTART             0
+OUTPUT_STEP                     1
+OUTPUT_DT                       1.00000000000000e+00
+OUTPUT_WALLTIME                 -1.00000000000000e+00
+OUTPUT_WALLTIME_UNIT            0
+OUTPUT_PART_X                   -1.00000000000000e+00
+OUTPUT_PART_Y                   -1.00000000000000e+00
+OUTPUT_PART_Z                   -1.00000000000000e+00
+INIT_DUMPID                     -1
+***********************************************************************************
+
+
+Parameters of Miscellaneous Purposes
+***********************************************************************************
+OPT__VERBOSE                    0
+OPT__TIMING_BARRIER             0
+OPT__TIMING_BALANCE             0
+OPT__TIMING_MPI                 0
+OPT__RECORD_NOTE                1
+OPT__RECORD_UNPHY               0
+OPT__RECORD_MEMORY              1
+OPT__RECORD_PERFORMANCE         1
+OPT__MANUAL_CONTROL             1
+OPT__RECORD_USER                0
+OPT__OPTIMIZE_AGGRESSIVE        0
+OPT__SORT_PATCH_BY_LBIDX        1
+***********************************************************************************
+
+
+Parameters of Simulation Checks
+***********************************************************************************
+OPT__CK_REFINE                  0
+OPT__CK_PROPER_NESTING          0
+OPT__CK_CONSERVATION            1
+OPT__CK_NORMALIZE_PASSIVE       0
+OPT__CK_RESTRICT                0
+OPT__CK_FINITE                  0
+OPT__CK_PATCH_ALLOCATE          0
+OPT__CK_FLUX_ALLOCATE           0
+OPT__CK_MEMFREE                 1.0000000e+00
+OPT__CK_INPUT_FLUID             0
+***********************************************************************************
+
+
+Flag Criterion (Density)
+***********************************************************************************
+  Level             Density
+***********************************************************************************
+
+
+Cell Size and Scale (scale = number of cells at the finest level)
+***********************************************************************************
+  Level                           Cell Size                Cell Scale
+      0              0.01953125000000000000                       512
+      1              0.00976562500000000000                       256
+      2              0.00488281250000000000                       128
+      3              0.00244140625000000000                        64
+      4              0.00122070312500000000                        32
+      5              0.00061035156250000000                        16
+      6              0.00030517578125000000                         8
+      7              0.00015258789062500000                         4
+      8              0.00007629394531250000                         2
+      9              0.00003814697265625000                         1
+***********************************************************************************
+
+
+Compilation Time
+***********************************************************************************
+Mar  4 2024 03:10:06
+***********************************************************************************
+
+
+Current Time
+***********************************************************************************
+Wed Mar  6 06:05:33 2024
+***********************************************************************************
+
+
+Git information
+***********************************************************************************
+Branch : hyschive_psidm
+Commit : e626dd7e83eb3753251f9101855388edda4a9fec
+***********************************************************************************
+
+
+OpenMP Diagnosis
+***********************************************************************************
+OMP__SCHEDULE                   DYNAMIC
+OMP__SCHEDULE_CHUNK_SIZE        1
+OMP__NESTED                     OFF
+
+CPU core IDs of all OpenMP threads (tid == thread ID):
+------------------------------------------------------------------------
+ Rank        Host  NThread  tid-00  tid-01  tid-02  tid-03  tid-04  tid-05  tid-06  tid-07
+    0    eureka01        8      20       1       7       3       5       0       6      18
+    1    eureka01        8      31      11      13      28      10      14       8      25
+    2    eureka04        8       7       3      20      18       5       0      17       6
+    3    eureka04        8      31      10      29       8      25      30      11      28
+    4    eureka06        8       4       3       5      18       7       0       6      17
+    5    eureka06        8      31      25      13      26      11      14       8      28
+    6    eureka13        8       7      17       5      18      20       0       6       3
+    7    eureka13        8      31      10      14      25      13       8      11      28
+    8    eureka21        8       7       2       6       1      21       0       3      20
+    9    eureka21        8      31      30      29      25      10      12      11       8
+   10    eureka22        8       3       2      20      23       0       6      17      21
+   11    eureka22        8      31      24      13      10      14      12      11      25
+   12    eureka23        8      18       0      20      19      21       7       6      17
+   13    eureka23        8      30      29      12       8      10      31      25      11
+   14    eureka24        8       4       3       0       7       2      21      17       6
+   15    eureka24        8      31      11      13      10      28       8      14      25
+***********************************************************************************
+
+
+Device Diagnosis
+***********************************************************************************
+MPI_Rank =   0, hostname =   eureka01, PID = 74348
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   1, hostname =   eureka01, PID = 74349
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   2, hostname =   eureka04, PID = 69028
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   3, hostname =   eureka04, PID = 69029
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   4, hostname =   eureka06, PID = 110449
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   5, hostname =   eureka06, PID = 110450
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   6, hostname =   eureka13, PID =  6230
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7981 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   7, hostname =   eureka13, PID =  6231
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7981 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   8, hostname =   eureka21, PID = 30968
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =   9, hostname =   eureka21, PID = 30969
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  10, hostname =   eureka22, PID = 90712
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  11, hostname =   eureka22, PID = 90713
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  12, hostname =   eureka23, PID = 24143
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7981 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  13, hostname =   eureka23, PID = 24144
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7981 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  14, hostname =   eureka24, PID = 55804
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+
+
+MPI_Rank =  15, hostname =   eureka24, PID = 55805
+
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+GPU Info :
+Number of GPUs                          : 1
+GPU ID                                  : 0
+GPU Name                                : NVIDIA GeForce RTX 2080 SUPER
+CUDA Driver Version                     : 11.30
+CUDA Runtime Version                    : 11.30
+CUDA Major Revision Number              : 7
+CUDA Minor Revision Number              : 5
+Clock Rate                              : 1.860000 GHz
+Global Memory Size                      : 7979 MB
+Constant Memory Size                    : 64 KB
+Shared Memory Size per Block            : 48 KB
+Number of Registers per Block           : 65536
+Warp Size                               : 32
+Number of Multiprocessors:              : 48
+Number of FP32 Cores per Multiprocessor : 64
+Total Number of Cores:                  : 3072
+Max Number of Threads per Block         : 1024
+Max Size of the Block X-Dimension       : 1024
+Max Size of the Grid X-Dimension        : 2147483647
+Concurrent Copy and Execution           : Yes
+Concurrent Up/Downstream Copies         : No
+Concurrent Kernel Execution             : Yes
+GPU has ECC Support Enabled             : No
+***********************************************************************************
+
+Total Processing Time : 1119.842564 s
+

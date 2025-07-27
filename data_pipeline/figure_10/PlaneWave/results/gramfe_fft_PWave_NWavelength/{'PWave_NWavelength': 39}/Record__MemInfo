@@ -1,0 +1,20 @@
+# Vir_Max  : maximum virtual  memory size of a single process at the present
+# Vir_Sum  : total   virtual  memory size of all processes    at the present
+# Vir_Peak : maximum virtual  memory size of a single process during the entire simulation
+# Phy_Max  : maximum physical memory size of a single process at the present
+# Phy_Sum  : total   physical memory size of all processes    at the present
+# Phy_Peak : maximum physical memory size of a single process during the entire simulation
+#------------------------------------------------------------------------------------------
+
+#         Time          Step         Vir_Max (MB)        Vir_Sum (MB)       Vir_Peak (MB)        Phy_Max (MB)        Phy_Sum (MB)       Phy_Peak (MB)
+ 0.0000000e+00             0              689.28              689.28              697.28              345.62              345.62              353.40
+ 1.9428094e-06             1              689.42              689.42              697.28              385.41              385.41              385.41
+ 3.8856187e-06             2              689.42              689.42              697.28              385.41              385.41              385.41
+ 5.8284281e-06             3              689.42              689.42              697.28              385.41              385.41              385.41
+ 7.7712375e-06             4              689.42              689.42              697.28              385.41              385.41              385.41
+ 9.7140468e-06             5              689.42              689.42              697.28              385.43              385.43              385.44
+ 1.1656856e-05             6              689.42              689.42              697.28              385.43              385.43              385.44
+ 1.3599666e-05             7              689.42              689.42              697.28              385.43              385.43              385.44
+ 1.5542475e-05             8              689.42              689.42              697.28              385.43              385.43              385.44
+ 1.7485284e-05             9              689.42              689.42              697.28              385.44              385.44              385.44
+ 1.9428094e-05            10              689.42              689.42              697.28              385.44              385.44              385.44

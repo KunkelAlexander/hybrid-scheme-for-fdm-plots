@@ -1,0 +1,1953 @@
+[eureka11:28063] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka11:28063] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka11:28063] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka11:28063] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+yt : [INFO     ] 2022-12-15 00:57:07,605 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-15 00:57:07,605 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-15 00:57:07,605 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-15 00:57:07,605 Global parallel computation enabled: 0 / 4
+P000 yt : [INFO     ] 2022-12-15 00:57:08,409 Parameters: current_time              = 543732595194493.44 s
+P000 yt : [INFO     ] 2022-12-15 00:57:08,409 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: current_redshift          = 99.0000000001
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 00:57:08,410 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-15 00:57:08,421 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 00:57:08,422 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 00:57:08,425 Parameters: current_time              = 1.6294984736699236e+16 s
+P003 yt : [INFO     ] 2022-12-15 00:57:08,425 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 00:57:08,425 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: current_redshift          = 9.36241251464096
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 00:57:08,426 Parameters: current_time              = 1.4899761927874544e+16 s
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: current_redshift          = 9.999999868000002
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 00:57:08,427 Parameters: hubble_constant           = 0.6732117
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P001 yt : [ERROR    ] 2022-12-15 00:57:08,776 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000001.
+P003 yt : [ERROR    ] 2022-12-15 00:57:08,777 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000003.
+P002 yt : [ERROR    ] 2022-12-15 00:57:08,777 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000002.
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P000 yt : [ERROR    ] 2022-12-15 00:57:08,777 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000000.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[eureka11:28063] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka11:28063] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka11:28063] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka14:25112] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka14:25112] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka14:25112] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka14:25112] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+yt : [INFO     ] 2022-12-15 11:29:48,795 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-15 11:29:48,795 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-15 11:29:48,796 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-15 11:29:48,796 Global parallel computation enabled: 1 / 4
+P001 yt : [INFO     ] 2022-12-15 11:29:49,533 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 11:29:49,534 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 11:29:49,589 Parameters: current_time              = 1.4899761927874544e+16 s
+P002 yt : [INFO     ] 2022-12-15 11:29:49,589 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 11:29:49,589 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: current_redshift          = 9.999999868000002
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 11:29:49,590 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 11:29:49,612 Parameters: current_time              = 543732595194493.44 s
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: current_redshift          = 99.0000000001
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 11:29:49,613 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 11:29:49,623 Parameters: current_time              = 1.6294984736699236e+16 s
+P003 yt : [INFO     ] 2022-12-15 11:29:49,623 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: current_redshift          = 9.36241251464096
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 11:29:49,624 Parameters: hubble_constant           = 0.6732117
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P000 yt : [ERROR    ] 2022-12-15 11:29:49,840 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000000.
+P002 yt : [ERROR    ] 2022-12-15 11:29:49,840 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000002.
+P001 yt : [ERROR    ] 2022-12-15 11:29:49,840 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000001.
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P003 yt : [ERROR    ] 2022-12-15 11:29:49,840 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000003.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[eureka14:25112] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka14:25112] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka14:25112] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka14:25112] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka01:121754] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:121754] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:121754] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:121754] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_phas.py -s 0 -e 68 
+-------------------------------------------------------------------
+yt : [INFO     ] 2022-12-19 11:36:59,454 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 11:36:59,454 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-19 11:36:59,454 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-19 11:36:59,455 Global parallel computation enabled: 3 / 4
+P003 yt : [INFO     ] 2022-12-19 11:37:00,193 Parameters: current_time              = 1.6294984736699236e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:37:00,193 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:37:00,193 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:37:00,193 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:37:00,193 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:37:00,193 Parameters: current_redshift          = 9.36241251464096
+P003 yt : [INFO     ] 2022-12-19 11:37:00,194 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:37:00,194 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:37:00,194 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:37:00,194 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:37:00,201 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:37:00,202 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:37:00,314 Parameters: current_time              = 1.4899761927874544e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:37:00,314 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:37:00,314 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:37:00,314 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:37:00,315 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:37:00,315 Parameters: current_redshift          = 9.999999868000002
+P002 yt : [INFO     ] 2022-12-19 11:37:00,315 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:37:00,315 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:37:00,315 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:37:00,315 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:37:00,363 Parameters: current_time              = 543732595194493.44 s
+P000 yt : [INFO     ] 2022-12-19 11:37:00,363 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: current_redshift          = 99.0000000001
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:37:00,364 Parameters: hubble_constant           = 0.6732117
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P002 yt : [ERROR    ] 2022-12-19 11:37:00,559 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000002.
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P003 yt : [ERROR    ] 2022-12-19 11:37:00,559 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000003.
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P001 yt : [ERROR    ] 2022-12-19 11:37:00,560 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000001.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[eureka01:121754] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 65, in <module>
+    sz = yt.SlicePlot( ds, 'z', field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 2536, in SlicePlot
+    return AxisAlignedSlicePlot(ds, normal, fields, *args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1651, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_phas.py", line 46, in _phase
+    return np.arctan2(data["gamer", "Imag"], data["gamer", "Real"])
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 108, in __missing__
+    finfo = self.ds._get_field_info(*field)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 826, in _get_field_info
+    field_info, is_ambiguous = self._get_field_info_helper(ftype, fname)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 904, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P000 yt : [ERROR    ] 2022-12-19 11:37:00,573 YTFieldNotFound: Could not find field ('gamer', 'Imag') in Data_000000.
+[eureka01:121754] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka01:121754] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka01:121872] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:121872] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:121872] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:121872] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+yt : [INFO     ] 2022-12-19 11:37:51,553 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-19 11:37:51,553 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 11:37:51,553 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-19 11:37:51,553 Global parallel computation enabled: 3 / 4
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_dens.py", line 47, in <module>
+    df = pd.read_csv( 'Halo_Parameter' , sep = '\s+' , header = 0 , index_col='#')
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_dens.py", line 47, in <module>
+    df = pd.read_csv( 'Halo_Parameter' , sep = '\s+' , header = 0 , index_col='#')
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_dens.py", line 47, in <module>
+    df = pd.read_csv( 'Halo_Parameter' , sep = '\s+' , header = 0 , index_col='#')
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+P000 yt : [ERROR    ] 2022-12-19 11:37:51,596 FileNotFoundError: [Errno 2] No such file or directory: 'Halo_Parameter'
+P002 yt : [ERROR    ] 2022-12-19 11:37:51,596 FileNotFoundError: [Errno 2] No such file or directory: 'Halo_Parameter'
+P001 yt : [ERROR    ] 2022-12-19 11:37:51,596 FileNotFoundError: [Errno 2] No such file or directory: 'Halo_Parameter'
+P000 yt : [ERROR    ] 2022-12-19 11:37:51,596 Error occured on rank 0.
+P001 yt : [ERROR    ] 2022-12-19 11:37:51,596 Error occured on rank 1.
+P002 yt : [ERROR    ] 2022-12-19 11:37:51,596 Error occured on rank 2.
+  File "/work1/kunkelalexander/IsolatedHalo/Fromm_Reference/Plots/SolitonDensitySlice/plot_slice_z_dens.py", line 47, in <module>
+    df = pd.read_csv( 'Halo_Parameter' , sep = '\s+' , header = 0 , index_col='#')
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P003 yt : [ERROR    ] 2022-12-19 11:37:51,597 FileNotFoundError: [Errno 2] No such file or directory: 'Halo_Parameter'
+P003 yt : [ERROR    ] 2022-12-19 11:37:51,597 Error occured on rank 3.
+[eureka01:121872] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka01:121872] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka01:121872] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka01:122000] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:122000] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:122000] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:122000] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+
+Command-line arguments:
+-------------------------------------------------------------------
+plot_slice_z_dens.py -s 0 -e 68 
+-------------------------------------------------------------------
+yt : [INFO     ] 2022-12-19 11:39:28,829 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-19 11:39:28,829 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 11:39:28,829 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-19 11:39:28,830 Global parallel computation enabled: 2 / 4
+P001 yt : [INFO     ] 2022-12-19 11:39:29,551 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-19 11:39:29,551 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:29,551 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:29,551 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:29,552 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:29,552 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-19 11:39:29,552 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:29,552 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:29,552 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:29,552 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:29,560 Parameters: current_time              = 1.4899761927874544e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:29,560 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: current_redshift          = 9.999999868000002
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:29,561 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:29,568 Parameters: current_time              = 1.6294984736699236e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: current_redshift          = 9.36241251464096
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:29,569 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:29,700 Parameters: current_time              = 543732595194493.44 s
+P000 yt : [INFO     ] 2022-12-19 11:39:29,700 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:29,700 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:29,700 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:29,700 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:29,701 Parameters: current_redshift          = 99.0000000001
+P000 yt : [INFO     ] 2022-12-19 11:39:29,701 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:29,701 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:29,701 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:29,701 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:29,935 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:29,936 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:29,936 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:29,936 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:29,936 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:29,937 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:29,937 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:29,937 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:29,937 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:29,938 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:29,963 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:29,963 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:29,963 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:29,963 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:29,964 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:30,123 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:30,123 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:30,123 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:30,123 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:30,124 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:30,598 Saving plot Data_000001_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:30,605 Saving plot Data_000002_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:30,662 Saving plot Data_000003_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:30,782 Saving plot Data_000000_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:31,477 Parameters: current_time              = 2.0998080769540404e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: current_redshift          = 7.749470791663102
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:31,478 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:31,484 Parameters: current_time              = 1.9341632588498316e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:31,484 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:31,484 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: current_redshift          = 8.242647420414235
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:31,485 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: current_time              = 2.274663670864601e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: current_redshift          = 7.29461736017093
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:31,515 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:31,516 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:31,516 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:31,614 Parameters: current_time              = 1.7774771998952818e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: current_redshift          = 8.778592230695889
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:31,615 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:31,852 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:31,852 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:31,852 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:31,852 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:31,852 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:31,852 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:31,852 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:31,853 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:31,853 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:31,853 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:31,884 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:31,884 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:31,885 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:31,885 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:31,885 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:31,988 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:31,988 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:31,989 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:31,989 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:31,989 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:32,141 Saving plot Data_000006_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:32,144 Saving plot Data_000005_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:32,180 Saving plot Data_000007_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:32,280 Saving plot Data_000004_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:32,947 Parameters: current_time              = 2.8570260354184104e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:32,947 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:32,947 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: current_redshift          = 6.123488474576846
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:32,948 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:32,950 Parameters: current_time              = 2.653018738499311e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:32,950 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:32,950 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:32,950 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:32,951 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:32,951 Parameters: current_redshift          = 6.484825992551196
+P001 yt : [INFO     ] 2022-12-19 11:39:32,951 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:32,951 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:32,951 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:32,951 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:33,018 Parameters: current_time              = 3.0712599843907024e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:33,018 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:33,018 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: current_redshift          = 5.787548080246637
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:33,019 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:33,090 Parameters: current_time              = 2.4589827348634332e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:33,090 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:33,090 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:33,090 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:33,090 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:33,090 Parameters: current_redshift          = 6.874203940851925
+P000 yt : [INFO     ] 2022-12-19 11:39:33,091 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:33,091 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:33,091 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:33,091 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:33,285 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:33,285 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:33,285 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:33,285 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:33,286 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:33,313 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:33,313 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:33,313 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:33,313 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:33,314 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:33,390 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:33,390 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:33,391 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:33,391 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:33,391 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:33,436 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:33,436 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:33,436 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:33,436 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:33,436 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:33,521 Saving plot Data_000010_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:33,609 Saving plot Data_000009_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:33,628 Saving plot Data_000011_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:33,665 Saving plot Data_000008_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:34,414 Parameters: current_time              = 3.7778933309804184e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:34,414 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:34,414 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:34,414 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:34,414 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:34,414 Parameters: current_redshift          = 4.909986503233851
+P002 yt : [INFO     ] 2022-12-19 11:39:34,415 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:34,415 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:34,415 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:34,415 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:34,446 Parameters: current_time              = 3.5314351194742344e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:34,446 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:34,446 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:34,446 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:34,447 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:34,447 Parameters: current_redshift          = 5.182760846715755
+P001 yt : [INFO     ] 2022-12-19 11:39:34,447 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:34,447 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:34,447 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:34,447 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:34,512 Parameters: current_time              = 4.035612591288309e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: current_redshift          = 4.654690315327433
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:34,513 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:34,531 Parameters: current_time              = 3.295977083615772e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:34,531 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:34,531 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: current_redshift          = 5.474664757222591
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:34,532 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:34,769 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:34,769 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:34,769 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:34,769 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:34,770 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:34,800 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:34,800 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:34,801 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:34,801 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:34,801 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:34,854 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:34,854 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:34,855 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:34,855 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:34,855 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:34,879 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:34,879 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:34,879 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:34,879 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:34,880 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:35,000 Saving plot Data_000014_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:35,088 Saving plot Data_000015_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:35,091 Saving plot Data_000013_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:35,106 Saving plot Data_000012_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:35,897 Parameters: current_time              = 4.878974251186612e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:35,897 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:35,897 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: current_redshift          = 3.979631665649884
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:35,898 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:35,901 Parameters: current_time              = 4.58588714178901e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: current_redshift          = 4.1907722228767685
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:35,902 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:35,919 Parameters: current_time              = 4.304855607706514e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:35,919 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: current_redshift          = 4.415394252146028
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:35,920 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:35,992 Parameters: current_time              = 5.184386555068938e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:35,992 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: current_redshift          = 3.7808976863848365
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:35,993 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:36,245 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:36,245 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:36,246 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:36,246 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:36,246 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:36,264 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:36,264 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:36,264 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:36,264 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:36,265 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:36,338 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:36,338 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:36,338 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:36,338 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:36,339 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:36,344 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:36,345 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:36,345 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:36,345 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:36,345 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:36,477 Saving plot Data_000017_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:36,493 Saving plot Data_000018_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:36,565 Saving plot Data_000016_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:36,574 Saving plot Data_000019_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:37,329 Parameters: current_time              = 6.177315552989959e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:37,329 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: current_redshift          = 3.2498759555652033
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:37,330 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:37,373 Parameters: current_time              = 5.833279803740486e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:37,373 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: current_redshift          = 3.416857808497788
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:37,374 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:37,415 Parameters: current_time              = 5.5023965250569864e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: current_redshift          = 3.5935993517860982
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:37,416 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:37,426 Parameters: current_time              = 6.534786834406152e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:37,426 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:37,426 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:37,426 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:37,427 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:37,427 Parameters: current_redshift          = 3.091929442382817
+P003 yt : [INFO     ] 2022-12-19 11:39:37,427 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:37,427 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:37,427 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:37,427 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:37,748 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:37,748 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:37,748 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:37,748 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:37,749 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:37,749 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:37,749 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:37,750 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:37,750 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:37,750 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:37,834 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:37,834 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:37,834 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:37,834 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:37,835 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:37,837 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:37,837 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:37,838 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:37,838 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:37,838 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:37,978 Saving plot Data_000022_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:37,983 Saving plot Data_000021_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:38,063 Saving plot Data_000020_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:38,070 Saving plot Data_000023_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:38,855 Parameters: current_time              = 7.291190266311154e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:38,855 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:38,855 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:38,855 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:38,856 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:38,856 Parameters: current_redshift          = 2.8005625539251815
+P001 yt : [INFO     ] 2022-12-19 11:39:38,856 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:38,856 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:38,856 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:38,856 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:38,863 Parameters: current_time              = 7.690711962748234e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:38,863 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:38,863 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:38,863 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:38,864 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:38,864 Parameters: current_redshift          = 2.665991157134822
+P002 yt : [INFO     ] 2022-12-19 11:39:38,864 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:38,864 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:38,864 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:38,864 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:38,865 Parameters: current_time              = 6.905981024375462e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:38,865 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: current_redshift          = 2.942358801233993
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:38,866 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:38,891 Parameters: current_time              = 8.104849310012667e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:38,891 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:38,891 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:38,891 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:38,892 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:38,892 Parameters: current_redshift          = 2.5381416719272027
+P003 yt : [INFO     ] 2022-12-19 11:39:38,892 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:38,892 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:38,892 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:38,892 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:39,204 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:39,204 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:39,204 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:39,204 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:39,204 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:39,206 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:39,206 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:39,206 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:39,206 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:39,207 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:39,221 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:39,221 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:39,221 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:39,222 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:39,222 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:39,241 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:39,241 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:39,242 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:39,242 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:39,242 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:39,454 Saving plot Data_000025_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:39,510 Saving plot Data_000024_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:39,519 Saving plot Data_000026_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:39,559 Saving plot Data_000027_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:40,272 Parameters: current_time              = 8.978216239037597e+16 s
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: current_redshift          = 2.300802025444228
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:40,273 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:40,315 Parameters: current_time              = 9.438086644374174e+16 s
+P002 yt : [INFO     ] 2022-12-19 11:39:40,315 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:40,315 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: current_redshift          = 2.190499326854375
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:40,316 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:40,318 Parameters: current_time              = 8.533911878188238e+16 s
+P000 yt : [INFO     ] 2022-12-19 11:39:40,318 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: current_redshift          = 2.416553060216763
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:40,319 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:40,395 Parameters: current_time              = 9.913855757099389e+16 s
+P003 yt : [INFO     ] 2022-12-19 11:39:40,395 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:40,395 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:40,395 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:40,396 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:40,396 Parameters: current_redshift          = 2.085286506959526
+P003 yt : [INFO     ] 2022-12-19 11:39:40,396 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:40,396 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:40,396 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:40,396 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:40,655 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:40,655 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:40,655 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:40,655 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:40,656 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:40,672 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:40,672 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:40,672 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:40,672 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:40,673 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:40,708 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:40,708 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:40,708 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:40,708 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:40,709 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:40,763 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:40,763 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:40,763 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:40,763 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:40,764 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:40,885 Saving plot Data_000028_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:40,904 Saving plot Data_000030_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:40,943 Saving plot Data_000029_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:41,077 Saving plot Data_000031_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:41,831 Parameters: current_time              = 1.091446758019595e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:41,831 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: current_redshift          = 1.8888334394324788
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:41,832 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:41,833 Parameters: current_time              = 1.0405865436679386e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:41,834 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:41,834 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:41,834 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:41,835 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:41,835 Parameters: current_redshift          = 1.9848329803686893
+P000 yt : [INFO     ] 2022-12-19 11:39:41,835 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:41,835 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:41,835 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:41,835 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:41,851 Parameters: current_time              = 1.1440025019217846e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:41,851 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: current_redshift          = 1.7970055383216024
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:41,852 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:41,888 Parameters: current_time              = 1.1982912471547523e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:41,888 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:41,888 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: current_redshift          = 1.70908782240417
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:41,889 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:42,194 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:42,194 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:42,194 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:42,194 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:42,195 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:42,203 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:42,204 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:42,204 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:42,204 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:42,204 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:42,243 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:42,243 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:42,243 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:42,243 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:42,244 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:42,270 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:42,270 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:42,270 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:42,270 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:42,271 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:42,437 Saving plot Data_000032_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:42,475 Saving plot Data_000034_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:42,500 Saving plot Data_000033_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:42,576 Saving plot Data_000035_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: current_time              = 1.2543517545344818e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: current_redshift          = 1.6248378742639167
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:43,240 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:43,315 Parameters: current_time              = 1.3122241791154835e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:43,315 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: current_redshift          = 1.544030651530408
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:43,316 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: current_time              = 1.3719501794922093e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: current_redshift          = 1.4664569949733095
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:43,347 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:43,348 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:43,348 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:43,416 Parameters: current_time              = 1.4335730302122344e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: current_redshift          = 1.3919222881280358
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:43,417 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:43,677 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:43,677 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:43,678 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:43,678 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:43,678 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:43,706 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:43,706 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:43,706 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:43,706 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:43,707 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:43,765 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:43,765 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:43,765 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:43,766 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:43,766 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:43,827 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:43,828 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:43,828 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:43,828 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:43,828 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:43,910 Saving plot Data_000036_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:44,005 Saving plot Data_000038_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:44,017 Saving plot Data_000037_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:44,137 Saving plot Data_000039_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:44,756 Parameters: current_time              = 1.4971377359701802e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: current_redshift          = 1.320245252133843
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:44,757 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:44,852 Parameters: current_time              = 1.5626911458660106e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:44,852 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:44,852 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:44,852 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:44,853 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:44,853 Parameters: current_redshift          = 1.2512568615290434
+P001 yt : [INFO     ] 2022-12-19 11:39:44,853 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:44,853 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:44,853 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:44,853 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:44,934 Parameters: current_time              = 1.630282065605639e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:44,934 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:44,934 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: current_redshift          = 1.1847993684981173
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:44,935 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:44,999 Parameters: current_time              = 1.699961365136318e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:44,999 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: current_redshift          = 1.120725424525626
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:45,000 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:45,255 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:45,255 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:45,256 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:45,256 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:45,256 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:45,299 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:45,299 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:45,299 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:45,299 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:45,299 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:45,396 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:45,396 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:45,397 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:45,397 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:45,397 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:45,498 Saving plot Data_000040_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:45,559 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:45,559 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:45,560 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:45,560 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:45,560 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:45,624 Saving plot Data_000041_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:45,717 Saving plot Data_000042_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:45,833 Saving plot Data_000043_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:46,363 Parameters: current_time              = 1.7717820789151843e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:46,363 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:46,363 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: current_redshift          = 1.0588972895915845
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:46,364 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:46,493 Parameters: current_time              = 1.84579949592479e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:46,493 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: current_redshift          = 0.9991861199362684
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:46,494 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:46,532 Parameters: current_time              = 1.9220712368608726e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: current_redshift          = 0.9414713260062719
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:46,533 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: current_time              = 2.0006573169099056e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: current_redshift          = 0.8856399924251432
+P003 yt : [INFO     ] 2022-12-19 11:39:46,710 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:46,711 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:46,711 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:46,711 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:46,956 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:46,956 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:46,956 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:46,956 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:46,957 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:47,225 Saving plot Data_000044_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:47,228 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:47,228 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:47,228 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:47,228 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:47,229 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:47,272 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:47,273 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:47,273 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:47,273 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:47,273 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:47,463 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:47,464 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:47,464 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:47,464 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:47,465 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:47,503 Saving plot Data_000046_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:47,541 Saving plot Data_000045_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:47,801 Saving plot Data_000047_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:48,173 Parameters: current_time              = 2.08162019462872e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:48,173 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:48,173 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: current_redshift          = 0.8315863516468736
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:48,174 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:48,341 Parameters: current_time              = 2.1650248112405792e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:48,341 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:48,341 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: current_redshift          = 0.7792113022622094
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:48,342 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:48,372 Parameters: current_time              = 2.2509386310103315e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:48,372 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: current_redshift          = 0.7284219616306109
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:48,373 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:48,635 Parameters: current_time              = 2.339431703371931e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: current_redshift          = 0.6791312404905487
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:48,636 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:48,953 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:48,954 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:48,954 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:48,954 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:48,955 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:49,186 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:49,186 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:49,186 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:49,186 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:49,187 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:49,293 Saving plot Data_000048_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:49,552 Saving plot Data_000049_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:49,553 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:49,553 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:49,554 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:49,554 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:49,554 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:49,700 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:49,700 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:49,701 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:49,701 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:49,704 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:49,912 Saving plot Data_000050_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:50,070 Saving plot Data_000051_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:50,148 Parameters: current_time              = 2.4305767825594275e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:50,148 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:50,148 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:50,148 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:50,148 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:50,148 Parameters: current_redshift          = 0.6312574243604048
+P000 yt : [INFO     ] 2022-12-19 11:39:50,149 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:50,149 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:50,149 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:50,149 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 11:39:50,415 Parameters: current_time              = 2.5244495622590643e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:50,415 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:50,415 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: current_redshift          = 0.5847237428521639
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:50,416 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:50,802 Parameters: current_time              = 2.6211291128442003e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:50,802 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:50,802 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:50,802 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:50,802 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:50,802 Parameters: current_redshift          = 0.5394579036151965
+P002 yt : [INFO     ] 2022-12-19 11:39:50,803 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:50,803 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:50,803 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:50,803 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:50,971 Parameters: current_time              = 2.7206986480251715e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:50,971 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:50,971 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:50,971 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:50,972 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:50,972 Parameters: current_redshift          = 0.49539156298142606
+P003 yt : [INFO     ] 2022-12-19 11:39:50,972 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:50,972 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:50,972 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:50,972 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:51,380 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:51,380 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:51,381 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:51,381 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:51,382 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:51,739 Saving plot Data_000052_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:51,883 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:51,883 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:51,883 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:51,883 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:51,883 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:52,175 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:52,175 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:52,176 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:52,176 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:52,177 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:52,324 Saving plot Data_000053_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:52,515 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:52,515 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:52,516 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:52,516 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:52,540 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:39:52,574 Saving plot Data_000054_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:39:52,830 Parameters: current_time              = 2.823246795253937e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:52,830 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:52,830 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:52,830 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:52,831 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:52,831 Parameters: current_redshift          = 0.45245970162104254
+P000 yt : [INFO     ] 2022-12-19 11:39:52,831 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:52,831 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:52,831 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:52,831 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:52,917 Saving plot Data_000055_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:53,171 Parameters: current_time              = 2.928869594401406e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:53,171 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: current_redshift          = 0.41059987298163914
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:53,172 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:53,412 Parameters: current_time              = 3.037673486621773e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:53,412 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:53,412 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: current_redshift          = 0.3697512995896204
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:53,413 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:53,756 Parameters: current_time              = 3.1497795437610746e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:53,756 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:53,756 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: current_redshift          = 0.32985381640166334
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:53,757 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:54,718 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:54,718 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:54,718 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:54,719 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:54,720 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:55,144 Saving plot Data_000056_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:55,246 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:55,246 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:55,246 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:55,246 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:55,249 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:39:55,630 Saving plot Data_000057_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:39:55,832 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:55,832 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:55,832 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:39:55,832 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:39:55,834 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:39:55,930 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:55,930 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:55,930 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:39:55,931 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:39:55,932 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:56,139 Parameters: current_time              = 3.265329048453554e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:39:56,139 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: current_redshift          = 0.29084671885999835
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:39:56,140 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:56,153 Saving plot Data_000058_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:39:56,337 Saving plot Data_000059_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:56,537 Parameters: current_time              = 3.3844900933155456e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: current_redshift          = 0.252667701312548
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:39:56,538 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:39:57,030 Parameters: current_time              = 3.507463747981545e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: current_redshift          = 0.21525234129243853
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:39:57,031 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:39:57,379 Parameters: current_time              = 3.634485720340641e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:39:57,379 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: current_redshift          = 0.1785351472418033
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:39:57,380 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:39:58,569 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:58,569 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:58,570 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:39:58,570 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:39:58,571 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:39:59,158 Saving plot Data_000060_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:39:59,635 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:59,635 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:59,636 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:39:59,636 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:39:59,719 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:40:00,091 Saving plot Data_000061_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:40:00,212 Parameters: current_time              = 3.7658135242767974e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:40:00,212 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:40:00,212 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:40:00,212 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:40:00,213 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:40:00,213 Parameters: current_redshift          = 0.14245434928177803
+P000 yt : [INFO     ] 2022-12-19 11:40:00,213 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:40:00,213 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:40:00,213 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:40:00,213 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:40:00,464 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:40:00,464 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:40:00,464 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:40:00,464 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:40:00,484 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:40:00,757 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:40:00,757 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:40:00,757 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:40:00,757 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:40:00,780 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:40:00,857 Saving plot Data_000062_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:40:00,958 Parameters: current_time              = 3.9016762993557734e+17 s
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: current_redshift          = 0.10696495100883752
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 11:40:00,959 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:40:01,363 Saving plot Data_000063_Slice_z_density_color_line.png
+P002 yt : [INFO     ] 2022-12-19 11:40:01,792 Parameters: current_time              = 4.04213846975277e+17 s
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: current_redshift          = 0.07206885856029221
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 11:40:01,793 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-19 11:40:02,291 Parameters: current_time              = 4.186786186933479e+17 s
+P003 yt : [INFO     ] 2022-12-19 11:40:02,291 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-19 11:40:02,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: current_redshift          = 0.037876723573180504
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-19 11:40:02,292 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 11:40:04,198 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:40:04,199 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:40:04,199 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:40:04,199 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:40:04,201 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:40:04,646 Saving plot Data_000064_Slice_z_density_color_line.png
+P001 yt : [INFO     ] 2022-12-19 11:40:05,173 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:40:05,173 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:40:05,173 xlim = 1.385132 4.185132
+P001 yt : [INFO     ] 2022-12-19 11:40:05,174 ylim = 0.820142 3.620142
+P001 yt : [INFO     ] 2022-12-19 11:40:05,212 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-19 11:40:05,716 Saving plot Data_000065_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:40:05,763 Parameters: current_time              = 4.334122600855312e+17 s
+P000 yt : [INFO     ] 2022-12-19 11:40:05,763 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 11:40:05,763 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 11:40:05,763 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 11:40:05,764 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 11:40:05,764 Parameters: current_redshift          = 0.004714763107253495
+P000 yt : [INFO     ] 2022-12-19 11:40:05,764 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 11:40:05,764 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 11:40:05,764 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 11:40:05,764 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 11:40:06,561 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:40:06,561 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:40:06,561 xlim = 1.385132 4.185132
+P002 yt : [INFO     ] 2022-12-19 11:40:06,561 ylim = 0.820142 3.620142
+P002 yt : [INFO     ] 2022-12-19 11:40:06,565 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P002 yt : [INFO     ] 2022-12-19 11:40:06,945 Saving plot Data_000066_Slice_z_density_color_line.png
+P003 yt : [INFO     ] 2022-12-19 11:40:07,520 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:40:07,520 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:40:07,521 xlim = 1.385132 4.185132
+P003 yt : [INFO     ] 2022-12-19 11:40:07,521 ylim = 0.820142 3.620142
+P003 yt : [INFO     ] 2022-12-19 11:40:07,525 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P003 yt : [INFO     ] 2022-12-19 11:40:08,018 Saving plot Data_000067_Slice_z_density_color_line.png
+P000 yt : [INFO     ] 2022-12-19 11:40:10,841 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:40:10,841 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:40:10,842 xlim = 1.385132 4.185132
+P000 yt : [INFO     ] 2022-12-19 11:40:10,842 ylim = 0.820142 3.620142
+P000 yt : [INFO     ] 2022-12-19 11:40:10,843 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-19 11:40:11,370 Saving plot Data_000068_Slice_z_density_color_line.png

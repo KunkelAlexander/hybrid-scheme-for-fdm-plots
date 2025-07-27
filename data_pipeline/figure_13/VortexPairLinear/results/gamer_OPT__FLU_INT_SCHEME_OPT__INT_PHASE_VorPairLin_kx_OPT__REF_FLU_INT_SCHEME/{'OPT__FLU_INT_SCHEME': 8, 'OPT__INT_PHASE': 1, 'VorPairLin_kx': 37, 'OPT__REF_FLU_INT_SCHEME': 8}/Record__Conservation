@@ -1,0 +1,54 @@
+# Ref time     : 0.0000000e+00
+# Ref step     : 0
+
+# Mass_Psi     : total ELBDM mass
+# MomX/Y/Z_Psi : total ELBDM momentum
+# Ekin_Psi     : total ELBDM kinetic energy
+# Epot_Psi     : total ELBDM potential energy
+# Esel_Psi     : total ELBDM self-interaction energy
+# Etot_Psi     : total ELBDM energy
+
+# AErr         : absolute error --> (now - ref)
+# RErr         : relative error --> (now - ref) / abs(ref)
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#        [ 1]        [ 2]            [ 3]            [ 4]            [ 5]            [ 6]            [ 7]            [ 8]            [ 9]            [10]            [11]            [12]            [13]            [14]            [15]            [16]            [17]            [18]            [19]            [20]            [21]            [22]            [23]            [24]            [25]            [26]            [27]            [28]            [29]            [30]            [31]            [32]            [33]            [34]            [35]            [36]            [37]            [38]            [39]            [40]            [41]            [42]            [43]            [44]            [45]            [46]            [47]            [48]            [49]            [50]            [51]            [52]            [53]            [54]            [55]            [56]            [57]            [58]            [59]            [60]            [61]            [62]            [63]            [64]            [65]            [66]            [67]            [68]            [69]            [70]            [71]            [72]            [73]            [74]            [75]            [76]            [77]            [78]            [79]            [80]
+#        Time        Step        Mass_Psi   Mass_Psi_AErr   Mass_Psi_RErr        MomX_Psi   MomX_Psi_AErr   MomX_Psi_RErr        MomY_Psi   MomY_Psi_AErr   MomY_Psi_RErr        MomZ_Psi   MomZ_Psi_AErr   MomZ_Psi_RErr        Ekin_Psi   Ekin_Psi_AErr   Ekin_Psi_RErr        Epot_Psi   Epot_Psi_AErr   Epot_Psi_RErr        Esel_Psi   Esel_Psi_AErr   Esel_Psi_RErr        Etot_Psi   Etot_Psi_AErr   Etot_Psi_RErr
+0.0000000e+00           0   7.5000000e-01   0.0000000e+00   0.0000000e+00   6.2082000e+01   0.0000000e+00   0.0000000e+00  -3.0680380e-17   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   3.8640364e+03   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   0.0000000e+00   0.0000000e+00            -nan   3.8640364e+03   0.0000000e+00   0.0000000e+00
+3.1084950e-12           1   7.5000000e-01   3.5005332e-13   4.6673776e-13   6.2082000e+01  -2.5330849e-11  -4.0802243e-13  -2.1021410e-16  -1.7953372e-16  -5.8517435e+00   0.0000000e+00   0.0000000e+00            -nan   3.8640364e+03   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   0.0000000e+00   0.0000000e+00            -nan   3.8640364e+03   0.0000000e+00   0.0000000e+00
+# Ref time     : 0.0000000e+00
+# Ref step     : 0
+
+# Mass_Psi     : total ELBDM mass
+# MomX/Y/Z_Psi : total ELBDM momentum
+# Ekin_Psi     : total ELBDM kinetic energy
+# Epot_Psi     : total ELBDM potential energy
+# Esel_Psi     : total ELBDM self-interaction energy
+# Etot_Psi     : total ELBDM energy
+
+# AErr         : absolute error --> (now - ref)
+# RErr         : relative error --> (now - ref) / abs(ref)
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#        [ 1]        [ 2]            [ 3]            [ 4]            [ 5]            [ 6]            [ 7]            [ 8]            [ 9]            [10]            [11]            [12]            [13]            [14]            [15]            [16]            [17]            [18]            [19]            [20]            [21]            [22]            [23]            [24]            [25]            [26]            [27]            [28]            [29]            [30]            [31]            [32]            [33]            [34]            [35]            [36]            [37]            [38]            [39]            [40]            [41]            [42]            [43]            [44]            [45]            [46]            [47]            [48]            [49]            [50]            [51]            [52]            [53]            [54]            [55]            [56]            [57]            [58]            [59]            [60]            [61]            [62]            [63]            [64]            [65]            [66]            [67]            [68]            [69]            [70]            [71]            [72]            [73]            [74]            [75]            [76]            [77]            [78]            [79]            [80]
+#        Time        Step        Mass_Psi   Mass_Psi_AErr   Mass_Psi_RErr        MomX_Psi   MomX_Psi_AErr   MomX_Psi_RErr        MomY_Psi   MomY_Psi_AErr   MomY_Psi_RErr        MomZ_Psi   MomZ_Psi_AErr   MomZ_Psi_RErr        Ekin_Psi   Ekin_Psi_AErr   Ekin_Psi_RErr        Epot_Psi   Epot_Psi_AErr   Epot_Psi_RErr        Esel_Psi   Esel_Psi_AErr   Esel_Psi_RErr        Etot_Psi   Etot_Psi_AErr   Etot_Psi_RErr
+0.0000000e+00           0   7.5000000e-01   0.0000000e+00   0.0000000e+00  -1.5084696e+01   0.0000000e+00   0.0000000e+00   1.3765302e-16   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   2.3738598e+02   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   0.0000000e+00   0.0000000e+00            -nan   2.3738598e+02   0.0000000e+00   0.0000000e+00
+3.1084950e-12           1   7.5000000e-01   3.2418512e-14   4.3224683e-14  -1.5084696e+01   8.9350749e-13   5.9232716e-14   1.0814917e-17  -1.2683810e-16  -9.2143349e-01   0.0000000e+00   0.0000000e+00            -nan   2.3738598e+02   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   0.0000000e+00   0.0000000e+00            -nan   2.3738598e+02   0.0000000e+00   0.0000000e+00
+# Ref time     : 0.0000000e+00
+# Ref step     : 0
+
+# Mass_Psi     : total ELBDM mass
+# MomX/Y/Z_Psi : total ELBDM momentum
+# Ekin_Psi     : total ELBDM kinetic energy
+# Epot_Psi     : total ELBDM potential energy
+# Esel_Psi     : total ELBDM self-interaction energy
+# Etot_Psi     : total ELBDM energy
+
+# AErr         : absolute error --> (now - ref)
+# RErr         : relative error --> (now - ref) / abs(ref)
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#        [ 1]        [ 2]            [ 3]            [ 4]            [ 5]            [ 6]            [ 7]            [ 8]            [ 9]            [10]            [11]            [12]            [13]            [14]            [15]            [16]            [17]            [18]            [19]            [20]            [21]            [22]            [23]            [24]            [25]            [26]            [27]            [28]            [29]            [30]            [31]            [32]            [33]            [34]            [35]            [36]            [37]            [38]            [39]            [40]            [41]            [42]            [43]            [44]            [45]            [46]            [47]            [48]            [49]            [50]            [51]            [52]            [53]            [54]            [55]            [56]            [57]            [58]            [59]            [60]            [61]            [62]            [63]            [64]            [65]            [66]            [67]            [68]            [69]            [70]            [71]            [72]            [73]            [74]            [75]            [76]            [77]            [78]            [79]            [80]
+#        Time        Step        Mass_Psi   Mass_Psi_AErr   Mass_Psi_RErr        MomX_Psi   MomX_Psi_AErr   MomX_Psi_RErr        MomY_Psi   MomY_Psi_AErr   MomY_Psi_RErr        MomZ_Psi   MomZ_Psi_AErr   MomZ_Psi_RErr        Ekin_Psi   Ekin_Psi_AErr   Ekin_Psi_RErr        Epot_Psi   Epot_Psi_AErr   Epot_Psi_RErr        Esel_Psi   Esel_Psi_AErr   Esel_Psi_RErr        Etot_Psi   Etot_Psi_AErr   Etot_Psi_RErr
+0.0000000e+00           0   7.5000000e-01   0.0000000e+00   0.0000000e+00  -1.5084696e+01   0.0000000e+00   0.0000000e+00   1.3765302e-16   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   2.3738598e+02   0.0000000e+00   0.0000000e+00   0.0000000e+00   0.0000000e+00            -nan   0.0000000e+00   0.0000000e+00            -nan   2.3738598e+02   0.0000000e+00   0.0000000e+00
+3.1084950e-12           1   8.9444618e-01   1.4444618e-01   1.9259491e-01  -2.9037091e+01  -1.3952396e+01  -9.2493718e-01  -1.4807923e-11  -1.4808061e-11  -1.0757527e+05   1.1919099e-31   1.1919099e-31             inf   3.5643826e+03   3.3269967e+03   1.4015136e+01   0.0000000e+00   0.0000000e+00            -nan   0.0000000e+00   0.0000000e+00            -nan   3.5643826e+03   3.3269967e+03   1.4015136e+01

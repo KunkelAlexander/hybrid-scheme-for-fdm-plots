@@ -1,0 +1,1061 @@
+[eureka01:76624] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:76624] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:76624] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:76624] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-13 15:50:17,670 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-13 15:50:17,671 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-13 15:50:17,671 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-13 15:50:17,671 Global parallel computation enabled: 0 / 4
+P001 yt : [INFO     ] 2022-12-13 15:50:18,247 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-13 15:50:18,247 Parameters: domain_dimensions         = [256 256 256]
+P001 yt : [INFO     ] 2022-12-13 15:50:18,247 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-13 15:50:18,248 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-13 15:50:18,328 Parameters: current_time              = 543732595195309.1 s
+P000 yt : [INFO     ] 2022-12-13 15:50:18,328 Parameters: domain_dimensions         = [256 256 256]
+P000 yt : [INFO     ] 2022-12-13 15:50:18,328 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-13 15:50:18,328 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-13 15:50:18,328 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-13 15:50:18,328 Parameters: current_redshift          = 99.0
+P000 yt : [INFO     ] 2022-12-13 15:50:18,329 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-13 15:50:18,329 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-13 15:50:18,329 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-13 15:50:18,329 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-13 15:50:20,922 Projection completed
+P001 yt : [INFO     ] 2022-12-13 15:50:20,922 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:50:20,922 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:50:20,922 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:50:20,922 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:50:20,923 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-13 15:50:21,054 Projection completed
+P000 yt : [INFO     ] 2022-12-13 15:50:21,054 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:50:21,054 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:50:21,054 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:50:21,054 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:50:21,055 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-13 15:50:21,478 Saving plot Data_000001_Projection_x_density.png
+P000 yt : [INFO     ] 2022-12-13 15:50:21,570 Saving plot Data_000000_Projection_x_density.png
+[eureka20:26878] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka20:26878] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka20:26878] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka20:26878] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-13 15:53:50,825 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-13 15:53:50,825 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-13 15:53:50,825 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-13 15:53:50,826 Global parallel computation enabled: 3 / 4
+P001 yt : [INFO     ] 2022-12-13 15:53:51,398 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-13 15:53:51,398 Parameters: domain_dimensions         = [256 256 256]
+P001 yt : [INFO     ] 2022-12-13 15:53:51,398 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-13 15:53:51,398 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-13 15:53:51,399 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-13 15:53:51,399 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-13 15:53:51,399 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-13 15:53:51,399 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-13 15:53:51,399 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-13 15:53:51,399 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-13 15:53:51,475 Parameters: current_time              = 543732595195309.1 s
+P000 yt : [INFO     ] 2022-12-13 15:53:51,475 Parameters: domain_dimensions         = [256 256 256]
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: current_redshift          = 99.0
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-13 15:53:51,476 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-13 15:53:54,073 Projection completed
+P001 yt : [INFO     ] 2022-12-13 15:53:54,073 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:53:54,073 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:53:54,074 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:53:54,074 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 15:53:54,074 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P000 yt : [INFO     ] 2022-12-13 15:53:54,338 Projection completed
+P000 yt : [INFO     ] 2022-12-13 15:53:54,338 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:53:54,338 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:53:54,338 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:53:54,338 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 15:53:54,339 Making a fixed resolution buffer of (('gas', 'density')) 800 by 800
+P001 yt : [INFO     ] 2022-12-13 15:53:54,708 Saving plot Data_000001_Projection_x_density.png
+P000 yt : [INFO     ] 2022-12-13 15:53:54,948 Saving plot Data_000000_Projection_x_density.png
+[eureka01:84094] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:84094] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:84094] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:84094] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-13 16:01:01,707 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-13 16:01:01,707 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-13 16:01:01,707 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-13 16:01:01,707 Global parallel computation enabled: 3 / 4
+P001 yt : [INFO     ] 2022-12-13 16:01:02,263 Parameters: current_time              = 6078850059710620.0 s
+P001 yt : [INFO     ] 2022-12-13 16:01:02,263 Parameters: domain_dimensions         = [256 256 256]
+P001 yt : [INFO     ] 2022-12-13 16:01:02,263 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-13 16:01:02,263 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-13 16:01:02,264 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-13 16:01:02,264 Parameters: current_redshift          = 19.0
+P001 yt : [INFO     ] 2022-12-13 16:01:02,264 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-13 16:01:02,264 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-13 16:01:02,264 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-13 16:01:02,264 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: current_time              = 543732595195309.1 s
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: domain_dimensions         = [256 256 256]
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: current_redshift          = 99.0
+P000 yt : [INFO     ] 2022-12-13 16:01:02,331 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-13 16:01:02,332 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-13 16:01:02,332 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-13 16:01:02,332 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-13 16:01:04,859 Projection completed
+P001 yt : [INFO     ] 2022-12-13 16:01:04,860 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 16:01:04,860 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 16:01:04,860 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 16:01:04,860 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-13 16:01:04,861 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-13 16:01:04,875 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -1.9039804969692073e+25 cm, Max = 3.5032562793095397e+25 cm.
+P001 yt : [WARNING  ] 2022-12-13 16:01:04,875 Switching to symlog colorbar scaling.
+P000 yt : [INFO     ] 2022-12-13 16:01:05,084 Projection completed
+P000 yt : [INFO     ] 2022-12-13 16:01:05,085 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 16:01:05,085 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 16:01:05,085 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 16:01:05,085 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-13 16:01:05,086 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P001 yt : [INFO     ] 2022-12-13 16:01:05,256 Saving plot Data_000001_Projection_x_Phase.png
+P000 yt : [INFO     ] 2022-12-13 16:01:05,471 Saving plot Data_000000_Projection_x_Phase.png
+[eureka12:23070] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka12:23070] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka12:23070] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka12:23070] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-15 09:26:42,513 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-15 09:26:42,513 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-15 09:26:42,513 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-15 09:26:42,513 Global parallel computation enabled: 1 / 4
+P001 yt : [INFO     ] 2022-12-15 09:26:43,260 Parameters: current_time              = 2.339431703371931e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:26:43,260 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: current_redshift          = 0.6791312404905487
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:26:43,261 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:26:43,272 Parameters: current_time              = 2.2509386310103315e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: current_time              = 2.5244495622590643e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: current_redshift          = 0.7284219616306109
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 09:26:43,273 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: current_redshift          = 0.5847237428521639
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 09:26:43,274 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 09:26:43,282 Parameters: current_time              = 2.4305767825594275e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:26:43,282 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:26:43,282 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: current_redshift          = 0.6312574243604048
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:26:43,283 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:26:44,748 Projection completed
+P000 yt : [INFO     ] 2022-12-15 09:26:44,748 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:44,748 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:44,748 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:44,748 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:44,749 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-15 09:26:44,764 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -7.307180254701919e+26 cm, Max = 1.2398164494892078e+27 cm.
+P000 yt : [WARNING  ] 2022-12-15 09:26:44,764 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:26:44,899 Projection completed
+P001 yt : [INFO     ] 2022-12-15 09:26:44,900 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:44,900 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:44,900 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:44,900 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:44,901 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-15 09:26:44,913 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -7.558595720517177e+26 cm, Max = 1.268062221044518e+27 cm.
+P001 yt : [WARNING  ] 2022-12-15 09:26:44,913 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:26:45,125 Projection completed
+P002 yt : [INFO     ] 2022-12-15 09:26:45,125 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:45,125 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:45,126 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:45,126 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:45,126 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-15 09:26:45,141 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -7.814755048069656e+26 cm, Max = 1.2938900009923275e+27 cm.
+P002 yt : [WARNING  ] 2022-12-15 09:26:45,141 Switching to symlog colorbar scaling.
+P003 yt : [INFO     ] 2022-12-15 09:26:45,183 Projection completed
+P003 yt : [INFO     ] 2022-12-15 09:26:45,183 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:45,183 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:45,183 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:45,183 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:45,184 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P003 yt : [WARNING  ] 2022-12-15 09:26:45,196 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -8.075589177041022e+26 cm, Max = 1.3391528331811957e+27 cm.
+P003 yt : [WARNING  ] 2022-12-15 09:26:45,197 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:26:45,530 Saving plot Data_000052_Projection_x_Phase.png
+P001 yt : [INFO     ] 2022-12-15 09:26:45,544 Saving plot Data_000051_Projection_x_Phase.png
+P003 yt : [INFO     ] 2022-12-15 09:26:45,577 Saving plot Data_000053_Projection_x_Phase.png
+P000 yt : [INFO     ] 2022-12-15 09:26:45,624 Saving plot Data_000050_Projection_x_Phase.png
+P001 yt : [INFO     ] 2022-12-15 09:26:46,400 Parameters: current_time              = 2.7206986480251715e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:26:46,401 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:26:46,401 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:26:46,401 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:26:46,401 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:26:46,402 Parameters: current_redshift          = 0.49539156298142606
+P001 yt : [INFO     ] 2022-12-15 09:26:46,402 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:26:46,402 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:26:46,402 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:26:46,402 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:26:46,449 Parameters: current_time              = 2.6211291128442003e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:26:46,449 Parameters: current_time              = 2.823246795253937e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:26:46,449 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:26:46,449 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:26:46,449 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: current_redshift          = 0.5394579036151965
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: current_redshift          = 0.45245970162104254
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:26:46,450 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 09:26:46,470 Parameters: current_time              = 2.928869594401406e+17 s
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: current_redshift          = 0.41059987298163914
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 09:26:46,471 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:26:48,784 Projection completed
+P000 yt : [INFO     ] 2022-12-15 09:26:48,784 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:48,784 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:48,784 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:48,784 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:48,785 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-15 09:26:48,798 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -8.34712449225685e+26 cm, Max = 1.385773044855966e+27 cm.
+P000 yt : [WARNING  ] 2022-12-15 09:26:48,798 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:26:48,899 Projection completed
+P001 yt : [INFO     ] 2022-12-15 09:26:48,900 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:48,900 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:48,900 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:48,900 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:48,900 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-15 09:26:48,913 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -8.617676508790857e+26 cm, Max = 1.3985528063128265e+27 cm.
+P001 yt : [WARNING  ] 2022-12-15 09:26:48,913 Switching to symlog colorbar scaling.
+P000 yt : [INFO     ] 2022-12-15 09:26:49,114 Saving plot Data_000054_Projection_x_Phase.png
+P002 yt : [INFO     ] 2022-12-15 09:26:49,115 Projection completed
+P002 yt : [INFO     ] 2022-12-15 09:26:49,115 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:49,115 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:49,115 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:49,115 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:49,116 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-15 09:26:49,132 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -8.892790170478908e+26 cm, Max = 1.444038817002528e+27 cm.
+P002 yt : [WARNING  ] 2022-12-15 09:26:49,132 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:26:49,155 Saving plot Data_000055_Projection_x_Phase.png
+P002 yt : [INFO     ] 2022-12-15 09:26:49,373 Saving plot Data_000056_Projection_x_Phase.png
+P003 yt : [INFO     ] 2022-12-15 09:26:49,412 Projection completed
+P003 yt : [INFO     ] 2022-12-15 09:26:49,412 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:49,412 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:49,413 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:49,413 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:26:49,413 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P003 yt : [WARNING  ] 2022-12-15 09:26:49,429 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -9.173483053726196e+26 cm, Max = 1.4907109769074555e+27 cm.
+P003 yt : [WARNING  ] 2022-12-15 09:26:49,429 Switching to symlog colorbar scaling.
+P003 yt : [INFO     ] 2022-12-15 09:26:49,674 Saving plot Data_000057_Projection_x_Phase.png
+P000 yt : [INFO     ] 2022-12-15 09:26:49,955 Parameters: current_time              = 3.037673486621773e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:26:49,955 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:26:49,955 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: current_redshift          = 0.3697512995896204
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:26:49,956 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-15 09:26:49,990 Parameters: current_time              = 3.1497795437610746e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:26:49,990 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: current_redshift          = 0.32985381640166334
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:26:49,991 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 09:26:50,189 Parameters: current_time              = 3.265329048453554e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: current_redshift          = 0.29084671885999835
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:26:50,190 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:26:52,833 Projection completed
+P000 yt : [INFO     ] 2022-12-15 09:26:52,834 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:52,834 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:52,834 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:52,834 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:26:52,835 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-15 09:26:52,852 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -9.459050919990786e+26 cm, Max = 1.538550795486904e+27 cm.
+P000 yt : [WARNING  ] 2022-12-15 09:26:52,852 Switching to symlog colorbar scaling.
+P000 yt : [INFO     ] 2022-12-15 09:26:53,173 Saving plot Data_000058_Projection_x_Phase.png
+P001 yt : [INFO     ] 2022-12-15 09:26:53,208 Projection completed
+P001 yt : [INFO     ] 2022-12-15 09:26:53,208 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:53,209 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:53,209 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:53,209 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:26:53,209 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-15 09:26:53,226 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -9.749066028264679e+26 cm, Max = 1.5863520751500062e+27 cm.
+P001 yt : [WARNING  ] 2022-12-15 09:26:53,226 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:26:53,470 Saving plot Data_000059_Projection_x_Phase.png
+P002 yt : [INFO     ] 2022-12-15 09:26:53,525 Projection completed
+P002 yt : [INFO     ] 2022-12-15 09:26:53,525 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:53,525 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:53,525 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:53,525 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:26:53,526 Making a fixed resolution buffer of (('gamer', 'Phase')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-15 09:26:53,541 Plotting ('gamer', 'Phase'): Both positive and negative values. Min = -1.0043501214924646e+27 cm, Max = 1.6024956287032024e+27 cm.
+P002 yt : [WARNING  ] 2022-12-15 09:26:53,541 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:26:53,760 Saving plot Data_000060_Projection_x_Phase.png
+[eureka12:23443] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka12:23443] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka12:23443] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka12:23443] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-15 09:31:27,356 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-15 09:31:27,356 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-15 09:31:27,357 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-15 09:31:27,358 Global parallel computation enabled: 3 / 4
+P001 yt : [INFO     ] 2022-12-15 09:31:28,076 Parameters: current_time              = 2.339431703371931e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: current_redshift          = 0.6791312404905487
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:31:28,077 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 09:31:28,179 Parameters: current_time              = 2.5244495622590643e+17 s
+P003 yt : [INFO     ] 2022-12-15 09:31:28,179 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 09:31:28,179 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:31:28,179 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 09:31:28,180 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 09:31:28,180 Parameters: current_redshift          = 0.5847237428521639
+P003 yt : [INFO     ] 2022-12-15 09:31:28,180 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 09:31:28,180 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 09:31:28,180 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 09:31:28,180 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:31:28,190 Parameters: current_time              = 2.2509386310103315e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:31:28,190 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:31:28,190 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: current_redshift          = 0.7284219616306109
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:31:28,191 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: current_time              = 2.4305767825594275e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: current_redshift          = 0.6312574243604048
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:31:28,199 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:31:28,200 Parameters: hubble_constant           = 0.6732117
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P001 yt : [ERROR    ] 2022-12-15 09:31:28,533 NameError: name 'np' is not defined
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[eureka12:23443] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka12:23443] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka12:23443] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P002 yt : [ERROR    ] 2022-12-15 09:31:28,549 NameError: name 'np' is not defined
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P000 yt : [ERROR    ] 2022-12-15 09:31:28,547 NameError: name 'np' is not defined
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P003 yt : [ERROR    ] 2022-12-15 09:31:28,590 NameError: name 'np' is not defined
+[eureka12:23443] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka12:23443] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka15:05179] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka15:05179] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka15:05179] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka15:05179] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-15 09:32:26,390 Global parallel computation enabled: 2 / 4
+yt : [INFO     ] 2022-12-15 09:32:26,390 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-15 09:32:26,390 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-15 09:32:26,395 Global parallel computation enabled: 1 / 4
+P003 yt : [INFO     ] 2022-12-15 09:32:27,125 Parameters: current_time              = 2.5244495622590643e+17 s
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: current_redshift          = 0.5847237428521639
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 09:32:27,126 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-15 09:32:27,145 Parameters: current_time              = 2.339431703371931e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:32:27,145 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:32:27,145 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:32:27,145 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:32:27,146 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:32:27,146 Parameters: current_redshift          = 0.6791312404905487
+P001 yt : [INFO     ] 2022-12-15 09:32:27,146 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:32:27,146 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:32:27,146 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:32:27,146 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 09:32:27,157 Parameters: current_time              = 2.4305767825594275e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: current_redshift          = 0.6312574243604048
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:32:27,158 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:32:27,161 Parameters: current_time              = 2.2509386310103315e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:32:27,161 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:32:27,161 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:32:27,161 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:32:27,162 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:32:27,162 Parameters: current_redshift          = 0.7284219616306109
+P000 yt : [INFO     ] 2022-12-15 09:32:27,162 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:32:27,162 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:32:27,162 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:32:27,162 Parameters: hubble_constant           = 0.6732117
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P001 yt : [ERROR    ] 2022-12-15 09:32:27,501 TypeError: ufunc 'sin' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P002 yt : [ERROR    ] 2022-12-15 09:32:27,503 TypeError: ufunc 'sin' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+[eureka15:05179] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka15:05179] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+[eureka15:05179] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2198
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P000 yt : [ERROR    ] 2022-12-15 09:32:27,520 TypeError: ufunc 'sin' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 45, in <module>
+    pz_dens = yt.ProjectionPlot( ds, 'x', field, center=center_mode )
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 1871, in __init__
+    (bounds, center, display_center) = get_window_parameters(
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/visualization/plot_window.py", line 78, in get_window_parameters
+    width = ds.coordinates.sanitize_width(axis, width, None)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/geometry/coordinates/coordinate_handler.py", line 220, in sanitize_width
+    self.ds.index
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 539, in index
+    self.create_field_info()
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/data_objects/static_output.py", line 613, in create_field_info
+    self.field_info.load_all_plugins(self.default_fluid_type)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 402, in load_all_plugins
+    self.find_dependencies(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 415, in find_dependencies
+    deps, unavailable = self.check_derived_fields(loaded)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_info_container.py", line 612, in check_derived_fields
+    fd = fi.get_dependencies(ds=self.ds)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 253, in get_dependencies
+    e[self.name]
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/field_detector.py", line 125, in __missing__
+    vv = finfo(self)
+  File "/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/fields/derived_field.py", line 294, in __call__
+    dd = self._function(self, data)
+  File "/work1/kunkelalexander/IsolatedHalo/Muscl/Plots/OverviewPhaseProj/plot_proj_z_phas.py", line 31, in _phase
+    return np.arctan2(np.sin(["gamer", "Phase"]), np.cos(data["gamer", "Phase"]))
+P003 yt : [ERROR    ] 2022-12-15 09:32:27,517 TypeError: ufunc 'sin' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+[eureka15:05179] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[eureka15:05179] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[eureka19:126685] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka19:126685] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka19:126685] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka19:126685] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-15 09:33:17,591 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-15 09:33:17,592 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-15 09:33:17,592 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-15 09:33:17,592 Global parallel computation enabled: 2 / 4
+P002 yt : [INFO     ] 2022-12-15 09:33:18,263 Parameters: current_time              = 2.4305767825594275e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:33:18,263 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:33:18,263 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: current_redshift          = 0.6312574243604048
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:33:18,264 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:33:18,345 Parameters: current_time              = 2.2509386310103315e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:33:18,345 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:33:18,345 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:33:18,345 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:33:18,345 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:33:18,345 Parameters: current_redshift          = 0.7284219616306109
+P000 yt : [INFO     ] 2022-12-15 09:33:18,346 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:33:18,346 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:33:18,346 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:33:18,346 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 09:33:18,361 Parameters: current_time              = 2.5244495622590643e+17 s
+P003 yt : [INFO     ] 2022-12-15 09:33:18,361 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: current_redshift          = 0.5847237428521639
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 09:33:18,362 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-15 09:33:18,395 Parameters: current_time              = 2.339431703371931e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: current_redshift          = 0.6791312404905487
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:33:18,396 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:33:19,927 Projection completed
+P000 yt : [INFO     ] 2022-12-15 09:33:19,927 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:19,928 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:19,928 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:19,928 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:19,928 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-15 09:33:19,941 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.6610739647413624e+25 cm, Max = 1.5179336182451094e+25 cm.
+P000 yt : [WARNING  ] 2022-12-15 09:33:19,941 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:33:20,289 Projection completed
+P002 yt : [INFO     ] 2022-12-15 09:33:20,290 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:20,290 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:20,290 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:20,290 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:20,291 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-15 09:33:20,303 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.6967517226161205e+25 cm, Max = 1.8444439943630244e+25 cm.
+P002 yt : [WARNING  ] 2022-12-15 09:33:20,303 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:33:20,481 Projection completed
+P001 yt : [INFO     ] 2022-12-15 09:33:20,481 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:20,481 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:20,481 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:20,481 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:20,482 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-15 09:33:20,496 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.6306949877491846e+25 cm, Max = 1.29808293166082e+25 cm.
+P001 yt : [WARNING  ] 2022-12-15 09:33:20,496 Switching to symlog colorbar scaling.
+P003 yt : [INFO     ] 2022-12-15 09:33:20,542 Projection completed
+P003 yt : [INFO     ] 2022-12-15 09:33:20,542 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:20,542 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:20,543 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:20,543 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:20,543 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P003 yt : [WARNING  ] 2022-12-15 09:33:20,556 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.4139172094481991e+25 cm, Max = 1.4190653664786536e+25 cm.
+P003 yt : [WARNING  ] 2022-12-15 09:33:20,557 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:33:20,891 Saving plot Data_000052_Projection_x_PhaseMod2.png
+P000 yt : [INFO     ] 2022-12-15 09:33:20,891 Saving plot Data_000050_Projection_x_PhaseMod2.png
+P001 yt : [INFO     ] 2022-12-15 09:33:20,908 Saving plot Data_000051_Projection_x_PhaseMod2.png
+P003 yt : [INFO     ] 2022-12-15 09:33:20,931 Saving plot Data_000053_Projection_x_PhaseMod2.png
+P002 yt : [INFO     ] 2022-12-15 09:33:21,843 Parameters: current_time              = 2.823246795253937e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:33:21,843 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: current_redshift          = 0.45245970162104254
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:33:21,844 Parameters: hubble_constant           = 0.6732117
+P003 yt : [INFO     ] 2022-12-15 09:33:21,886 Parameters: current_time              = 2.928869594401406e+17 s
+P003 yt : [INFO     ] 2022-12-15 09:33:21,886 Parameters: domain_dimensions         = [64 64 64]
+P003 yt : [INFO     ] 2022-12-15 09:33:21,886 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: current_redshift          = 0.41059987298163914
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: omega_lambda              = 0.6841769095715768
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: omega_matter              = 0.3158230904284232
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: omega_radiation           = 0.0
+P003 yt : [INFO     ] 2022-12-15 09:33:21,887 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:33:21,894 Parameters: current_time              = 2.6211291128442003e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:33:21,894 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:33:21,894 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: current_redshift          = 0.5394579036151965
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:33:21,895 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-15 09:33:21,936 Parameters: current_time              = 2.7206986480251715e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: current_redshift          = 0.49539156298142606
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:33:21,937 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:33:24,543 Projection completed
+P000 yt : [INFO     ] 2022-12-15 09:33:24,544 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:24,544 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:24,544 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:24,544 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:24,545 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-15 09:33:24,558 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.3852688435549114e+25 cm, Max = 1.618437071234711e+25 cm.
+P000 yt : [WARNING  ] 2022-12-15 09:33:24,558 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:33:24,768 Projection completed
+P002 yt : [INFO     ] 2022-12-15 09:33:24,768 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:24,768 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:24,769 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:24,769 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:24,769 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-15 09:33:24,785 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.4601950600342046e+25 cm, Max = 1.2555554355022158e+25 cm.
+P002 yt : [WARNING  ] 2022-12-15 09:33:24,785 Switching to symlog colorbar scaling.
+P000 yt : [INFO     ] 2022-12-15 09:33:24,857 Saving plot Data_000054_Projection_x_PhaseMod2.png
+P001 yt : [INFO     ] 2022-12-15 09:33:24,969 Projection completed
+P001 yt : [INFO     ] 2022-12-15 09:33:24,970 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:24,970 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:24,970 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:24,970 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:24,971 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-15 09:33:24,991 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.4193825961403054e+25 cm, Max = 1.3087858730370279e+25 cm.
+P001 yt : [WARNING  ] 2022-12-15 09:33:24,991 Switching to symlog colorbar scaling.
+P003 yt : [INFO     ] 2022-12-15 09:33:25,006 Projection completed
+P003 yt : [INFO     ] 2022-12-15 09:33:25,006 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:25,006 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:25,007 xlim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:25,007 ylim = 0.000000 2.800000
+P003 yt : [INFO     ] 2022-12-15 09:33:25,007 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P002 yt : [INFO     ] 2022-12-15 09:33:25,010 Saving plot Data_000056_Projection_x_PhaseMod2.png
+P003 yt : [WARNING  ] 2022-12-15 09:33:25,022 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.2477771011401083e+25 cm, Max = 1.238243256988426e+25 cm.
+P003 yt : [WARNING  ] 2022-12-15 09:33:25,022 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:33:25,241 Saving plot Data_000055_Projection_x_PhaseMod2.png
+P003 yt : [INFO     ] 2022-12-15 09:33:25,247 Saving plot Data_000057_Projection_x_PhaseMod2.png
+P000 yt : [INFO     ] 2022-12-15 09:33:25,685 Parameters: current_time              = 3.037673486621773e+17 s
+P000 yt : [INFO     ] 2022-12-15 09:33:25,685 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: current_redshift          = 0.3697512995896204
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-15 09:33:25,686 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-15 09:33:25,826 Parameters: current_time              = 3.265329048453554e+17 s
+P002 yt : [INFO     ] 2022-12-15 09:33:25,826 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: current_redshift          = 0.29084671885999835
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-15 09:33:25,827 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-15 09:33:26,117 Parameters: current_time              = 3.1497795437610746e+17 s
+P001 yt : [INFO     ] 2022-12-15 09:33:26,117 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-15 09:33:26,117 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-15 09:33:26,117 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-15 09:33:26,118 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-15 09:33:26,118 Parameters: current_redshift          = 0.32985381640166334
+P001 yt : [INFO     ] 2022-12-15 09:33:26,118 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-15 09:33:26,118 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-15 09:33:26,118 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-15 09:33:26,118 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-15 09:33:29,143 Projection completed
+P000 yt : [INFO     ] 2022-12-15 09:33:29,144 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:29,144 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:29,144 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:29,144 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-15 09:33:29,145 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-15 09:33:29,162 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.6242320591861978e+25 cm, Max = 1.2358095368761679e+25 cm.
+P000 yt : [WARNING  ] 2022-12-15 09:33:29,162 Switching to symlog colorbar scaling.
+P000 yt : [INFO     ] 2022-12-15 09:33:29,406 Saving plot Data_000058_Projection_x_PhaseMod2.png
+P002 yt : [INFO     ] 2022-12-15 09:33:29,668 Projection completed
+P002 yt : [INFO     ] 2022-12-15 09:33:29,668 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:29,668 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:29,668 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:29,668 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-15 09:33:29,669 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-15 09:33:29,683 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.1375296935433307e+25 cm, Max = 1.3949612170960975e+25 cm.
+P002 yt : [WARNING  ] 2022-12-15 09:33:29,683 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-15 09:33:29,904 Saving plot Data_000060_Projection_x_PhaseMod2.png
+P001 yt : [INFO     ] 2022-12-15 09:33:30,188 Projection completed
+P001 yt : [INFO     ] 2022-12-15 09:33:30,188 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:30,188 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:30,189 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:30,189 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-15 09:33:30,189 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-15 09:33:30,206 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.3169933278314423e+25 cm, Max = 1.6357834259462312e+25 cm.
+P001 yt : [WARNING  ] 2022-12-15 09:33:30,206 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-15 09:33:30,448 Saving plot Data_000059_Projection_x_PhaseMod2.png
+[eureka01:93900] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]]: [BB/BB/BB/BB/../../../../../../../../../../../..]
+[eureka01:93900] MCW rank 1 bound to socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]]: [../../../../BB/BB/BB/BB/../../../../../../../..]
+[eureka01:93900] MCW rank 2 bound to socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]]: [../../../../../../../../BB/BB/BB/BB/../../../..]
+[eureka01:93900] MCW rank 3 bound to socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]], socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../BB/BB/BB/BB]
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+/work1/vivi235711/Python/Python3.9/lib/python3.9/site-packages/yt/utilities/logger.py:4: VisibleDeprecationWarning: The configuration file /home/kunkelalexander/.config/yt/ytrc is deprecated in favor of /home/kunkelalexander/.config/yt/yt.toml. Currently, both are present. Please manually remove the deprecated one to silence this warning.
+Deprecated since v4.0.0. This feature will be removed in v4.1.0
+  from yt.config import ytcfg
+yt : [INFO     ] 2022-12-19 08:44:00,228 Global parallel computation enabled: 3 / 4
+yt : [INFO     ] 2022-12-19 08:44:00,229 Global parallel computation enabled: 1 / 4
+yt : [INFO     ] 2022-12-19 08:44:00,229 Global parallel computation enabled: 0 / 4
+yt : [INFO     ] 2022-12-19 08:44:00,229 Global parallel computation enabled: 2 / 4
+P000 yt : [INFO     ] 2022-12-19 08:44:00,838 Parameters: current_time              = 1.4971377359701802e+17 s
+P000 yt : [INFO     ] 2022-12-19 08:44:00,838 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: current_redshift          = 1.320245252133843
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: omega_lambda              = 0.6841769095715768
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: omega_matter              = 0.3158230904284232
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: omega_radiation           = 0.0
+P000 yt : [INFO     ] 2022-12-19 08:44:00,839 Parameters: hubble_constant           = 0.6732117
+P002 yt : [INFO     ] 2022-12-19 08:44:00,917 Parameters: current_time              = 1.630282065605639e+17 s
+P002 yt : [INFO     ] 2022-12-19 08:44:00,917 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2022-12-19 08:44:00,917 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2022-12-19 08:44:00,917 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P002 yt : [INFO     ] 2022-12-19 08:44:00,918 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2022-12-19 08:44:00,918 Parameters: current_redshift          = 1.1847993684981173
+P002 yt : [INFO     ] 2022-12-19 08:44:00,918 Parameters: omega_lambda              = 0.6841769095715768
+P002 yt : [INFO     ] 2022-12-19 08:44:00,918 Parameters: omega_matter              = 0.3158230904284232
+P002 yt : [INFO     ] 2022-12-19 08:44:00,918 Parameters: omega_radiation           = 0.0
+P002 yt : [INFO     ] 2022-12-19 08:44:00,918 Parameters: hubble_constant           = 0.6732117
+P001 yt : [INFO     ] 2022-12-19 08:44:00,923 Parameters: current_time              = 1.5626911458660106e+17 s
+P001 yt : [INFO     ] 2022-12-19 08:44:00,923 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2022-12-19 08:44:00,923 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: domain_right_edge         = [2.8 2.8 2.8]
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: current_redshift          = 1.2512568615290434
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: omega_lambda              = 0.6841769095715768
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: omega_matter              = 0.3158230904284232
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: omega_radiation           = 0.0
+P001 yt : [INFO     ] 2022-12-19 08:44:00,924 Parameters: hubble_constant           = 0.6732117
+P000 yt : [INFO     ] 2022-12-19 08:44:01,548 Projection completed
+P000 yt : [INFO     ] 2022-12-19 08:44:01,548 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-19 08:44:01,548 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-19 08:44:01,549 xlim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-19 08:44:01,549 ylim = 0.000000 2.800000
+P000 yt : [INFO     ] 2022-12-19 08:44:01,549 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P000 yt : [WARNING  ] 2022-12-19 08:44:01,562 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.5440498393312385e+25 cm, Max = 2.081167042104865e+25 cm.
+P000 yt : [WARNING  ] 2022-12-19 08:44:01,562 Switching to symlog colorbar scaling.
+P001 yt : [INFO     ] 2022-12-19 08:44:01,601 Projection completed
+P001 yt : [INFO     ] 2022-12-19 08:44:01,601 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-19 08:44:01,601 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-19 08:44:01,602 xlim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-19 08:44:01,602 ylim = 0.000000 2.800000
+P001 yt : [INFO     ] 2022-12-19 08:44:01,602 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P001 yt : [WARNING  ] 2022-12-19 08:44:01,614 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.622512475653357e+25 cm, Max = 1.9009703046437702e+25 cm.
+P001 yt : [WARNING  ] 2022-12-19 08:44:01,614 Switching to symlog colorbar scaling.
+P002 yt : [INFO     ] 2022-12-19 08:44:01,764 Projection completed
+P002 yt : [INFO     ] 2022-12-19 08:44:01,764 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-19 08:44:01,764 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-19 08:44:01,765 xlim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-19 08:44:01,765 ylim = 0.000000 2.800000
+P002 yt : [INFO     ] 2022-12-19 08:44:01,765 Making a fixed resolution buffer of (('gamer', 'PhaseMod2')) 800 by 800
+P002 yt : [WARNING  ] 2022-12-19 08:44:01,777 Plotting ('gamer', 'PhaseMod2'): Both positive and negative values. Min = -1.8224982778472427e+25 cm, Max = 1.7745352958842441e+25 cm.
+P002 yt : [WARNING  ] 2022-12-19 08:44:01,777 Switching to symlog colorbar scaling.
+P000 yt : [INFO     ] 2022-12-19 08:44:01,979 Saving plot Data_000040_Projection_x_PhaseMod2.png
+P001 yt : [INFO     ] 2022-12-19 08:44:02,030 Saving plot Data_000041_Projection_x_PhaseMod2.png
+P002 yt : [INFO     ] 2022-12-19 08:44:02,141 Saving plot Data_000042_Projection_x_PhaseMod2.png

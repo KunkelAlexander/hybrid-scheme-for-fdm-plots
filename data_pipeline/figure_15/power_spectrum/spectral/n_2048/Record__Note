@@ -1,0 +1,585 @@
+
+
+
+Simulation Notes
+***********************************************************************************
+***********************************************************************************
+
+
+Makefile Options (numerical schemes)
+***********************************************************************************
+MODEL                           ELBDM
+GRAVITY                         ON
+POT_SCHEME                      SOR
+STORE_POT_GHOST                 ON
+UNSPLIT_GRAVITY                 OFF
+COMOVING                        ON
+PARTICLE                        OFF
+SUPPORT_GRACKLE                 OFF
+ELBDM_SCHEME                    ELBDM_WAVE
+WAVE_SCHEME                     FD
+LAPLACIAN_4TH                   ON
+CONSERVE_MASS                   ON
+QUARTIC_SELF_INTERACTION        OFF
+***********************************************************************************
+
+
+Makefile Options (optimization and compilation)
+***********************************************************************************
+GPU                             OFF
+GAMER_DEBUG                     OFF
+BITWISE_REPRODUCIBILITY         OFF
+TIMING                          ON
+TIMING_SOLVER                   OFF
+FLOAT8                          OFF
+SERIAL                          OFF
+LOAD_BALANCE                    HILBERT
+OVERLAP_MPI                     OFF
+OPENMP                          ON
+LAOHU                           OFF
+SUPPORT_HDF5                    ON
+SUPPORT_GSL                     ON
+SUPPORT_FFTW                    FFTW3
+SUPPORT_LIBYT                   OFF
+RANDOM_NUMBER                   RNG_GNU_EXT
+SUPPORT_SPECTRAL_INT            ON
+***********************************************************************************
+
+
+Other Options (in Macro.h, CUFLU.h and CUPOT.h)
+***********************************************************************************
+BIT_REP_FLUX                    OFF
+INTERP_MASK                     ON
+FB_SEP_FLUOUT                   OFF
+***********************************************************************************
+
+
+Symbolic Constants
+***********************************************************************************
+#define VERSION                 gamer-2.1.1.dev
+#define NCOMP_FLUID             3
+#define NCOMP_PASSIVE           0
+#define FLU_NIN                 2
+#define FLU_NOUT                3
+#define FLU_NIN_T               3
+#define FLU_NIN_S               3
+#define FLU_NOUT_S              3
+#define DER_NOUT_MAX            10
+#define NFIELD_STORED_MAX       50
+#define NFLUX_FLUID             1
+#define NFLUX_PASSIVE           0
+#define GRA_NIN                 2
+#define PATCH_SIZE              128
+#define MAX_PATCH               1000000
+#define NLEVEL                  10
+
+#define FLU_GHOST_SIZE          6
+#define POT_GHOST_SIZE          5
+#define RHO_GHOST_SIZE          4
+#define GRA_GHOST_SIZE          2
+#define SRC_GHOST_SIZE          0
+#define DER_GHOST_SIZE          1
+#define FLU_NXT                 268
+#define POT_NXT                 72
+#define RHO_NXT                 136
+#define GRA_NXT                 132
+#define SRC_NXT                 128
+#define DER_NXT                 130
+#define EXT_POT_NAUX_MAX        20
+#define EXT_ACC_NAUX_MAX        20
+#define EXT_POT_NGENE_MAX       6
+#define SRC_NAUX_USER           10
+#define MAX_STRING              512
+#define TINY_NUMBER             1.17549435082229e-38
+#define HUGE_NUMBER             3.40282346638529e+38
+#define MAX_ERROR               9.99999997475243e-07
+***********************************************************************************
+
+
+Parameters of Simulation Scale
+***********************************************************************************
+BOX_SIZE (input)                1.00000000000000e+01
+BOX_SIZE_X                      1.00000000000000e+01
+BOX_SIZE_Y                      1.00000000000000e+01
+BOX_SIZE_Z                      1.00000000000000e+01
+BOX_SCALE_X                     1048576
+BOX_SCALE_Y                     1048576
+BOX_SCALE_Z                     1048576
+NX0_TOT[0]                      2048
+NX0_TOT[1]                      2048
+NX0_TOT[2]                      2048
+MPI_NRank                       16
+MPI_NRank_X[0]                  -1
+MPI_NRank_X[1]                  -1
+MPI_NRank_X[2]                  -1
+OMP_NTHREAD                     8
+END_T                           1.25000000000000e-01
+END_STEP                        2147483647
+***********************************************************************************
+
+
+Parameters of Test Problems
+***********************************************************************************
+TESTPROB_ID                     1009
+***********************************************************************************
+
+
+Parameters of Code Units
+***********************************************************************************
+OPT__UNIT                       1
+
+### All units marked with (*) assume h = 6.7321170e-01 ###
+
+rho_bg = current matter density = 3.97265038582169e+01 Msun/kpc^3 (*)
+
+UNIT_L (length)                 1.00000000000000e+00 Mpc/h
+                              = 4.58351746039173e+24 cm         (*)
+UNIT_M (mass)                   8.76550690630076e+10 Msun/h
+                              = 2.58911282783396e+44 g          (*)
+UNIT_T (time)                   1.45246009595121e+01 Gyr        (*)
+                              = 4.58351746039173e+17 s          (*)
+UNIT_V (velocity)               1.00000000000000e+02 km/s
+                              = 1.00000000000000e+07 cm/s
+UNIT_D (mass density)           1.00000000000000e+00 rho_bg     (*)
+                              = 2.68877403877662e-30 g/cm^3     (*)
+UNIT_E (energy)                 2.58911282783396e+58 g*cm^2/s^2 (*)
+UNIT_P (energy density)         2.68877403877662e-16 g/cm/s^2   (*)
+***********************************************************************************
+
+
+Parameters of Boundary Condition
+***********************************************************************************
+OPT__BC_FLU[0] (-x)             1
+OPT__BC_FLU[1] (+x)             1
+OPT__BC_FLU[2] (-y)             1
+OPT__BC_FLU[3] (+y)             1
+OPT__BC_FLU[4] (-z)             1
+OPT__BC_FLU[5] (+z)             1
+OPT__BC_POT                     1
+GFUNC_COEFF0                    -1.0000000e+00
+***********************************************************************************
+
+
+Parameters of Cosmological Simulation
+***********************************************************************************
+A_INIT                          9.9009901e-03
+OMEGA_M0                        3.1582309e-01
+HUBBLE0 (h)                     6.7321170e-01
+***********************************************************************************
+
+
+Parameters of Time-step Determination
+***********************************************************************************
+DT__MAX                        -1.0000000e+00
+DT__FLUID                       2.0000000e-01
+DT__FLUID_INIT                  2.0000000e-01
+DT__GRAVITY                     1.2500000e-01
+DT__PHASE                       0.0000000e+00
+DT__MAX_DELTA_A                 1.0000000e-02
+DT__SYNC_PARENT_LV              1.0000000e-01
+DT__SYNC_CHILDREN_LV            1.0000000e-01
+OPT__DT_USER                    0
+OPT__DT_LEVEL                   3
+AUTO_REDUCE_DT                  1
+AUTO_REDUCE_DT_FACTOR           8.0000000e-01
+AUTO_REDUCE_DT_FACTOR_MIN       1.0000000e-01
+AUTO_REDUCE_INT_MONO_FACTOR     8.0000000e-01
+AUTO_REDUCE_INT_MONO_MIN        1.0000000e-02
+OPT__RECORD_DT                  1
+***********************************************************************************
+
+
+Parameters of Domain Refinement
+***********************************************************************************
+REGRID_COUNT                    4
+REFINE_NLEVEL                   4
+FLAG_BUFFER_SIZE                8
+FLAG_BUFFER_SIZE_MAXM1_LV       4
+FLAG_BUFFER_SIZE_MAXM2_LV       66
+MAX_LEVEL                       0
+OPT__FLAG_RHO                   1
+OPT__FLAG_RHO_GRADIENT          0
+OPT__FLAG_ENGY_DENSITY          0
+OPT__FLAG_SPECTRAL              0
+OPT__FLAG_LOHNER_DENS           0
+OPT__FLAG_LOHNER_FORM           LOHNER_FLASH1
+OPT__FLAG_USER                  0
+OPT__FLAG_USER_NUM              1
+OPT__FLAG_REGION                0
+OPT__NO_FLAG_NEAR_BOUNDARY      0
+OPT__PATCH_COUNT                1
+OPT__REUSE_MEMORY               2
+OPT__MEMORY_POOL                0
+***********************************************************************************
+
+
+Parameters of Parallelization
+***********************************************************************************
+Flu_ParaBuf                     6
+Pot_ParaBuf                     4
+Rho_ParaBuf                     4
+LB_WLI_MAX                      1.0000000e-01
+OPT__RECORD_LOAD_BALANCE        1
+OPT__LB_EXCHANGE_FATHER         1
+OPT__MINIMIZE_MPI_BARRIER       0
+***********************************************************************************
+
+
+Parameters of Source Terms
+***********************************************************************************
+SRC_ANY                         0
+SRC_DELEPTONIZATION             0
+SRC_USER                        0
+SRC_GPU_NPGROUP                 160
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in different models)
+***********************************************************************************
+ELBDM_MASS                      1.1883335e-22 h*ev/c^2
+                              = 8.0000000e-23 ev/c^2 (assuming h = 6.7321170e-01)
+ELBDM_PLANCK_CONST              8.8864088e-104
+ELBDM_ETA                       6.1984301e+03
+ELBDM_TAYLOR3_COEFF             1.6666667e-01
+ELBDM_TAYLOR3_AUTO              0
+ELBDM_REMOVE_MOTION_CM          0
+ELBDM_BASE_SPECTRAL             1
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in all models)
+***********************************************************************************
+FLU_GPU_NPGROUP                 160
+GPU_NSTREAM                     1
+OPT__FIXUP_FLUX                 1
+OPT__FIXUP_RESTRICT             1
+OPT__CORR_AFTER_ALL_SYNC        2
+OPT__NORMALIZE_PASSIVE          0
+   Number of fields             0
+OPT__INT_FRAC_PASSIVE_LR        0
+   Number of fields             0
+OPT__OVERLAP_MPI                0
+OPT__RESET_FLUID                0
+OPT__RESET_FLUID_INIT           0
+OPT__FREEZE_FLUID               0
+MIN_DENS                        0.0000000e+00
+WITH_COARSE_FINE_FLUX           1
+MPI Thread Level                MPI_THREAD_SERIALIZED
+FFTW3_Double_OMP_Enabled        1
+FFTW3_Single_OMP_Enabled        1
+***********************************************************************************
+
+
+Parameters of Poisson and Gravity Solvers
+***********************************************************************************
+NEWTON_G                        3.7698604e-02
+SOR_OMEGA                       1.9554869e+00
+SOR_MAX_ITER                    454
+SOR_MIN_ITER                    90
+POT_GPU_NPGROUP                 160
+OPT__GRA_P5_GRADIENT            0
+OPT__SELF_GRAVITY               1
+OPT__EXT_ACC                    0
+OPT__EXT_POT                    0
+OPT__GRAVITY_EXTRA_MASS         0
+AveDensity_Init                 9.9999969e-01
+***********************************************************************************
+
+
+Parameters of Initialization
+***********************************************************************************
+OPT__INIT                       3
+RESTART_LOAD_NRANK              1
+OPT__RESTART_RESET              0
+OPT__UM_IC_LEVEL                0
+OPT__UM_IC_NLEVEL               1
+OPT__UM_IC_NVAR                 2
+OPT__UM_IC_FORMAT               1
+OPT__UM_IC_DOWNGRADE            1
+OPT__UM_IC_REFINE               0
+OPT__UM_IC_LOAD_NRANK           1
+OPT__INIT_RESTRICT              1
+OPT__INIT_GRID_WITH_OMP         1
+OPT__GPUID_SELECT               -1
+INIT_SUBSAMPLING_NCELL          0
+OPT__FFTW_STARTUP               FFTW_ESTIMATE
+***********************************************************************************
+
+
+Parameters of Interpolation Schemes
+***********************************************************************************
+OPT__INT_TIME                   1
+OPT__INT_PHASE                  1
+OPT__RES_PHASE                  0
+SPEC_INT_TABLE_PATH             
+OPT__FLU_INT_SCHEME             CQUAR
+OPT__POT_INT_SCHEME             QUAD
+OPT__RHO_INT_SCHEME             CQUAD
+OPT__GRA_INT_SCHEME             QUAD
+OPT__REF_FLU_INT_SCHEME         CQUAR
+OPT__REF_POT_INT_SCHEME         QUAD
+INT_MONO_COEFF                  2.0000000e+00
+MONO_MAX_ITER                   10
+INT_OPP_SIGN_0TH_ORDER          0
+***********************************************************************************
+
+
+Parameters of Data Dump
+***********************************************************************************
+OPT__OUTPUT_TOTAL               0
+OPT__OUTPUT_PART                0
+OPT__OUTPUT_USER                0
+OPT__OUTPUT_TEXT_FORMAT_FLT     %24.16e
+OPT__OUTPUT_BASEPS              1
+OPT__OUTPUT_BASE                0
+OPT__OUTPUT_POT                 0
+OPT__OUTPUT_USER_FIELD          0
+OPT__OUTPUT_MODE                3
+OPT__OUTPUT_RESTART             0
+OUTPUT_STEP                     1
+OUTPUT_DT                       1.00000000000000e+00
+OUTPUT_WALLTIME                 -1.00000000000000e+00
+OUTPUT_WALLTIME_UNIT            0
+OUTPUT_PART_X                   -1.00000000000000e+00
+OUTPUT_PART_Y                   -1.00000000000000e+00
+OUTPUT_PART_Z                   -1.00000000000000e+00
+INIT_DUMPID                     -1
+***********************************************************************************
+
+
+Parameters of Miscellaneous Purposes
+***********************************************************************************
+OPT__VERBOSE                    0
+OPT__TIMING_BARRIER             0
+OPT__TIMING_BALANCE             0
+OPT__TIMING_MPI                 0
+OPT__RECORD_NOTE                1
+OPT__RECORD_UNPHY               0
+OPT__RECORD_MEMORY              1
+OPT__RECORD_PERFORMANCE         1
+OPT__MANUAL_CONTROL             1
+OPT__RECORD_USER                0
+OPT__OPTIMIZE_AGGRESSIVE        0
+OPT__SORT_PATCH_BY_LBIDX        1
+***********************************************************************************
+
+
+Parameters of Simulation Checks
+***********************************************************************************
+OPT__CK_REFINE                  0
+OPT__CK_PROPER_NESTING          0
+OPT__CK_CONSERVATION            1
+OPT__CK_NORMALIZE_PASSIVE       0
+OPT__CK_RESTRICT                0
+OPT__CK_FINITE                  0
+OPT__CK_PATCH_ALLOCATE          0
+OPT__CK_FLUX_ALLOCATE           0
+OPT__CK_MEMFREE                 1.0000000e+00
+OPT__CK_INPUT_FLUID             0
+***********************************************************************************
+
+
+Flag Criterion (Density)
+***********************************************************************************
+  Level             Density
+***********************************************************************************
+
+
+Cell Size and Scale (scale = number of cells at the finest level)
+***********************************************************************************
+  Level                           Cell Size                Cell Scale
+      0              0.00488281250000000000                       512
+      1              0.00244140625000000000                       256
+      2              0.00122070312500000000                       128
+      3              0.00061035156250000000                        64
+      4              0.00030517578125000000                        32
+      5              0.00015258789062500000                        16
+      6              0.00007629394531250000                         8
+      7              0.00003814697265625000                         4
+      8              0.00001907348632812500                         2
+      9              0.00000953674316406250                         1
+***********************************************************************************
+
+
+Compilation Time
+***********************************************************************************
+Mar 10 2024 22:18:21
+***********************************************************************************
+
+
+Current Time
+***********************************************************************************
+Sun Mar 10 22:50:22 2024
+***********************************************************************************
+
+
+Git information
+***********************************************************************************
+Branch : hyschive_psidm
+Commit : e626dd7e83eb3753251f9101855388edda4a9fec
+***********************************************************************************
+
+
+Device Diagnosis
+***********************************************************************************
+MPI_Rank =   0, hostname =   eureka14, PID = 90842
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   1, hostname =   eureka14, PID = 90843
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   2, hostname =   eureka15, PID = 64170
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 2200.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   3, hostname =   eureka15, PID = 64171
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 2200.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   4, hostname =   eureka19, PID = 44835
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 2200.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   5, hostname =   eureka19, PID = 44836
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 2200.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   6, hostname =   eureka20, PID = 41663
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   7, hostname =   eureka20, PID = 41664
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   8, hostname =   eureka21, PID = 108684
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =   9, hostname =   eureka21, PID = 108685
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =  10, hostname =   eureka22, PID = 44888
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 2200.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =  11, hostname =   eureka22, PID = 44889
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 2200.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =  12, hostname =   eureka23, PID = 31232
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =  13, hostname =   eureka23, PID = 31233
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =  14, hostname =   eureka24, PID = 47909
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+
+MPI_Rank =  15, hostname =   eureka24, PID = 47910
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper 2950X 16-Core Processor
+CPU MHz		: 3500.000
+Cache Size	: 512 KB
+CPU Cores	: 16
+Total Memory    : 125.6 GB
+***********************************************************************************
+
+
+OpenMP Diagnosis
+***********************************************************************************
+OMP__SCHEDULE                   DYNAMIC
+OMP__SCHEDULE_CHUNK_SIZE        1
+OMP__NESTED                     OFF
+
+CPU core IDs of all OpenMP threads (tid == thread ID):
+------------------------------------------------------------------------
+ Rank        Host  NThread  tid-00  tid-01  tid-02  tid-03  tid-04  tid-05  tid-06  tid-07
+    0    eureka14        8      21       3       6       2      20       0      23       1
+    1    eureka14        8      31      26      29      27       8      14      25      12
+    2    eureka15        8      22      16       5       1      20      19      23       2
+    3    eureka15        8      31      30      28      27      25      29      24      10
+    4    eureka19        8      22      16       7       5       2       3       1       4
+    5    eureka19        8      31      11      26      29      14      24      28      25
+    6    eureka20        8       0      19      22      17      18       4       7       5
+    7    eureka20        8      31       8      30      10      13      27       9      28
+    8    eureka21        8       5       0      22       3      18      23       1       4
+    9    eureka21        8      31      27      30      29       8       9      26      28
+   10    eureka22        8       1       2      22       4      19       5      16      23
+   11    eureka22        8       8      27      29      15      10      30      25      28
+   12    eureka23        8       3      18       5      17       0      22       7       4
+   13    eureka23        8      30      11      13      26       8      31      25      12
+   14    eureka24        8       5      19      23       0       2       4       1       6
+   15    eureka24        8      31      27       8      10      29      25      14      28
+***********************************************************************************
+
+
+
+Total Processing Time : 294309.574152 s
+

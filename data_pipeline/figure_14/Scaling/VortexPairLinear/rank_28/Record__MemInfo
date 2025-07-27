@@ -1,0 +1,14 @@
+# Vir_Max  : maximum virtual  memory size of a single process at the present
+# Vir_Sum  : total   virtual  memory size of all processes    at the present
+# Vir_Peak : maximum virtual  memory size of a single process during the entire simulation
+# Phy_Max  : maximum physical memory size of a single process at the present
+# Phy_Sum  : total   physical memory size of all processes    at the present
+# Phy_Peak : maximum physical memory size of a single process during the entire simulation
+#------------------------------------------------------------------------------------------
+
+#         Time          Step         Vir_Max (MB)        Vir_Sum (MB)       Vir_Peak (MB)        Phy_Max (MB)        Phy_Sum (MB)       Phy_Peak (MB)
+ 0.0000000e+00             0             2978.55           319234.22             3806.08             1448.10           153881.09             2324.11
+ 6.2169900e-05             1             3047.70           324325.32             3806.08             2199.51           233431.59             2324.11
+ 1.2433980e-04             2             3049.64           324516.93             3806.08             2201.70           233655.06             2324.11
+ 1.8650970e-04             3             3049.77           324519.93             3806.08             2201.81           233660.50             2324.11
+ 2.4867960e-04             4             3049.77           324521.91             3806.08             2201.81           233663.73             2324.11

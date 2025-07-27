@@ -1,0 +1,1415 @@
+
+
+
+Simulation Notes
+***********************************************************************************
+***********************************************************************************
+
+
+Makefile Options (numerical schemes)
+***********************************************************************************
+MODEL                           ELBDM
+GRAVITY                         OFF
+COMOVING                        OFF
+PARTICLE                        OFF
+SUPPORT_GRACKLE                 OFF
+ELBDM_SCHEME                    ELBDM_HYBRID
+HYBRID_SCHEME                   MUSCL
+WAVE_SCHEME                     GRAM FE
+GRAMFE_SCHEME                   MATMUL
+CONSERVE_MASS                   ON
+QUARTIC_SELF_INTERACTION        OFF
+***********************************************************************************
+
+
+Makefile Options (optimization and compilation)
+***********************************************************************************
+GPU                             OFF
+GAMER_DEBUG                     OFF
+BITWISE_REPRODUCIBILITY         OFF
+TIMING                          ON
+TIMING_SOLVER                   OFF
+FLOAT8                          ON
+SERIAL                          OFF
+LOAD_BALANCE                    HILBERT
+OVERLAP_MPI                     OFF
+OPENMP                          ON
+LAOHU                           OFF
+SUPPORT_HDF5                    ON
+SUPPORT_GSL                     ON
+SUPPORT_FFTW                    FFTW3
+SUPPORT_LIBYT                   OFF
+RANDOM_NUMBER                   RNG_GNU_EXT
+SUPPORT_SPECTRAL_INT            ON
+***********************************************************************************
+
+
+Other Options (in Macro.h, CUFLU.h and CUPOT.h)
+***********************************************************************************
+BIT_REP_FLUX                    OFF
+INTERP_MASK                     ON
+FB_SEP_FLUOUT                   OFF
+GRAMFE_GAMMA                    150
+GRAMFE_G                        63
+GRAMFE_NDELTA                   14
+GRAMFE_ND                       32
+GRAMFE_ORDER                    14
+GRAMFE_FLU_NXT                  64
+GRAMFE_MATMUL_FLOAT8            ON
+***********************************************************************************
+
+
+Symbolic Constants
+***********************************************************************************
+#define VERSION                 gamer-2.1.1.dev
+#define NCOMP_FLUID             3
+#define NCOMP_PASSIVE           0
+#define FLU_NIN                 2
+#define FLU_NOUT                3
+#define FLU_NIN_T               3
+#define FLU_NIN_S               3
+#define FLU_NOUT_S              3
+#define DER_NOUT_MAX            10
+#define NFIELD_STORED_MAX       50
+#define NFLUX_FLUID             1
+#define NFLUX_PASSIVE           0
+#define PATCH_SIZE              8
+#define MAX_PATCH               1000000
+#define NLEVEL                  10
+
+#define FLU_GHOST_SIZE          8
+#define SRC_GHOST_SIZE          0
+#define DER_GHOST_SIZE          1
+#define HYB_GHOST_SIZE          6
+#define FLU_NXT                 32
+#define SRC_NXT                 8
+#define DER_NXT                 10
+#define HYB_NXT                 28
+#define SRC_NAUX_USER           10
+#define MAX_STRING              512
+#define TINY_NUMBER             2.22507385850720e-308
+#define HUGE_NUMBER             1.79769313486232e+308
+#define MAX_ERROR               1.00000000000000e-14
+***********************************************************************************
+
+
+Parameters of Simulation Scale
+***********************************************************************************
+BOX_SIZE (input)                1.00000000000000e+00
+BOX_SIZE_X                      1.00000000000000e+00
+BOX_SIZE_Y                      1.00000000000000e+00
+BOX_SIZE_Z                      2.50000000000000e-01
+BOX_SCALE_X                     32768
+BOX_SCALE_Y                     32768
+BOX_SCALE_Z                     8192
+NX0_TOT[0]                      64
+NX0_TOT[1]                      64
+NX0_TOT[2]                      16
+MPI_NRank                       112
+MPI_NRank_X[0]                  -1
+MPI_NRank_X[1]                  -1
+MPI_NRank_X[2]                  -1
+OMP_NTHREAD                     8
+END_T                           1.59154943091895e-01
+END_STEP                        4
+***********************************************************************************
+
+
+Parameters of Test Problems
+***********************************************************************************
+TESTPROB_ID                     1006
+***********************************************************************************
+
+
+Parameters of Code Units
+***********************************************************************************
+OPT__UNIT                       0
+***********************************************************************************
+
+
+Parameters of Boundary Condition
+***********************************************************************************
+OPT__BC_FLU[0] (-x)             1
+OPT__BC_FLU[1] (+x)             1
+OPT__BC_FLU[2] (-y)             1
+OPT__BC_FLU[3] (+y)             1
+OPT__BC_FLU[4] (-z)             1
+OPT__BC_FLU[5] (+z)             1
+***********************************************************************************
+
+
+Parameters of Time-step Determination
+***********************************************************************************
+DT__MAX                        -1.0000000e+00
+DT__FLUID                       2.0000000e-01
+DT__FLUID_INIT                  2.0000000e-01
+DT__PHASE                       0.0000000e+00
+DT__HYBRID_VELOCITY             1.0000000e+00
+DT__HYBRID_CFL                  4.0000000e-01
+DT__HYBRID_CFL_INIT             4.0000000e-01
+DT__SYNC_PARENT_LV              1.0000000e-01
+DT__SYNC_CHILDREN_LV            1.0000000e-01
+OPT__DT_USER                    0
+OPT__DT_LEVEL                   3
+AUTO_REDUCE_DT                  1
+AUTO_REDUCE_DT_FACTOR           1.0000000e+00
+AUTO_REDUCE_DT_FACTOR_MIN       1.0000000e-01
+AUTO_REDUCE_INT_MONO_FACTOR     8.0000000e-01
+AUTO_REDUCE_INT_MONO_MIN        1.0000000e-02
+OPT__RECORD_DT                  1
+***********************************************************************************
+
+
+Parameters of Domain Refinement
+***********************************************************************************
+REGRID_COUNT                    4
+REFINE_NLEVEL                   1
+FLAG_BUFFER_SIZE                8
+FLAG_BUFFER_SIZE_MAXM1_LV       4
+FLAG_BUFFER_SIZE_MAXM2_LV       6
+MAX_LEVEL                       5
+OPT__FLAG_RHO                   1
+OPT__FLAG_RHO_GRADIENT          0
+OPT__FLAG_ENGY_DENSITY          0
+OPT__FLAG_SPECTRAL              0
+OPT__FLAG_INTERFERENCE          1
+OPT__FLAG_LOHNER_DENS           0
+OPT__FLAG_LOHNER_FORM           LOHNER_FLASH2
+OPT__FLAG_USER                  0
+OPT__FLAG_USER_NUM              1
+OPT__FLAG_REGION                0
+OPT__NO_FLAG_NEAR_BOUNDARY      0
+OPT__PATCH_COUNT                1
+OPT__REUSE_MEMORY               2
+OPT__MEMORY_POOL                0
+***********************************************************************************
+
+
+Parameters of Parallelization
+***********************************************************************************
+Flu_ParaBuf                     8
+LB_WLI_MAX                      1.0000000e-01
+OPT__RECORD_LOAD_BALANCE        1
+OPT__LB_EXCHANGE_FATHER         1
+OPT__MINIMIZE_MPI_BARRIER       0
+***********************************************************************************
+
+
+Parameters of Source Terms
+***********************************************************************************
+SRC_ANY                         0
+SRC_DELEPTONIZATION             0
+SRC_USER                        0
+SRC_GPU_NPGROUP                 160
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in different models)
+***********************************************************************************
+ELBDM_MASS                      1.0000000e+00
+ELBDM_PLANCK_CONST              1.0000000e+00
+ELBDM_ETA                       1.0000000e+00
+ELBDM_TAYLOR3_COEFF             1.6666667e-01
+ELBDM_TAYLOR3_AUTO              0
+ELBDM_REMOVE_MOTION_CM          0
+ELBDM_BASE_SPECTRAL             0
+ELBDM_FIRST_WAVE_LEVEL          2
+***********************************************************************************
+
+
+Parameters of Fluid Solver (in all models)
+***********************************************************************************
+FLU_GPU_NPGROUP                 160
+GPU_NSTREAM                     1
+OPT__FIXUP_FLUX                 1
+OPT__FIXUP_RESTRICT             1
+OPT__CORR_AFTER_ALL_SYNC        2
+OPT__NORMALIZE_PASSIVE          0
+   Number of fields             0
+OPT__INT_FRAC_PASSIVE_LR        0
+   Number of fields             0
+OPT__OVERLAP_MPI                0
+OPT__RESET_FLUID                0
+OPT__RESET_FLUID_INIT           0
+OPT__FREEZE_FLUID               0
+MIN_DENS                        0.0000000e+00
+WITH_COARSE_FINE_FLUX           1
+MPI Thread Level                MPI_THREAD_SERIALIZED
+FFTW3_Double_OMP_Enabled        1
+FFTW3_Single_OMP_Enabled        1
+***********************************************************************************
+
+
+Parameters of Initialization
+***********************************************************************************
+OPT__INIT                       1
+RESTART_LOAD_NRANK              1
+OPT__RESTART_RESET              0
+OPT__UM_IC_LEVEL                0
+OPT__UM_IC_NLEVEL               1
+OPT__UM_IC_NVAR                 -1
+OPT__UM_IC_FORMAT               1
+OPT__UM_IC_DOWNGRADE            1
+OPT__UM_IC_REFINE               1
+OPT__UM_IC_LOAD_NRANK           1
+OPT__INIT_RESTRICT              1
+OPT__INIT_GRID_WITH_OMP         1
+OPT__GPUID_SELECT               -1
+INIT_SUBSAMPLING_NCELL          0
+OPT__FFTW_STARTUP               FFTW_ESTIMATE
+***********************************************************************************
+
+
+Parameters of Interpolation Schemes
+***********************************************************************************
+OPT__INT_TIME                   1
+OPT__INT_PHASE                  1
+OPT__RES_PHASE                  0
+ELBDM_MATCH_PHASE               1
+SPEC_INT_TABLE_PATH             ./
+OPT__FLU_INT_SCHEME             CQUAR
+OPT__REF_FLU_INT_SCHEME         CQUAR
+INT_MONO_COEFF                  2.0000000e+00
+MONO_MAX_ITER                   10
+INT_OPP_SIGN_0TH_ORDER          0
+***********************************************************************************
+
+
+Parameters of Data Dump
+***********************************************************************************
+OPT__OUTPUT_TOTAL               0
+OPT__OUTPUT_PART                0
+OPT__OUTPUT_USER                1
+OPT__OUTPUT_TEXT_FORMAT_FLT     %24.16e
+OPT__OUTPUT_BASEPS              0
+OPT__OUTPUT_BASE                0
+OPT__OUTPUT_USER_FIELD          0
+OPT__OUTPUT_MODE                2
+OPT__OUTPUT_RESTART             0
+OUTPUT_STEP                     5
+OUTPUT_DT                       8.00000000000000e-03
+OUTPUT_WALLTIME                 -1.00000000000000e+00
+OUTPUT_WALLTIME_UNIT            0
+OUTPUT_PART_X                   5.00000000000000e-01
+OUTPUT_PART_Y                   5.00000000000000e-01
+OUTPUT_PART_Z                   0.00000000000000e+00
+INIT_DUMPID                     -1
+***********************************************************************************
+
+
+Parameters of Miscellaneous Purposes
+***********************************************************************************
+OPT__VERBOSE                    0
+OPT__TIMING_BARRIER             0
+OPT__TIMING_BALANCE             0
+OPT__TIMING_MPI                 0
+OPT__RECORD_NOTE                1
+OPT__RECORD_UNPHY               1
+OPT__RECORD_MEMORY              1
+OPT__RECORD_PERFORMANCE         1
+OPT__MANUAL_CONTROL             1
+OPT__RECORD_USER                0
+OPT__OPTIMIZE_AGGRESSIVE        0
+OPT__SORT_PATCH_BY_LBIDX        1
+***********************************************************************************
+
+
+Parameters of Simulation Checks
+***********************************************************************************
+OPT__CK_REFINE                  0
+OPT__CK_PROPER_NESTING          0
+OPT__CK_CONSERVATION            1
+OPT__CK_NORMALIZE_PASSIVE       0
+OPT__CK_RESTRICT                0
+OPT__CK_FINITE                  0
+OPT__CK_PATCH_ALLOCATE          0
+OPT__CK_FLUX_ALLOCATE           0
+OPT__CK_MEMFREE                 1.0000000e+00
+OPT__CK_INPUT_FLUID             0
+***********************************************************************************
+
+
+Flag Criterion (Density)
+***********************************************************************************
+  Level             Density
+      0       0.0000000e+00
+      1       0.0000000e+00
+      2       0.0000000e+00
+      3       0.0000000e+00
+      4       0.0000000e+00
+***********************************************************************************
+
+
+Flag Criterion (Interference Threshold)
+***********************************************************************************
+  Level     QP          Density      LapPhase     OnlyAtMaximum
+      0     0.00e+00    0.00e+00     0.00e+00     0
+      1     0.00e+00    0.00e+00     0.00e+00     0
+      2     1.00e+00    0.00e+00     1.00e+00     0
+      3     1.00e+00    0.00e+00     1.00e+00     0
+      4     1.00e+00    0.00e+00     1.00e+00     0
+***********************************************************************************
+
+
+Cell Size and Scale (scale = number of cells at the finest level)
+***********************************************************************************
+  Level                           Cell Size                Cell Scale
+      0              0.01562500000000000000                       512
+      1              0.00781250000000000000                       256
+      2              0.00390625000000000000                       128
+      3              0.00195312500000000000                        64
+      4              0.00097656250000000000                        32
+      5              0.00048828125000000000                        16
+      6              0.00024414062500000000                         8
+      7              0.00012207031250000000                         4
+      8              0.00006103515625000000                         2
+      9              0.00003051757812500000                         1
+***********************************************************************************
+
+
+Compilation Time
+***********************************************************************************
+Jul 14 2024 19:00:14
+***********************************************************************************
+
+
+Current Time
+***********************************************************************************
+Sun Jul 28 09:47:10 2024
+***********************************************************************************
+
+
+Git information
+***********************************************************************************
+Branch : spectral_refinement_v2
+Commit : 045fdaa9447e195c173896877afecd6662deee56
+***********************************************************************************
+
+
+Device Diagnosis
+***********************************************************************************
+MPI_Rank =   0, hostname =    spock01, PID = 365653
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4114.117
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   1, hostname =    spock01, PID = 365654
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   2, hostname =    spock01, PID = 365655
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   3, hostname =    spock01, PID = 365656
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4114.117
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   4, hostname =    spock02, PID = 2068623
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4279.552
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   5, hostname =    spock02, PID = 2068624
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   6, hostname =    spock02, PID = 2068625
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   7, hostname =    spock02, PID = 2068626
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.736
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   8, hostname =    spock03, PID = 1860367
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4290.725
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =   9, hostname =    spock03, PID = 1860368
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4290.725
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  10, hostname =    spock03, PID = 1860369
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4290.725
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  11, hostname =    spock03, PID = 1860370
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4290.725
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  12, hostname =    spock04, PID = 1803814
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.595
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  13, hostname =    spock04, PID = 1803815
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.595
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  14, hostname =    spock04, PID = 1803816
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.595
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  15, hostname =    spock04, PID = 1803817
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4289.595
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  16, hostname =    spock05, PID = 1927289
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3574.932
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  17, hostname =    spock05, PID = 1927290
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  18, hostname =    spock05, PID = 1927291
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  19, hostname =    spock05, PID = 1927292
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  20, hostname =    spock06, PID = 1905471
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4005.654
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  21, hostname =    spock06, PID = 1905472
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 4292.298
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  22, hostname =    spock06, PID = 1905473
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  23, hostname =    spock06, PID = 1905474
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  24, hostname =    spock07, PID = 2047578
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  25, hostname =    spock07, PID = 2047579
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  26, hostname =    spock07, PID = 2047580
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  27, hostname =    spock07, PID = 2047581
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  28, hostname =    spock08, PID = 2778467
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  29, hostname =    spock08, PID = 2778468
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  30, hostname =    spock08, PID = 2778469
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  31, hostname =    spock08, PID = 2778470
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3600.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  32, hostname =    spock09, PID = 1806175
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  33, hostname =    spock09, PID = 1806176
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  34, hostname =    spock09, PID = 1806177
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  35, hostname =    spock09, PID = 1806178
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  36, hostname =    spock10, PID = 1782546
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  37, hostname =    spock10, PID = 1782547
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  38, hostname =    spock10, PID = 1782548
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  39, hostname =    spock10, PID = 1782549
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  40, hostname =    spock11, PID = 1585419
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  41, hostname =    spock11, PID = 1585420
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  42, hostname =    spock11, PID = 1585421
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  43, hostname =    spock11, PID = 1585422
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  44, hostname =    spock12, PID = 1635303
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  45, hostname =    spock12, PID = 1635304
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  46, hostname =    spock12, PID = 1635305
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  47, hostname =    spock12, PID = 1635306
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  48, hostname =    spock13, PID = 1543853
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  49, hostname =    spock13, PID = 1543854
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  50, hostname =    spock13, PID = 1543855
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  51, hostname =    spock13, PID = 1543856
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  52, hostname =    spock14, PID = 1578691
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  53, hostname =    spock14, PID = 1578692
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  54, hostname =    spock14, PID = 1578693
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  55, hostname =    spock14, PID = 1578694
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  56, hostname =    spock15, PID = 1556638
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  57, hostname =    spock15, PID = 1556639
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  58, hostname =    spock15, PID = 1556640
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  59, hostname =    spock15, PID = 1556641
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  60, hostname =    spock16, PID = 1657852
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  61, hostname =    spock16, PID = 1657853
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  62, hostname =    spock16, PID = 1657854
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  63, hostname =    spock16, PID = 1657855
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  64, hostname =    spock17, PID = 1942982
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 3793.393
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  65, hostname =    spock17, PID = 1942983
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  66, hostname =    spock17, PID = 1942984
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  67, hostname =    spock17, PID = 1942985
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  68, hostname =    spock18, PID = 1596183
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  69, hostname =    spock18, PID = 1596184
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  70, hostname =    spock18, PID = 1596185
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  71, hostname =    spock18, PID = 1596186
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  72, hostname =    spock19, PID = 1587056
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  73, hostname =    spock19, PID = 1587057
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  74, hostname =    spock19, PID = 1587058
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  75, hostname =    spock19, PID = 1587059
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  76, hostname =    spock20, PID = 1612723
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  77, hostname =    spock20, PID = 1612724
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  78, hostname =    spock20, PID = 1612725
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  79, hostname =    spock20, PID = 1612726
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  80, hostname =    spock21, PID = 1509498
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  81, hostname =    spock21, PID = 1509499
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  82, hostname =    spock21, PID = 1509500
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  83, hostname =    spock21, PID = 1509501
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  84, hostname =    spock22, PID = 1765994
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  85, hostname =    spock22, PID = 1765995
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  86, hostname =    spock22, PID = 1765996
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  87, hostname =    spock22, PID = 1765997
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  88, hostname =    spock23, PID = 2034251
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  89, hostname =    spock23, PID = 2034252
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  90, hostname =    spock23, PID = 2034253
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  91, hostname =    spock23, PID = 2034254
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  92, hostname =    spock24, PID = 1266707
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  93, hostname =    spock24, PID = 1266708
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  94, hostname =    spock24, PID = 1266709
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  95, hostname =    spock24, PID = 1266710
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  96, hostname =    spock25, PID = 1012673
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  97, hostname =    spock25, PID = 1012674
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  98, hostname =    spock25, PID = 1012675
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank =  99, hostname =    spock25, PID = 1012676
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 100, hostname =    spock26, PID = 3230305
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 101, hostname =    spock26, PID = 3230306
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 102, hostname =    spock26, PID = 3230307
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 103, hostname =    spock26, PID = 3230308
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 104, hostname =    spock27, PID = 3644164
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 105, hostname =    spock27, PID = 3644165
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 106, hostname =    spock27, PID = 3644166
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 107, hostname =    spock27, PID = 3644167
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 108, hostname =    spock28, PID = 3350338
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 109, hostname =    spock28, PID = 3350339
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 110, hostname =    spock28, PID = 3350340
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+
+MPI_Rank = 111, hostname =    spock28, PID = 3350341
+CPU Info :
+CPU Type  	: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+CPU MHz		: 1800.000
+Cache Size	: 512 KB
+CPU Cores	: 32
+Total Memory    : 251.7 GB
+***********************************************************************************
+
+
+OpenMP Diagnosis
+***********************************************************************************
+OMP__SCHEDULE                   DYNAMIC
+OMP__SCHEDULE_CHUNK_SIZE        1
+OMP__NESTED                     OFF
+
+CPU core IDs of all OpenMP threads (tid == thread ID):
+------------------------------------------------------------------------
+ Rank        Host  NThread  tid-00  tid-01  tid-02  tid-03  tid-04  tid-05  tid-06  tid-07
+    0     spock01        8      39      32       1      34       4      38       3      37
+    1     spock01        8      15       8       9      10      44      45      14      43
+    2     spock01        8      16      55      49      50      51      52      21      54
+    3     spock01        8      31      24      25      26      28      61      30      27
+    4     spock02        8       7      39       1       2       3       4       5       6
+    5     spock02        8      15       8       9      10      11      12      13      46
+    6     spock02        8      48      23      18      19      52      49      21      54
+    7     spock02        8      31      57      58      27      28      29      62      24
+    8     spock03        8       7       0       1      34       3       4       5       6
+    9     spock03        8      11       8       9      42      47      44      45      14
+   10     spock03        8      23      49      22      52      53      19      48      18
+   11     spock03        8      28      25      27      63      29      62      56      26
+   12     spock04        8      33       0       3      34      39      36       5      38
+   13     spock04        8      15       8       9      42      11      12      45      46
+   14     spock04        8      23      16      52      50      51      17      54      53
+   15     spock04        8      31      25      58      59      60      29      30      56
+   16     spock05        8       7      32      33      34      36       5      38      35
+   17     spock05        8      11       8       9      42      15      44      45      46
+   18     spock05        8      55      48      49      18      51      53      52      22
+   19     spock05        8      31      56      57      58      59      28      30      29
+   20     spock06        8       4       2       3      39      37       6      32      33
+   21     spock06        8      15       8      41      10      43      44      13      14
+   22     spock06        8      23      48      17      19      53      54      52      50
+   23     spock06        8      31      56      25      58      59      61      62      60
+   24     spock07        8       3       1       2       5      36       6      39       0
+   25     spock07        8      41      40       9      11      47      12      13      46
+   26     spock07        8      23      49      19      52      53      22      50      16
+   27     spock07        8      31      24      25      58      59      60      61      62
+   28     spock08        8      35      34       0      33      39       4       5       6
+   29     spock08        8      13      40       9      10      43      44      14      15
+   30     spock08        8      22      16      17      50      23      20      53      51
+   31     spock08        8      31      56      57      58      59      61      62      28
+   32     spock09        8      39      32       1       2      35      36      37       6
+   33     spock09        8      40      47       9      44      45      46      10      43
+   34     spock09        8      55      48      49      51      20      54      50      53
+   35     spock09        8      29      57      27      62      60      63      58      56
+   36     spock10        8      39      32       1      34       3       4       5       6
+   37     spock10        8      15       8      42      12      45      46       9      43
+   38     spock10        8      16      55      49      50      19      20      54      21
+   39     spock10        8      25      24      57      60      27      26      61      62
+   40     spock11        8       3      32       1       2       7       5       6       4
+   41     spock11        8       8      15       9      42      11      12      45      46
+   42     spock11        8      55      16      17      50      20      52      54      53
+   43     spock11        8      63      56      25      26      59      61      28      62
+   44     spock12        8       3      32      33       2      39       4      37       6
+   45     spock12        8       8      15      10      11      44      13      14       9
+   46     spock12        8      49      55      51      20      53      22      16      18
+   47     spock12        8      63      28      57      26      59      61      29      62
+   48     spock13        8       4      39       2      37       6      33       3       0
+   49     spock13        8      47       8       9      12      13      46      10      11
+   50     spock13        8      23      16      17      54      52      53      50      19
+   51     spock13        8      63      24      57      28      61      26      27      30
+   52     spock14        8       5      32      34       3      36      33       7      39
+   53     spock14        8      40      15       9      10      12      13      46      43
+   54     spock14        8      55      16      17      18      51      20      54      21
+   55     spock14        8      31      24      57      58      28      62      29      27
+   56     spock15        8       7      32       1       2       3       4      37      38
+   57     spock15        8      40      47       9      10      11      44      13      14
+   58     spock15        8      19      49      18      55      53      54      48      20
+   59     spock15        8      31      56      57      58      59      60      61      62
+   60     spock16        8      39       0       2      35       4       5       6      33
+   61     spock16        8      11       8       9      10      47      12      13      14
+   62     spock16        8      23      20      17      18      51      16      22      53
+   63     spock16        8      31      24      25      27      26      28      29      62
+   64     spock17        8       7       0      33       2      35       4       5       6
+   65     spock17        8      15      47       9      42      11      44      13      46
+   66     spock17        8      55      48      17      18      19      52      53      54
+   67     spock17        8      31      25      58      27      60      61      62      56
+   68     spock18        8       4      32       2       7       5      38       3      33
+   69     spock18        8      44       8       9      42      43      47      45      14
+   70     spock18        8      23      16      50      19      20      21      22      49
+   71     spock18        8      31      63      58      60      29      27      62      25
+   72     spock19        8      36      32      34      35      39       5       6       1
+   73     spock19        8      15      47      41      42      11      12      45      46
+   74     spock19        8      17      48      55      18      51      52      53      54
+   75     spock19        8      31      56      57      26      59      28      61      30
+   76     spock20        8      32       4      33       2       3      39       6       5
+   77     spock20        8      40       9      47      10      11      12      13      14
+   78     spock20        8      23      16      49      50      19      20      21      54
+   79     spock20        8      27      24      57      26      63      30      62      29
+   80     spock21        8       3      32       1       2       4      39       5       6
+   81     spock21        8      11      40       9      10      15      12      13      14
+   82     spock21        8      23      16      49      18      19      20      21      22
+   83     spock21        8      31      56      57      58      27      60      29      62
+   84     spock22        8      39       0       4      37       6       2      35       1
+   85     spock22        8       8      15      44      13      46      10       9      43
+   86     spock22        8      23      16      19      20      22      17      50      53
+   87     spock22        8      63      57      61      62      58      28      59      27
+   88     spock23        8       6      32      33      34       3      36      37       7
+   89     spock23        8      15       8       9      10      43      12      45      46
+   90     spock23        8      16      55      17      18      51      52      21      54
+   91     spock23        8      63      56      57      27      28      61      62      26
+   92     spock24        8      36      32      33       3       5       6       2      39
+   93     spock24        8      15      40      41      44      13      14      10      11
+   94     spock24        8      23      49      18      22      16      19      53      20
+   95     spock24        8      63      25      60      61      62      58      27      56
+   96     spock25        8       1       0      39       4       5       6      35       2
+   97     spock25        8      15      40      10      11      12      13      46      41
+   98     spock25        8      55      16      18      51      20      53      54      49
+   99     spock25        8      28      56      57      58      27      29      63      62
+  100     spock26        8       7      32       1      34       3       4       5       6
+  101     spock26        8       8      12      41      42      47      45      11      46
+  102     spock26        8      52      16      17      51      55      21      54      50
+  103     spock26        8      63      24      57      59      60      61      62      58
+  104     spock27        8       7      32       2      37       6       1      35       4
+  105     spock27        8      47      10       9      13      14      42      43      12
+  106     spock27        8      23      51      52      54      16      17      50      53
+  107     spock27        8      60      56      61      62      58      27      57      63
+  108     spock28        8       4      32       1      34       7      35      37       6
+  109     spock28        8      15       8      41      10      12      43      45      14
+  110     spock28        8      23      16      50      51      20      22      53      49
+  111     spock28        8      28      24      57      59      63      29      30      58
+***********************************************************************************
+
+
+
+Total Processing Time : 6318.664801 s
+
